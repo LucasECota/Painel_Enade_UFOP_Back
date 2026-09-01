@@ -1,0 +1,134 @@
+curso,ano,tipo,disciplina,quantidade
+Engenharia de Computação,geral,Formação Geral,(sem disciplina associada),40
+Engenharia de Computação,geral,Componente Específico,Redes de Computadores I,9
+Engenharia de Computação,geral,Componente Específico,Sistemas Operacionais,8
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados I,7
+Engenharia de Computação,geral,Componente Específico,Inteligência Artificial,6
+Engenharia de Computação,geral,Componente Específico,Princípios de Eletrônica Digital,6
+Engenharia de Computação,geral,Componente Específico,Sinais e Sistemas,6
+Engenharia de Computação,geral,Componente Específico,Sistemas Distribuídos,6
+Engenharia de Computação,geral,Componente Específico,Banco de Dados I,5
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados III,4
+Engenharia de Computação,geral,Componente Específico,Circuitos Elétricos I,4
+Engenharia de Computação,geral,Componente Específico,Fundamentos de Ciência do Ambiente,4
+Engenharia de Computação,geral,Componente Específico,Microprocessadores e Microcontroladores,4
+Engenharia de Computação,geral,Componente Específico,Programação de Computadores I,4
+Engenharia de Computação,geral,Componente Específico,Engenharia de Software I,3
+Engenharia de Computação,geral,Componente Específico,Estatística e Probabilidade,3
+Engenharia de Computação,geral,Componente Específico,Fundamentos Teóricos da Computação,3
+Engenharia de Computação,geral,Componente Específico,Física III,3
+Engenharia de Computação,geral,Componente Específico,Interação Humano-Computador,3
+Engenharia de Computação,geral,Componente Específico,Linguagens de Programação,3
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados II,2
+Engenharia de Computação,geral,Componente Específico,Análise Numérica,2
+Engenharia de Computação,geral,Componente Específico,Física I,2
+Engenharia de Computação,geral,Componente Específico,Informática e Sociedade,2
+Engenharia de Computação,geral,Componente Específico,Modelagem e Análise de Sistemas Lineares,2
+Engenharia de Computação,geral,Componente Específico,Organização e Arquitetura de Computadores I,2
+Engenharia de Computação,geral,Componente Específico,Avaliação de Desempenho de Sistemas,1
+Engenharia de Computação,geral,Componente Específico,Compiladores I,1
+Engenharia de Computação,geral,Componente Específico,Computação Gráfica,1
+Engenharia de Computação,geral,Componente Específico,Cálculo Diferencial e Integral III,1
+Engenharia de Computação,geral,Componente Específico,Eletrônica I,1
+Engenharia de Computação,geral,Componente Específico,Filosofia e Ética,1
+Engenharia de Computação,geral,Componente Específico,Fundamentos de Comunicações,1
+Engenharia de Computação,geral,Componente Específico,Física II,1
+Engenharia de Computação,geral,Componente Específico,Instrumentação,1
+Engenharia de Computação,geral,Componente Específico,Internet das Coisas,1
+Engenharia de Computação,geral,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1
+Engenharia de Computação,geral,Componente Específico,Matemática Discreta,1
+Engenharia de Computação,geral,Componente Específico,Processamento Digital de Imagens,1
+Engenharia de Computação,geral,Componente Específico,Programação Linear e Inteira,1
+Engenharia de Computação,geral,Componente Específico,Segurança e Auditoria de Sistemas,1
+Engenharia de Computação,geral,Componente Específico,Sistemas de Controle I,1
+Engenharia de Computação,geral,Componente Específico,Teoria da Administração I,1
+Engenharia de Computação,2023,Formação Geral,(sem disciplina associada),10
+Engenharia de Computação,2023,Componente Específico,Sistemas Distribuídos,4
+Engenharia de Computação,2023,Componente Específico,Redes de Computadores I,3
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados I,2
+Engenharia de Computação,2023,Componente Específico,Circuitos Elétricos I,2
+Engenharia de Computação,2023,Componente Específico,Inteligência Artificial,2
+Engenharia de Computação,2023,Componente Específico,Microprocessadores e Microcontroladores,2
+Engenharia de Computação,2023,Componente Específico,Sinais e Sistemas,2
+Engenharia de Computação,2023,Componente Específico,Sistemas Operacionais,2
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados II,1
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados III,1
+Engenharia de Computação,2023,Componente Específico,Avaliação de Desempenho de Sistemas,1
+Engenharia de Computação,2023,Componente Específico,Banco de Dados I,1
+Engenharia de Computação,2023,Componente Específico,Compiladores I,1
+Engenharia de Computação,2023,Componente Específico,Interação Humano-Computador,1
+Engenharia de Computação,2023,Componente Específico,Linguagens de Programação,1
+Engenharia de Computação,2023,Componente Específico,Matemática Discreta,1
+Engenharia de Computação,2023,Componente Específico,Organização e Arquitetura de Computadores I,1
+Engenharia de Computação,2023,Componente Específico,Princípios de Eletrônica Digital,1
+Engenharia de Computação,2023,Componente Específico,Programação de Computadores I,1
+Engenharia de Computação,2019,Formação Geral,(sem disciplina associada),10
+Engenharia de Computação,2019,Componente Específico,Sistemas Operacionais,3
+Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados I,2
+Engenharia de Computação,2019,Componente Específico,Engenharia de Software I,2
+Engenharia de Computação,2019,Componente Específico,Inteligência Artificial,2
+Engenharia de Computação,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,2
+Engenharia de Computação,2019,Componente Específico,Princípios de Eletrônica Digital,2
+Engenharia de Computação,2019,Componente Específico,Sinais e Sistemas,2
+Engenharia de Computação,2019,Componente Específico,Análise Numérica,2
+Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados III,1
+Engenharia de Computação,2019,Componente Específico,Banco de Dados I,1
+Engenharia de Computação,2019,Componente Específico,Eletrônica I,1
+Engenharia de Computação,2019,Componente Específico,Estatística e Probabilidade,1
+Engenharia de Computação,2019,Componente Específico,Fundamentos de Comunicações,1
+Engenharia de Computação,2019,Componente Específico,Fundamentos Teóricos da Computação,1
+Engenharia de Computação,2019,Componente Específico,Interação Humano-Computador,1
+Engenharia de Computação,2019,Componente Específico,Linguagens de Programação,1
+Engenharia de Computação,2019,Componente Específico,Organização e Arquitetura de Computadores I,1
+Engenharia de Computação,2019,Componente Específico,Programação de Computadores I,1
+Engenharia de Computação,2019,Componente Específico,Redes de Computadores I,1
+Engenharia de Computação,2019,Componente Específico,Segurança e Auditoria de Sistemas,1
+Engenharia de Computação,2019,Componente Específico,Sistemas Distribuídos,1
+Engenharia de Computação,2017,Formação Geral,(sem disciplina associada),10
+Engenharia de Computação,2017,Componente Específico,Física III,3
+Engenharia de Computação,2017,Componente Específico,Algoritmos e Estruturas de Dados I,2
+Engenharia de Computação,2017,Componente Específico,Microprocessadores e Microcontroladores,2
+Engenharia de Computação,2017,Componente Específico,Redes de Computadores I,2
+Engenharia de Computação,2017,Componente Específico,Sistemas Operacionais,2
+Engenharia de Computação,2017,Componente Específico,Banco de Dados I,1
+Engenharia de Computação,2017,Componente Específico,Circuitos Elétricos I,1
+Engenharia de Computação,2017,Componente Específico,Computação Gráfica,1
+Engenharia de Computação,2017,Componente Específico,Cálculo Diferencial e Integral III,1
+Engenharia de Computação,2017,Componente Específico,Engenharia de Software I,1
+Engenharia de Computação,2017,Componente Específico,Estatística e Probabilidade,1
+Engenharia de Computação,2017,Componente Específico,Fundamentos Teóricos da Computação,1
+Engenharia de Computação,2017,Componente Específico,Fundamentos de Ciência do Ambiente,1
+Engenharia de Computação,2017,Componente Específico,Física II,1
+Engenharia de Computação,2017,Componente Específico,Informática e Sociedade,1
+Engenharia de Computação,2017,Componente Específico,Inteligência Artificial,1
+Engenharia de Computação,2017,Componente Específico,Interação Humano-Computador,1
+Engenharia de Computação,2017,Componente Específico,Internet das Coisas,1
+Engenharia de Computação,2017,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1
+Engenharia de Computação,2017,Componente Específico,Princípios de Eletrônica Digital,1
+Engenharia de Computação,2017,Componente Específico,Programação Linear e Inteira,1
+Engenharia de Computação,2017,Componente Específico,Programação de Computadores I,1
+Engenharia de Computação,2017,Componente Específico,Sinais e Sistemas,1
+Engenharia de Computação,2017,Componente Específico,Teoria da Administração I,1
+Engenharia de Computação,2014,Formação Geral,(sem disciplina associada),10
+Engenharia de Computação,2014,Componente Específico,Fundamentos de Ciência do Ambiente,3
+Engenharia de Computação,2014,Componente Específico,Redes de Computadores I,3
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados III,2
+Engenharia de Computação,2014,Componente Específico,Banco de Dados I,2
+Engenharia de Computação,2014,Componente Específico,Física I,2
+Engenharia de Computação,2014,Componente Específico,Princípios de Eletrônica Digital,2
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,1
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados II,1
+Engenharia de Computação,2014,Componente Específico,Circuitos Elétricos I,1
+Engenharia de Computação,2014,Componente Específico,Estatística e Probabilidade,1
+Engenharia de Computação,2014,Componente Específico,Filosofia e Ética,1
+Engenharia de Computação,2014,Componente Específico,Fundamentos Teóricos da Computação,1
+Engenharia de Computação,2014,Componente Específico,Informática e Sociedade,1
+Engenharia de Computação,2014,Componente Específico,Inteligência Artificial,1
+Engenharia de Computação,2014,Componente Específico,Instrumentação,1
+Engenharia de Computação,2014,Componente Específico,Linguagens de Programação,1
+Engenharia de Computação,2014,Componente Específico,Processamento Digital de Imagens,1
+Engenharia de Computação,2014,Componente Específico,Programação de Computadores I,1
+Engenharia de Computação,2014,Componente Específico,Sinais e Sistemas,1
+Engenharia de Computação,2014,Componente Específico,Sistemas de Controle I,1
+Engenharia de Computação,2014,Componente Específico,Sistemas Distribuídos,1
+Engenharia de Computação,2014,Componente Específico,Sistemas Operacionais,1
