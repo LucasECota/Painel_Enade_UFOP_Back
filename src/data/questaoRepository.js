@@ -96,6 +96,10 @@ const MAPAS_DE_DISCIPLINA = {
     'ec-2019': montarMapaDeDisciplinas('ec', 2019),
     'si-2021': montarMapaDeDisciplinas('si', 2021),
     'si-2017': montarMapaDeDisciplinas('si', 2017),
+    'ee-2023': montarMapaDeDisciplinas('ee', 2023),
+    'ee-2019': montarMapaDeDisciplinas('ee', 2019),
+    'ep-2023': montarMapaDeDisciplinas('ep', 2023),
+    'ep-2019': montarMapaDeDisciplinas('ep', 2019),
 };
 
 // Devolve o mapa de disciplinas de um curso+ano específico, ou null se não existir.

@@ -1,0 +1,71 @@
+curso,ano,tipo,disciplina,quantidade,assunto
+Engenharia de Produção,geral,Formação Geral,(sem disciplina associada),20,
+Engenharia de Produção,geral,Componente Específico,Planejamento e Controle de Produção I,10,
+Engenharia de Produção,geral,Componente Específico,Programação Linear e Inteira,5,
+Engenharia de Produção,geral,Componente Específico,Engenharia Econômica,4,
+Engenharia de Produção,geral,Componente Específico,Gestão de Projetos,4,
+Engenharia de Produção,geral,Componente Específico,Planejamento e Controle de Produção II,4,
+Engenharia de Produção,geral,Componente Específico,Controle Estatístico de Qualidade,3,
+Engenharia de Produção,geral,Componente Específico,Processos de Produção,3,
+Engenharia de Produção,geral,Componente Específico,Custos Industriais,2,
+Engenharia de Produção,geral,Componente Específico,Ergonomia,2,
+Engenharia de Produção,geral,Componente Específico,Gestão da Qualidade,2,
+Engenharia de Produção,geral,Componente Específico,Logística e Gestão da Cadeia de Suprimentos,2,
+Engenharia de Produção,geral,Componente Específico,Planejamento Estratégico e Mercadológico,2,
+Engenharia de Produção,geral,Componente Específico,Segurança do Trabalho,2,
+Engenharia de Produção,geral,Componente Específico,Sistema de Desenvolvimento de Produtos,2,
+Engenharia de Produção,geral,Componente Específico,Cálculo Diferencial e Integral I,1,
+Engenharia de Produção,geral,Componente Específico,Estatística I,1,
+Engenharia de Produção,geral,Componente Específico,Física II,1,
+Engenharia de Produção,geral,Componente Específico,Gestão Ambiental,1,
+Engenharia de Produção,geral,Componente Específico,Gestão da Tecnologia da Informação,1,
+Engenharia de Produção,geral,Componente Específico,Introdução a Tecnologia e Sistemas de Informação,1,
+Engenharia de Produção,geral,Componente Específico,Logística Reversa,1,
+Engenharia de Produção,geral,Componente Específico,Métodos Estatísticos em Confiabilidade,1,
+Engenharia de Produção,geral,Componente Específico,Organização Industrial,1,
+Engenharia de Produção,geral,Componente Específico,Probabilidade,1,
+Engenharia de Produção,geral,Componente Específico,Processos de Manufatura Avançada,1,
+Engenharia de Produção,geral,Componente Específico,Simulação a Eventos Discretos,1,
+Engenharia de Produção,geral,Componente Específico,Teoria das Organizações,1,
+Engenharia de Produção,2023,Formação Geral,(sem disciplina associada),10,
+Engenharia de Produção,2023,Componente Específico,Planejamento e Controle de Produção I,6,Estoque de segurança e ponto de reposição (nível de serviço e distribuição normal) | Previsão de demanda por suavização exponencial e sinal de rastreamento (MAD) | Métodos de previsão de demanda e sinal de rastreamento (tracking signal) | Capacidade produtiva e planejamento agregado da produção | Métodos de previsão de demanda (média móvel simples e ponderada) | Previsão de demanda por suavização exponencial
+Engenharia de Produção,2023,Componente Específico,Gestão de Projetos,3,Diagrama de rede e caminho crítico (CPM) | Cálculo de folga em diagrama de rede (PERT/CPM) | Cálculo da duração do projeto pelo caminho crítico
+Engenharia de Produção,2023,Componente Específico,Planejamento e Controle de Produção II,3,MRP - Planejamento de Necessidades de Materiais e registro de estoque | Teoria das Restrições (TOC) e identificação do recurso gargalo | Teoria das Restrições (TOC) - mix de produtos com recurso gargalo
+Engenharia de Produção,2023,Componente Específico,Programação Linear e Inteira,3,Modelagem e resolução gráfica de problema de programação linear (maximização de lucro com restrições de recursos) | Problema de alocação (método húngaro) | Modelagem e solução gráfica de programação linear (restrições de matéria-prima)
+Engenharia de Produção,2023,Componente Específico,Controle Estatístico de Qualidade,2,Interpretação de gráfico boxplot (mediana e quartis) | Índices de capacidade de processo (Cp e Cpk)
+Engenharia de Produção,2023,Componente Específico,Engenharia Econômica,2,Análise de custo-volume e ponto de equilíbrio entre tecnologias alternativas | Métodos de análise de investimento (payback simples e descontado)
+Engenharia de Produção,2023,Componente Específico,Processos de Produção,2,Sistema Toyota de Produção e Troca Rápida de Ferramentas (SMED/TRF) | Balanceamento de linha de produção (takt time e eficiência)
+Engenharia de Produção,2023,Componente Específico,Cálculo Diferencial e Integral I,1,Derivadas aplicadas a funções de custo marginal
+Engenharia de Produção,2023,Componente Específico,Custos Industriais,1,Ponto de equilíbrio e margem de contribuição
+Engenharia de Produção,2023,Componente Específico,Ergonomia,1,NR-17 - mobiliário e postos de trabalho
+Engenharia de Produção,2023,Componente Específico,Física II,1,Equação de Bernoulli e cavitação em tubulações (mecânica dos fluidos)
+Engenharia de Produção,2023,Componente Específico,Gestão da Qualidade,1,"Indicadores de manutenção (OEE, MTBF, MTTR e confiabilidade)"
+Engenharia de Produção,2023,Componente Específico,Logística e Gestão da Cadeia de Suprimentos,1,Estoque de segurança e variabilidade de demanda e tempo de ressuprimento
+Engenharia de Produção,2023,Componente Específico,Planejamento Estratégico e Mercadológico,1,Estratégias competitivas genéricas de Porter (liderança em custo e diferenciação)
+Engenharia de Produção,2023,Componente Específico,Probabilidade,1,Distribuição de probabilidade uniforme contínua
+Engenharia de Produção,2023,Componente Específico,Segurança do Trabalho,1,Mapa de riscos ambientais (classificação de riscos ocupacionais)
+Engenharia de Produção,2019,Formação Geral,(sem disciplina associada),10,
+Engenharia de Produção,2019,Componente Específico,Planejamento e Controle de Produção I,4,"Custo de estocagem (otimização de funções) | Variáveis para previsão de demanda, capacidade e estoque | Previsão de demanda por média móvel ponderada | Capacidade máxima, programada e disponível"
+Engenharia de Produção,2019,Componente Específico,Engenharia Econômica,2,Payback (tempo de retorno do investimento) | Taxa Interna de Retorno (TIR) e Valor Presente Líquido (VPL)
+Engenharia de Produção,2019,Componente Específico,Programação Linear e Inteira,2,Programação linear aplicada a mix de produção | Problema de transporte (Pesquisa Operacional)
+Engenharia de Produção,2019,Componente Específico,Sistema de Desenvolvimento de Produtos,2,"Fases do desenvolvimento de produtos | Ferramentas de desenvolvimento de produtos (QFD, FMEA, Pugh, Design Thinking)"
+Engenharia de Produção,2019,Componente Específico,Controle Estatístico de Qualidade,1,Cartas de controle de variáveis (Controle Estatístico de Processo)
+Engenharia de Produção,2019,Componente Específico,Custos Industriais,1,Ponto de equilíbrio (break-even point)
+Engenharia de Produção,2019,Componente Específico,Ergonomia,1,Margem de manobra e carga de trabalho
+Engenharia de Produção,2019,Componente Específico,Estatística I,1,Análise de histogramas de frequência
+Engenharia de Produção,2019,Componente Específico,Gestão Ambiental,1,Política Nacional de Resíduos Sólidos (PNRS)
+Engenharia de Produção,2019,Componente Específico,Gestão da Qualidade,1,Ferramenta SIPOC
+Engenharia de Produção,2019,Componente Específico,Gestão da Tecnologia da Informação,1,Indústria 4.0 e transformação digital
+Engenharia de Produção,2019,Componente Específico,Gestão de Projetos,1,PERT/CPM com distribuição triangular de tempos
+Engenharia de Produção,2019,Componente Específico,Introdução a Tecnologia e Sistemas de Informação,1,Sistemas ERP (Enterprise Resource Planning)
+Engenharia de Produção,2019,Componente Específico,Logística e Gestão da Cadeia de Suprimentos,1,Análise de custos fixos e variáveis para localização de instalações
+Engenharia de Produção,2019,Componente Específico,Logística Reversa,1,Responsabilidade compartilhada na logística reversa (PNRS)
+Engenharia de Produção,2019,Componente Específico,Métodos Estatísticos em Confiabilidade,1,Indicadores de manutenção (MTBF e MTTR)
+Engenharia de Produção,2019,Componente Específico,Organização Industrial,1,Planejamento de arranjo físico (layout)
+Engenharia de Produção,2019,Componente Específico,Planejamento e Controle de Produção II,1,Sistema Kanban e Just in Time (JIT)
+Engenharia de Produção,2019,Componente Específico,Planejamento Estratégico e Mercadológico,1,Estratégias competitivas genéricas de Porter
+Engenharia de Produção,2019,Componente Específico,Processos de Manufatura Avançada,1,Manufatura avançada e sistemas ciberfísicos
+Engenharia de Produção,2019,Componente Específico,Processos de Produção,1,Capacidade produtiva e identificação de gargalos
+Engenharia de Produção,2019,Componente Específico,Segurança do Trabalho,1,Sistema de gestão de segurança e saúde ocupacional (ISO 45001)
+Engenharia de Produção,2019,Componente Específico,Simulação a Eventos Discretos,1,Simulação de sistemas de filas (método Monte Carlo)
+Engenharia de Produção,2019,Componente Específico,Teoria das Organizações,1,Balanced Scorecard (BSC)

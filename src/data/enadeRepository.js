@@ -8,7 +8,7 @@ function lerLinhasDoArquivo(caminho) {
 
   return conteudo
     .trim()               // remove espaços/quebras de linha do início e do fim
-    .split('\n');         // quebra o texto em um array, uma posição por linha
+    .split(/\r?\n/);        // quebra o texto em um array, uma posição por linha
 }
 
 
@@ -102,6 +102,8 @@ function montarDadosDoCurso(chaveDoCurso) {
 const cursos = {
   ec: montarDadosDoCurso('ec'),
   si: montarDadosDoCurso('si'),
+  ee: montarDadosDoCurso('ee'),
+  ep: montarDadosDoCurso('ep'),
 };
 
 // Devolve todos os cursos já carregados.

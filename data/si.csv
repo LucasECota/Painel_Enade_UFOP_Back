@@ -1,84 +1,84 @@
-curso,ano,tipo,disciplina,quantidade
-Sistemas de Informação,geral,Formação Geral,(sem disciplina associada),30
-Sistemas de Informação,geral,Componente Específico,Fundamentos de Sistemas de Informação,9
-Sistemas de Informação,geral,Componente Específico,Gestão da Tecnologia da Informação,9
-Sistemas de Informação,geral,Componente Específico,Engenharia de Software I,8
-Sistemas de Informação,geral,Componente Específico,Banco de Dados I,7
-Sistemas de Informação,geral,Componente Específico,Engenharia de Software II,7
-Sistemas de Informação,geral,Componente Específico,Algoritmos e Estruturas de Dados I,6
-Sistemas de Informação,geral,Componente Específico,Gerência de Projetos de Software,6
-Sistemas de Informação,geral,Componente Específico,Segurança e Auditoria de Sistemas,4
-Sistemas de Informação,geral,Componente Específico,Sistemas Operacionais,4
-Sistemas de Informação,geral,Componente Específico,Gestão da Informação,3
-Sistemas de Informação,geral,Componente Específico,Interação Humano-Computador,3
-Sistemas de Informação,geral,Componente Específico,Linguagens de Programação,3
-Sistemas de Informação,geral,Componente Específico,Redes de Computadores I,3
-Sistemas de Informação,geral,Componente Específico,Estatística e Probabilidade,2
-Sistemas de Informação,geral,Componente Específico,Matemática Discreta,2
-Sistemas de Informação,geral,Componente Específico,Programação Linear e Inteira,2
-Sistemas de Informação,geral,Componente Específico,Qualidade de Software,2
-Sistemas de Informação,geral,Componente Específico,Sistemas Distribuídos,2
-Sistemas de Informação,geral,Componente Específico,Sistemas de Apoio à Decisão,2
-Sistemas de Informação,geral,Componente Específico,Avaliação de Desempenho de Sistemas,1
-Sistemas de Informação,geral,Componente Específico,Compiladores I,1
-Sistemas de Informação,geral,Componente Específico,Fundamentos de Organização e Arquitetura de Computadores,1
-Sistemas de Informação,geral,Componente Específico,Informática e Sociedade,1
-Sistemas de Informação,geral,Componente Específico,Inteligência Artificial,1
-Sistemas de Informação,geral,Componente Específico,Segurança em Redes,1
-Sistemas de Informação,2021,Formação Geral,(sem disciplina associada),10
-Sistemas de Informação,2021,Componente Específico,Banco de Dados I,3
-Sistemas de Informação,2021,Componente Específico,Engenharia de Software I,3
-Sistemas de Informação,2021,Componente Específico,Engenharia de Software II,3
-Sistemas de Informação,2021,Componente Específico,Fundamentos de Sistemas de Informação,3
-Sistemas de Informação,2021,Componente Específico,Gestão da Tecnologia da Informação,3
-Sistemas de Informação,2021,Componente Específico,Gerência de Projetos de Software,2
-Sistemas de Informação,2021,Componente Específico,Segurança e Auditoria de Sistemas,2
-Sistemas de Informação,2021,Componente Específico,Algoritmos e Estruturas de Dados I,1
-Sistemas de Informação,2021,Componente Específico,Avaliação de Desempenho de Sistemas,1
-Sistemas de Informação,2021,Componente Específico,Gestão da Informação,1
-Sistemas de Informação,2021,Componente Específico,Inteligência Artificial,1
-Sistemas de Informação,2021,Componente Específico,Interação Humano-Computador,1
-Sistemas de Informação,2021,Componente Específico,Linguagens de Programação,1
-Sistemas de Informação,2021,Componente Específico,Programação Linear e Inteira,1
-Sistemas de Informação,2021,Componente Específico,Redes de Computadores I,1
-Sistemas de Informação,2021,Componente Específico,Sistemas Distribuídos,1
-Sistemas de Informação,2021,Componente Específico,Sistemas Operacionais,1
-Sistemas de Informação,2021,Componente Específico,Sistemas de Apoio à Decisão,1
-Sistemas de Informação,2017,Formação Geral,(sem disciplina associada),10
-Sistemas de Informação,2017,Componente Específico,Fundamentos de Sistemas de Informação,6
-Sistemas de Informação,2017,Componente Específico,Engenharia de Software I,3
-Sistemas de Informação,2017,Componente Específico,Gestão da Tecnologia da Informação,3
-Sistemas de Informação,2017,Componente Específico,Algoritmos e Estruturas de Dados I,2
-Sistemas de Informação,2017,Componente Específico,Banco de Dados I,2
-Sistemas de Informação,2017,Componente Específico,Engenharia de Software II,2
-Sistemas de Informação,2017,Componente Específico,Gerência de Projetos de Software,2
-Sistemas de Informação,2017,Componente Específico,Matemática Discreta,2
-Sistemas de Informação,2017,Componente Específico,Estatística e Probabilidade,1
-Sistemas de Informação,2017,Componente Específico,Fundamentos de Organização e Arquitetura de Computadores,1
-Sistemas de Informação,2017,Componente Específico,Gestão da Informação,1
-Sistemas de Informação,2017,Componente Específico,Interação Humano-Computador,1
-Sistemas de Informação,2017,Componente Específico,Linguagens de Programação,1
-Sistemas de Informação,2017,Componente Específico,Redes de Computadores I,1
-Sistemas de Informação,2017,Componente Específico,Segurança e Auditoria de Sistemas,1
-Sistemas de Informação,2017,Componente Específico,Sistemas Operacionais,1
-Sistemas de Informação,2014,Formação Geral,(sem disciplina associada),10
-Sistemas de Informação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,3
-Sistemas de Informação,2014,Componente Específico,Gestão da Tecnologia da Informação,3
-Sistemas de Informação,2014,Componente Específico,Banco de Dados I,2
-Sistemas de Informação,2014,Componente Específico,Engenharia de Software I,2
-Sistemas de Informação,2014,Componente Específico,Engenharia de Software II,2
-Sistemas de Informação,2014,Componente Específico,Gerência de Projetos de Software,2
-Sistemas de Informação,2014,Componente Específico,Qualidade de Software,2
-Sistemas de Informação,2014,Componente Específico,Sistemas Operacionais,2
-Sistemas de Informação,2014,Componente Específico,Compiladores I,1
-Sistemas de Informação,2014,Componente Específico,Estatística e Probabilidade,1
-Sistemas de Informação,2014,Componente Específico,Gestão da Informação,1
-Sistemas de Informação,2014,Componente Específico,Informática e Sociedade,1
-Sistemas de Informação,2014,Componente Específico,Interação Humano-Computador,1
-Sistemas de Informação,2014,Componente Específico,Linguagens de Programação,1
-Sistemas de Informação,2014,Componente Específico,Programação Linear e Inteira,1
-Sistemas de Informação,2014,Componente Específico,Redes de Computadores I,1
-Sistemas de Informação,2014,Componente Específico,Segurança e Auditoria de Sistemas,1
-Sistemas de Informação,2014,Componente Específico,Segurança em Redes,1
-Sistemas de Informação,2014,Componente Específico,Sistemas Distribuídos,1
-Sistemas de Informação,2014,Componente Específico,Sistemas de Apoio à Decisão,1
+curso,ano,tipo,disciplina,quantidade,assunto
+Sistemas de Informação,geral,Formação Geral,(sem disciplina associada),30,
+Sistemas de Informação,geral,Componente Específico,Fundamentos de Sistemas de Informação,9,
+Sistemas de Informação,geral,Componente Específico,Gestão da Tecnologia da Informação,9,
+Sistemas de Informação,geral,Componente Específico,Engenharia de Software I,8,
+Sistemas de Informação,geral,Componente Específico,Banco de Dados I,7,
+Sistemas de Informação,geral,Componente Específico,Engenharia de Software II,7,
+Sistemas de Informação,geral,Componente Específico,Algoritmos e Estruturas de Dados I,6,
+Sistemas de Informação,geral,Componente Específico,Gerência de Projetos de Software,6,
+Sistemas de Informação,geral,Componente Específico,Segurança e Auditoria de Sistemas,4,
+Sistemas de Informação,geral,Componente Específico,Sistemas Operacionais,4,
+Sistemas de Informação,geral,Componente Específico,Gestão da Informação,3,
+Sistemas de Informação,geral,Componente Específico,Interação Humano-Computador,3,
+Sistemas de Informação,geral,Componente Específico,Linguagens de Programação,3,
+Sistemas de Informação,geral,Componente Específico,Redes de Computadores I,3,
+Sistemas de Informação,geral,Componente Específico,Estatística e Probabilidade,2,
+Sistemas de Informação,geral,Componente Específico,Matemática Discreta,2,
+Sistemas de Informação,geral,Componente Específico,Programação Linear e Inteira,2,
+Sistemas de Informação,geral,Componente Específico,Qualidade de Software,2,
+Sistemas de Informação,geral,Componente Específico,Sistemas Distribuídos,2,
+Sistemas de Informação,geral,Componente Específico,Sistemas de Apoio à Decisão,2,
+Sistemas de Informação,geral,Componente Específico,Avaliação de Desempenho de Sistemas,1,
+Sistemas de Informação,geral,Componente Específico,Compiladores I,1,
+Sistemas de Informação,geral,Componente Específico,Fundamentos de Organização e Arquitetura de Computadores,1,
+Sistemas de Informação,geral,Componente Específico,Informática e Sociedade,1,
+Sistemas de Informação,geral,Componente Específico,Inteligência Artificial,1,
+Sistemas de Informação,geral,Componente Específico,Segurança em Redes,1,
+Sistemas de Informação,2021,Formação Geral,(sem disciplina associada),10,
+Sistemas de Informação,2021,Componente Específico,Banco de Dados I,3,"SQL — Consultas com JOIN, Subconsultas e Filtros | SQL — Consultas com Subconsultas Aninhadas e IN/NOT IN | Modelagem ER — Entidades, Relacionamentos, Cardinalidade e Participação"
+Sistemas de Informação,2021,Componente Específico,Engenharia de Software I,3,"Diagrama de Casos de Uso UML — Atores, Relacionamentos e Generalização | Diagrama de Classes UML — Herança, Associação e Multiplicidade | Diagrama de Sequência UML — Chamadas Paralelas e Sequenciais"
+Sistemas de Informação,2021,Componente Específico,Engenharia de Software II,3,Qualidade de Processo de Software — Padrões e Monitoramento | Modelos de Maturidade — CMMI-Dev e MPS-SW | CMMI por Estágios — Níveis de Maturidade
+Sistemas de Informação,2021,Componente Específico,Fundamentos de Sistemas de Informação,3,"Hierarquia Dado-Informação-Conhecimento | Teoria Geral dos Sistemas — Subsistemas, Relações e Propósito | Internet das Coisas (IoT) e Cidades Inteligentes"
+Sistemas de Informação,2021,Componente Específico,Gestão da Tecnologia da Informação,3,"Gerenciamento de Serviços de TI — SLA (Acordo de Nível de Serviço) | Governança de TI — Fatores Motivadores e Frameworks | Frameworks de Governança de TI — ISO 38500, CobiT, BSC e CMMI"
+Sistemas de Informação,2021,Componente Específico,Gerência de Projetos de Software,2,"Conceito de Projeto — Definição e Características segundo PMBOK | Gerenciamento de Projetos — EAP, Matriz de Responsabilidade e PMBOK"
+Sistemas de Informação,2021,Componente Específico,Segurança e Auditoria de Sistemas,2,"Princípios CIA — Confidencialidade, Integridade e Disponibilidade | Segurança da Informação — Pilares CIA, Legalidade e Autenticidade (ISO 27002)"
+Sistemas de Informação,2021,Componente Específico,Algoritmos e Estruturas de Dados I,1,Tabela Hash — Função de Dispersão e Tratamento de Colisões (ANULADA)
+Sistemas de Informação,2021,Componente Específico,Avaliação de Desempenho de Sistemas,1,Métricas de Desempenho — Throughput e Utilização de Disco
+Sistemas de Informação,2021,Componente Específico,Gestão da Informação,1,Inteligência Organizacional e Redes Sociais como Fonte de Informação
+Sistemas de Informação,2021,Componente Específico,Inteligência Artificial,1,Sistemas Especialistas — Componentes e Motor de Inferência
+Sistemas de Informação,2021,Componente Específico,Interação Humano-Computador,1,Ergonomia e Usabilidade — Legibilidade e Contraste em Interfaces
+Sistemas de Informação,2021,Componente Específico,Linguagens de Programação,1,"Programação Lógica — Fatos, Regras e Consultas em Prolog"
+Sistemas de Informação,2021,Componente Específico,Programação Linear e Inteira,1,Programação Linear — Modelagem e Restrições de Inequações
+Sistemas de Informação,2021,Componente Específico,Redes de Computadores I,1,"Protocolo IPv4 — TTL, Fragmentação e Máscara de Subrede"
+Sistemas de Informação,2021,Componente Específico,Sistemas Distribuídos,1,"Computação em Nuvem — IaaS, PaaS e SaaS"
+Sistemas de Informação,2021,Componente Específico,Sistemas Operacionais,1,Virtualização — Hipervisor Tipo II e Máquinas Virtuais
+Sistemas de Informação,2021,Componente Específico,Sistemas de Apoio à Decisão,1,"Big Data — Características Volume, Variedade, Velocidade e Veracidade"
+Sistemas de Informação,2017,Formação Geral,(sem disciplina associada),10,
+Sistemas de Informação,2017,Componente Específico,Fundamentos de Sistemas de Informação,6,Cadeia de Valor de Porter e Aplicações de TI | Sistemas de Informação em Organizações Esportivas (ANULADA) | Arquitetura de Sistemas de Informação (ASI) | ERP — Customização e Parametrização | Gestão de Processos de Negócio (BPM) — Escopo e Identificação | BPMS — Automação de Fluxo de Processos de Negócio
+Sistemas de Informação,2017,Componente Específico,Engenharia de Software I,3,"Diagrama de Classe UML — Sistema de Tiro Esportivo | Requisitos Funcionais, Não Funcionais e Regras de Negócio | Diagrama de Atividades UML — Aplicativo de Transporte de Cargas"
+Sistemas de Informação,2017,Componente Específico,Gestão da Tecnologia da Informação,3,"Governança de TI e PETI — Terceirização de Marketing Digital | TI Verde — Virtualização, Data Centers e Conscientização | Lei SOX e Governança de TI — Compliance e Segurança da Informação"
+Sistemas de Informação,2017,Componente Específico,Algoritmos e Estruturas de Dados I,2,"Estruturas de Dados Bidimensionais — Matriz para Contagem de Falhas de Plantio | Pilha (LIFO), Fila (FIFO), Deque e Lista Circular"
+Sistemas de Informação,2017,Componente Específico,Banco de Dados I,2,"Mapeamento Modelo ER para Modelo Relacional | SQL — JOIN, RIGHT JOIN e Operações com Conjuntos"
+Sistemas de Informação,2017,Componente Específico,Engenharia de Software II,2,"Modelo Cascata — Verificação e Validação ao Longo do Ciclo de Vida | Gerenciamento de Configuração, Versões e Mudanças de Software"
+Sistemas de Informação,2017,Componente Específico,Gerência de Projetos de Software,2,PMBOK — Gerenciamento de Riscos: Probabilidade e Impacto | PMBOK — Fases do Projeto e Gestão do Escopo
+Sistemas de Informação,2017,Componente Específico,Matemática Discreta,2,"Teoria dos Grafos — Valência, Adjacência e Incidência | Lógica Proposicional — Tabela-Verdade e Conectivos (∨, ∧, →, ¬)"
+Sistemas de Informação,2017,Componente Específico,Estatística e Probabilidade,1,"Estatística Descritiva — Média, Mediana, Desvio Padrão, Quartil e Moda"
+Sistemas de Informação,2017,Componente Específico,Fundamentos de Organização e Arquitetura de Computadores,1,"Cluster — Nós, Escalabilidade, Alta Disponibilidade e Custo/Desempenho"
+Sistemas de Informação,2017,Componente Específico,Gestão da Informação,1,Conhecimento Tácito e Explícito no Desenvolvimento de Software
+Sistemas de Informação,2017,Componente Específico,Interação Humano-Computador,1,"Design de Interação — Atividades, Prototipação e Participação do Usuário"
+Sistemas de Informação,2017,Componente Específico,Linguagens de Programação,1,"Precedência de Operadores — Aritméticos, Relacionais e Booleanos (++/--)"
+Sistemas de Informação,2017,Componente Específico,Redes de Computadores I,1,"Cloud Computing e Grid Computing — Camadas Rede, Recursos, Middleware e Aplicações"
+Sistemas de Informação,2017,Componente Específico,Segurança e Auditoria de Sistemas,1,Segurança da Informação — Responsabilidade Organizacional e Ataques Cibernéticos
+Sistemas de Informação,2017,Componente Específico,Sistemas Operacionais,1,Arquitetura Cliente-Servidor — Computação em Nuvem e Hospedagem de Aplicações
+Sistemas de Informação,2014,Formação Geral,(sem disciplina associada),10,
+Sistemas de Informação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,3,
+Sistemas de Informação,2014,Componente Específico,Gestão da Tecnologia da Informação,3,
+Sistemas de Informação,2014,Componente Específico,Banco de Dados I,2,
+Sistemas de Informação,2014,Componente Específico,Engenharia de Software I,2,
+Sistemas de Informação,2014,Componente Específico,Engenharia de Software II,2,
+Sistemas de Informação,2014,Componente Específico,Gerência de Projetos de Software,2,
+Sistemas de Informação,2014,Componente Específico,Qualidade de Software,2,
+Sistemas de Informação,2014,Componente Específico,Sistemas Operacionais,2,
+Sistemas de Informação,2014,Componente Específico,Compiladores I,1,
+Sistemas de Informação,2014,Componente Específico,Estatística e Probabilidade,1,
+Sistemas de Informação,2014,Componente Específico,Gestão da Informação,1,
+Sistemas de Informação,2014,Componente Específico,Informática e Sociedade,1,
+Sistemas de Informação,2014,Componente Específico,Interação Humano-Computador,1,
+Sistemas de Informação,2014,Componente Específico,Linguagens de Programação,1,
+Sistemas de Informação,2014,Componente Específico,Programação Linear e Inteira,1,
+Sistemas de Informação,2014,Componente Específico,Redes de Computadores I,1,
+Sistemas de Informação,2014,Componente Específico,Segurança e Auditoria de Sistemas,1,
+Sistemas de Informação,2014,Componente Específico,Segurança em Redes,1,
+Sistemas de Informação,2014,Componente Específico,Sistemas Distribuídos,1,
+Sistemas de Informação,2014,Componente Específico,Sistemas de Apoio à Decisão,1,

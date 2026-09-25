@@ -77,21 +77,26 @@ function calcularDesempenhoPorQuestao(curso, ano) {
     });
 }
 
-// A partir da lista de desempenho por questão, encontra a questão com maior
-// e a com menor percentual de acerto.
+// Encontra a(s) questão(ões) com maior e menor percentual de acerto.
+// Se houver empate, todas as questões empatadas entram na lista.
 function encontrarDestaques(curso, ano) {
     const desempenhoPorQuestao = calcularDesempenhoPorQuestao(curso, ano);
     if (!desempenhoPorQuestao) return null;
 
-    const maisAcertada = desempenhoPorQuestao.reduce((melhor, atual) =>
-        atual.percentualDeAcerto > melhor.percentualDeAcerto ? atual : melhor
+    // Pega só os números de percentualDeAcerto, pra achar o maior e o menor
+    const percentuais = desempenhoPorQuestao.map((questao) => questao.percentualDeAcerto);
+    const maiorPercentual = Math.max(...percentuais);
+    const menorPercentual = Math.min(...percentuais);
+
+    // Agora filtra: todas as questões que batem com o maior valor, e todas que batem com o menor
+    const maisAcertadas = desempenhoPorQuestao.filter(
+        (questao) => questao.percentualDeAcerto === maiorPercentual
+    );
+    const maisErradas = desempenhoPorQuestao.filter(
+        (questao) => questao.percentualDeAcerto === menorPercentual
     );
 
-    const maisErrada = desempenhoPorQuestao.reduce((pior, atual) =>
-        atual.percentualDeAcerto < pior.percentualDeAcerto ? atual : pior
-    );
-
-    return { maisAcertada, maisErrada };
+    return { maisAcertadas, maisErradas };
 }
 
 module.exports = {

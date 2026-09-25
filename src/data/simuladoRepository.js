@@ -46,6 +46,17 @@ function arredondar(numero, casas) {
 // Configurações de prova: quais questões são discursivas/objetivas em cada
 // componente, e o peso de cada bloco. "padrao" vale pra maioria das edições;
 // "ec-2023" segue a estrutura especial dessa edição.
+const configuracaoEspecial2023 = {
+    fgDiscursivas: ['q1'],
+    fgObjetivas: Array.from({ length: 9 }, (_, i) => `q${i + 2}`),
+    ceDiscursivas: ['q11'],
+    ceObjetivas: Array.from({ length: 29 }, (_, i) => `q${i + 12}`),
+    pesoFgDiscursiva: 0.35,
+    pesoFgObjetiva: 0.65,
+    pesoCeDiscursiva: 0.1,
+    pesoCeObjetiva: 0.9,
+};
+
 const CONFIGURACOES_DE_PROVA = {
     padrao: {
         fgDiscursivas: ['q1', 'q2'],
@@ -57,16 +68,9 @@ const CONFIGURACOES_DE_PROVA = {
         pesoCeDiscursiva: 0.15,
         pesoCeObjetiva: 0.85,
     },
-    'ec-2023': {
-        fgDiscursivas: ['q1'],
-        fgObjetivas: Array.from({ length: 9 }, (_, i) => `q${i + 2}`),
-        ceDiscursivas: ['q11'],
-        ceObjetivas: Array.from({ length: 29 }, (_, i) => `q${i + 12}`),
-        pesoFgDiscursiva: 0.35,
-        pesoFgObjetiva: 0.65,
-        pesoCeDiscursiva: 0.1,
-        pesoCeObjetiva: 0.9,
-    },
+    'ec-2023': configuracaoEspecial2023,
+    'ee-2023': configuracaoEspecial2023,
+    'ep-2023': configuracaoEspecial2023,
 };
 
 // Soma os valores de um bloco de questões dentro do objeto de respostas.
@@ -152,6 +156,10 @@ const SIMULADOS = {
     'ec-2019': montarSimulado('ec', 2019),
     'si-2021': montarSimulado('si', 2021),
     'si-2017': montarSimulado('si', 2017),
+    'ee-2023': montarSimulado('ee', 2023),
+    'ee-2019': montarSimulado('ee', 2019),
+    'ep-2023': montarSimulado('ep', 2023),
+    'ep-2019': montarSimulado('ep', 2019),
 };
 
 // Devolve o simulado de um curso+ano específico, ou null se não existir.

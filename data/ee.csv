@@ -1,0 +1,66 @@
+curso,ano,tipo,disciplina,quantidade,assunto
+Engenharia Elétrica,geral,Formação Geral,(sem disciplina associada),20,
+Engenharia Elétrica,geral,Componente Específico,Instrumentação,7,
+Engenharia Elétrica,geral,Componente Específico,Eletrônica de Potência,6,
+Engenharia Elétrica,geral,Componente Específico,Máquinas Elétricas I,6,
+Engenharia Elétrica,geral,Componente Específico,Processamento Digital de Sinais,6,
+Engenharia Elétrica,geral,Componente Específico,Sinais e Sistemas,3,
+Engenharia Elétrica,geral,Componente Específico,Sistemas de Controle I,3,
+Engenharia Elétrica,geral,Componente Específico,Circuitos Elétricos I,2,
+Engenharia Elétrica,geral,Componente Específico,Eletromagnetismo,2,
+Engenharia Elétrica,geral,Componente Específico,Fundamentos de Ciência do Ambiente,2,
+Engenharia Elétrica,geral,Componente Específico,Fundamentos de Comunicações,2,
+Engenharia Elétrica,geral,Componente Específico,Instalações Elétricas,2,    
+Engenharia Elétrica,geral,Componente Específico,Sistemas de Potência II,2,
+Engenharia Elétrica,geral,Componente Específico,Teoria da Administração I,2,
+Engenharia Elétrica,geral,Componente Específico,Acionamentos Elétricos,1,
+Engenharia Elétrica,geral,Componente Específico,Algoritmos e Estrutura de Dados I,1,
+Engenharia Elétrica,geral,Componente Específico,Análise Numérica,1,
+Engenharia Elétrica,geral,Componente Específico,Eletrônica I,1,
+Engenharia Elétrica,geral,Componente Específico,Estatística e Probabilidade,1,
+Engenharia Elétrica,geral,Componente Específico,Informática Industrial,1,
+Engenharia Elétrica,geral,Componente Específico,Materiais Elétricos,1,
+Engenharia Elétrica,geral,Componente Específico,Modelagem e Análise de Sistemas Lineares,1,
+Engenharia Elétrica,geral,Componente Específico,Otimização de Sistemas Elétricos,1,
+Engenharia Elétrica,geral,Componente Específico,Sistemas Elétricos Industriais,1,
+Engenharia Elétrica,geral,Componente Específico,Sistemas de Potência I,1, 
+Engenharia Elétrica,2023,Formação Geral,(sem disciplina associada),10,
+Engenharia Elétrica,2023,Componente Específico,Instrumentação,4,Ponte de Wheatstone com sensor RTD (medição de temperatura) | Extensômetros (strain gauges) em viga e corpo de prova sob flexão e tração | Amplificadores operacionais para medição de valor eficaz de corrente CA (retificador e filtro) | Circuito com potenciômetro e amplificador para medição de posição angular
+Engenharia Elétrica,2023,Componente Específico,Eletrônica de Potência,3,Sistema fotovoltaico residencial (controlador de carga e inversor) | Conversor CC-CC buck (topologia e dispositivos de chaveamento) | Conversor CC-CC boost em sistema fotovoltaico (razão cíclica e indutância crítica)
+Engenharia Elétrica,2023,Componente Específico,Máquinas Elétricas I,3,Autotransformador abaixador monofásico (correntes e relação de tensões) | Influência da frequência no dimensionamento e fluxo magnético de transformadores | Circuito magnético e permeabilidade magnética (curva de magnetização)
+Engenharia Elétrica,2023,Componente Específico,Processamento Digital de Sinais,2,"Transformada Z, região de convergência e estabilidade de sistemas discretos | Conversor analógico-digital (quantização de sinais)"
+Engenharia Elétrica,2023,Componente Específico,Sinais e Sistemas,2,Linearidade de sistemas | Função de transferência de sistema com atraso no tempo (diagrama de blocos)
+Engenharia Elétrica,2023,Componente Específico,Sistemas de Controle I,2,Resposta em regime permanente de sistema com controlador proporcional | Representação em espaço de estados (questão anulada)
+Engenharia Elétrica,2023,Componente Específico,Acionamentos Elétricos,1,Curvas de desempenho de motor de indução acoplado a bomba centrífuga
+Engenharia Elétrica,2023,Componente Específico,Algoritmos e Estrutura de Dados I,1,Complexidade de algoritmos (notação Big O)
+Engenharia Elétrica,2023,Componente Específico,Circuitos Elétricos I,1,Circuito RLC série em regime permanente CA (potências e diagrama fasorial)
+Engenharia Elétrica,2023,Componente Específico,Eletromagnetismo,1,Propagação de ondas eletromagnéticas em meios dielétricos (constantes de atenuação e fase)
+Engenharia Elétrica,2023,Componente Específico,Estatística e Probabilidade,1,Probabilidade de eventos (união e interseção)
+Engenharia Elétrica,2023,Componente Específico,Fundamentos de Ciência do Ambiente,1,Licenciamento ambiental de usinas hidrelétricas
+Engenharia Elétrica,2023,Componente Específico,Fundamentos de Comunicações,1,Satélite geoestacionário (órbita e bandas de frequência)
+Engenharia Elétrica,2023,Componente Específico,Informática Industrial,1,Rede AS-i (protocolo de comunicação industrial)
+Engenharia Elétrica,2023,Componente Específico,Instalações Elétricas,1,Diagrama unifilar de instalação elétrica residencial (dimensionamento de circuitos)
+Engenharia Elétrica,2023,Componente Específico,Otimização de Sistemas Elétricos,1,Auditoria energética industrial
+Engenharia Elétrica,2023,Componente Específico,Princípios de Eletrônica Digital,1,Flip-flops JK e sequenciamento lógico
+Engenharia Elétrica,2023,Componente Específico,Sistemas Elétricos Industriais,1,Correção de fator de potência (banco de capacitores)
+Engenharia Elétrica,2023,Componente Específico,Sistemas de Potência I,1,"Fluxo de potência em sistema elétrico (diagrama unifilar, valores por unidade)"
+Engenharia Elétrica,2023,Componente Específico,Teoria da Administração I,1,Curvas de oferta e demanda (equilíbrio de mercado)
+Engenharia Elétrica,2019,Formação Geral,(sem disciplina associada),10,
+Engenharia Elétrica,2019,Componente Específico,Processamento Digital de Sinais,4,"Geração de sinal discreto — soma de senoides, frequência normalizada e frequência de amostragem | Conversão analógico-digital: filtro anti-aliasing, amostragem (Sample & Hold) e quantização | Transformada Discreta de Fourier (TDF) — implementação da parte real em pseudocódigo | Filtro anti-aliasing e critério de Nyquist para definição da frequência de amostragem"
+Engenharia Elétrica,2019,Componente Específico,Eletrônica de Potência,3,"Ponte H com transistores para acionamento e inversão de sentido de rotação de motor CC | Retificador trifásico controlado (Ponte de Graetz) — formas de onda e ângulo de disparo | Conversor CC-CC em veículo elétrico e etapas de carregamento de bateria (corrente constante, tensão constante, flutuação)"
+Engenharia Elétrica,2019,Componente Específico,Instrumentação,3,Condicionamento de sinal com termistor NTC e amplificadores operacionais (medição de temperatura) | Circuito somador-inversor com amplificador operacional para múltiplos sensores de vibração | Amplificador de instrumentação com Ponte de Wheatstone (sensor resistivo de temperatura)
+Engenharia Elétrica,2019,Componente Específico,Máquinas Elétricas I,3,"Comparação de rendimento, fator de potência e consumo de energia entre motores de indução trifásicos | Ensaio de curto-circuito em transformador monofásico (cálculo da impedância) | Curvas de desempenho de motor de indução trifásico (rendimento, fator de potência, escorregamento e corrente)"
+Engenharia Elétrica,2019,Componente Específico,Princípios de Eletrônica Digital,3,Gerador de bit de paridade e registrador de deslocamento com Flip-Flops tipo D | Mapa de Karnaugh aplicado à simplificação de circuito programado em linguagem Ladder de CLP | Simplificação de expressão booleana por Mapa de Karnaugh (lógica combinacional com condições indiferentes)
+Engenharia Elétrica,2019,Componente Específico,Sistemas de Potência II,2,"Estudos de fluxo de potência, curto-circuito e estabilidade transitória em Sistemas Elétricos de Potência | Limites de exposição a campos elétricos de linhas de transmissão (Lei nº 11.934/2009 e harmônicos)"
+Engenharia Elétrica,2019,Componente Específico,Análise Numérica,1,Método de Euler para solução numérica de equações diferenciais ordinárias (algoritmo iterativo)
+Engenharia Elétrica,2019,Componente Específico,Circuitos Elétricos I,1,Casamento de impedância na conexão de alto-falantes a amplificador (máxima transferência de potência)
+Engenharia Elétrica,2019,Componente Específico,Eletromagnetismo,1,Lei de Faraday em indutores — tensão média induzida a partir da variação da corrente no tempo
+Engenharia Elétrica,2019,Componente Específico,Eletrônica I,1,Regulador de tensão com diodo Zener e transistor (cálculo da corrente no diodo Zener)
+Engenharia Elétrica,2019,Componente Específico,Fundamentos de Ciência do Ambiente,1,Estudo de Impacto Ambiental (EIA) e impactos socioambientais de usinas hidrelétricas
+Engenharia Elétrica,2019,Componente Específico,Fundamentos de Comunicações,1,Taxa de erro de bit (BER) em função da relação sinal-ruído — modulação BPSK em canais AWGN e Rayleigh
+Engenharia Elétrica,2019,Componente Específico,Instalações Elétricas,1,Dimensionamento de cargas de iluminação e tomadas (TUG) conforme a norma ABNT NBR-5410
+Engenharia Elétrica,2019,Componente Específico,Materiais Elétricos,1,Condutividade elétrica e mobilidade eletrônica em nanotubos de carbono comparados ao silício
+Engenharia Elétrica,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,1,Estabilidade de sistemas realimentados — condição de instabilidade (microfonia) em sistema de áudio
+Engenharia Elétrica,2019,Componente Específico,Sinais e Sistemas,1,Resposta em frequência de sistema de primeira ordem (magnitude ao quadrado e frequência de corte)
+Engenharia Elétrica,2019,Componente Específico,Sistemas de Controle I,1,Estabilidade e erro estacionário de sistema em malha fechada com realimentação unitária negativa
+Engenharia Elétrica,2019,Componente Específico,Teoria da Administração I,1,"Análise SWOT (matriz de forças, fraquezas, oportunidades e ameaças)"
