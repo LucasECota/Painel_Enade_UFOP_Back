@@ -2,20 +2,44 @@ const fs = require('fs');
 const path = require('path');
 
 // Lê o arquivo CSV do disco e devolve um array de linhas (uma string por linha),
-// já sem linhas vazias.
+// já sem linhas vazias. Aceita tanto quebra de linha Unix (\n) quanto Windows (\r\n).
 function lerLinhasDoArquivo(caminho) {
   const conteudo = fs.readFileSync(caminho, 'utf-8');
 
   return conteudo
-    .trim()               // remove espaços/quebras de linha do início e do fim
-    .split(/\r?\n/);        // quebra o texto em um array, uma posição por linha
+    .trim()
+    .split(/\r?\n/);
 }
 
+// Divide uma linha de CSV em campos, mas sem quebrar campos que estão
+// entre aspas — mesmo que tenham vírgula dentro. Isso é necessário porque
+// o campo "assunto" às vezes contém vírgulas no próprio texto.
+function dividirLinhaCsv(linha) {
+  const campos = [];
+  let campoAtual = '';
+  let dentroDeAspas = false;
 
-// Transforma uma linha de texto "ec,geral,CE,Redes de Computadores I,9"
-// em um objeto, usando os nomes das colunas como chaves.
+  for (let i = 0; i < linha.length; i++) {
+    const caractere = linha[i];
+
+    if (caractere === '"') {
+      dentroDeAspas = !dentroDeAspas; // liga/desliga o modo "dentro de aspas"
+    } else if (caractere === ',' && !dentroDeAspas) {
+      campos.push(campoAtual);
+      campoAtual = '';
+    } else {
+      campoAtual += caractere;
+    }
+  }
+
+  campos.push(campoAtual); // adiciona o último campo, depois da última vírgula
+  return campos;
+}
+
+// Transforma uma linha de texto em um objeto, usando os nomes das colunas
+// (vindos do cabeçalho do CSV) como chaves.
 function transformarLinhaEmObjeto(linha, colunas) {
-  const valores = linha.split(',');   // separa a linha em pedaços, pela vírgula
+  const valores = dividirLinhaCsv(linha);
 
   const objeto = {};
   colunas.forEach((nomeDaColuna, indice) => {
@@ -25,6 +49,13 @@ function transformarLinhaEmObjeto(linha, colunas) {
   return objeto;
 }
 
+// Transforma "Assunto A | Assunto B | Assunto C" numa lista de textos.
+// Se o campo estiver vazio, devolve uma lista vazia.
+function dividirAssuntos(textoDeAssunto) {
+  if (!textoDeAssunto) return [];
+  return textoDeAssunto.split('|').map((assunto) => assunto.trim());
+}
+
 // Lê o arquivo CSV inteiro e devolve um array de objetos — um objeto por
 // linha de dado. A primeira linha do arquivo (o cabeçalho) não vira um
 // objeto: ela só serve para descobrir os nomes das colunas.
@@ -32,9 +63,9 @@ function carregarCsvComoObjetos(caminho) {
   const linhas = lerLinhasDoArquivo(caminho);
 
   const linhaDeCabecalho = linhas[0];
-  const linhasDeDados = linhas.slice(1);   // tudo, menos a primeira linha
+  const linhasDeDados = linhas.slice(1); // tudo, menos a primeira linha
 
-  const colunas = linhaDeCabecalho.split(',');
+  const colunas = dividirLinhaCsv(linhaDeCabecalho);
 
   return linhasDeDados.map((linha) => transformarLinhaEmObjeto(linha, colunas));
 }
@@ -61,7 +92,11 @@ function agruparPorAno(linhasDeObjetos) {
     const ehFormacaoGeral = linha.tipo === 'Formação Geral';
     const bloco = ehFormacaoGeral ? resultado[ano].fg : resultado[ano].ce;
 
-    bloco.disciplinas.push({ nome: linha.disciplina, qtd: quantidade });
+    bloco.disciplinas.push({
+      nome: linha.disciplina,
+      qtd: quantidade,
+      assuntos: dividirAssuntos(linha.assunto),
+    });
     bloco.total += quantidade;
     resultado[ano].totalQuestoes += quantidade;
   });
@@ -69,8 +104,8 @@ function agruparPorAno(linhasDeObjetos) {
   return resultado;
 }
 
-// Recebe a chave do curso ("ec" ou "si") e devolve o objeto completo e
-// organizado, pronto pra ser usado pelas rotas:
+// Recebe a chave do curso ("ec", "si", "ee" ou "ep") e devolve o objeto
+// completo e organizado, pronto pra ser usado pelas rotas:
 function montarDadosDoCurso(chaveDoCurso) {
   const caminhoDoArquivo = path.join(__dirname, '..', '..', 'data', `${chaveDoCurso}.csv`);
 
@@ -96,7 +131,7 @@ function montarDadosDoCurso(chaveDoCurso) {
   };
 }
 
-// Carrega os dados dos dois cursos (ec e si) uma única vez, assim que esse
+// Carrega os dados dos quatro cursos uma única vez, assim que esse
 // arquivo é importado pela primeira vez. Fica guardado aqui na memória, pra
 // não precisar ler o CSV do disco de novo a cada requisição.
 const cursos = {
@@ -111,7 +146,7 @@ function buscarTodosOsCursos() {
   return cursos;
 }
 
-// Devolve os dados de um curso específico ("ec" ou "si").
+// Devolve os dados de um curso específico ("ec", "si", "ee" ou "ep").
 // Se a chave não existir, devolve null em vez de quebrar.
 function buscarCurso(chaveDoCurso) {
   return cursos[chaveDoCurso] || null;
