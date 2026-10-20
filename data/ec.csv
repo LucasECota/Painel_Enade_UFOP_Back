@@ -43,14 +43,14 @@ Engenharia de Computação,geral,Componente Específico,Segurança e Auditoria d
 Engenharia de Computação,geral,Componente Específico,Sistemas de Controle I,1,
 Engenharia de Computação,geral,Componente Específico,Teoria da Administração I,1,
 Engenharia de Computação,2023,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2023,Componente Específico,Sistemas Distribuídos,4,Computação em nuvem (pública vs privada); Virtualização de hardware e máquinas virtuais; Segurança da informação (criptografia e controle de acesso); Arquitetura de microsserviços
-Engenharia de Computação,2023,Componente Específico,Redes de Computadores I,3,"Protocolo OSPF e algoritmo de Dijkstra; Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED); Protocolos TCP e UDP"
-Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados I,2,Quicksort — análise de complexidade e implementação em C; Estruturas de dados aplicadas ao controlador PID (pilha e fila)
-Engenharia de Computação,2023,Componente Específico,Circuitos Elétricos I,2,Resistência elétrica e resistividade (R=ρL/A); Lei de Kirchhoff das correntes e grafos de circuito
-Engenharia de Computação,2023,Componente Específico,Inteligência Artificial,2,SVM — Support Vector Machine; Busca gulosa em grafos
-Engenharia de Computação,2023,Componente Específico,Microprocessadores e Microcontroladores,2,Operações bit a bit (bitwise) em C; Registradores de I/O em sistemas embarcados
-Engenharia de Computação,2023,Componente Específico,Sinais e Sistemas,2,Filtros passa-baixa com amplificador operacional; Teorema da amostragem (Nyquist-Shannon)
-Engenharia de Computação,2023,Componente Específico,Sistemas Operacionais,2,"Multiprocessamento e threads com memória compartilhada; Memória virtual — paginação, TLB e MMU"
+Engenharia de Computação,2023,Componente Específico,Sistemas Distribuídos,4,Computação em nuvem (pública vs privada) | Virtualização de hardware e máquinas virtuais | Segurança da informação (criptografia e controle de acesso) | Arquitetura de microsserviços
+Engenharia de Computação,2023,Componente Específico,Redes de Computadores I,3,"Protocolo OSPF e algoritmo de Dijkstra | Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED) | Protocolos TCP e UDP"
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados I,2,Quicksort — análise de complexidade e implementação em C | Estruturas de dados aplicadas ao controlador PID (pilha e fila)
+Engenharia de Computação,2023,Componente Específico,Circuitos Elétricos I,2,Resistência elétrica e resistividade (R=ρL/A) | Lei de Kirchhoff das correntes e grafos de circuito
+Engenharia de Computação,2023,Componente Específico,Inteligência Artificial,2,SVM — Support Vector Machine | Busca gulosa em grafos
+Engenharia de Computação,2023,Componente Específico,Microprocessadores e Microcontroladores,2,Operações bit a bit (bitwise) em C | Registradores de I/O em sistemas embarcados
+Engenharia de Computação,2023,Componente Específico,Sinais e Sistemas,2,Filtros passa-baixa com amplificador operacional | Teorema da amostragem (Nyquist-Shannon)
+Engenharia de Computação,2023,Componente Específico,Sistemas Operacionais,2,"Multiprocessamento e threads com memória compartilhada | Memória virtual — paginação, TLB e MMU"
 Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados II,1,Vetores dinâmicos e análise amortizada
 Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados III,1,Subsequência Comum Mais Longa (LCS) — programação dinâmica
 Engenharia de Computação,2023,Componente Específico,Avaliação de Desempenho de Sistemas,1,Impacto de threads e núcleos no desempenho — Lei de Amdahl
@@ -63,14 +63,14 @@ Engenharia de Computação,2023,Componente Específico,Organização e Arquitetu
 Engenharia de Computação,2023,Componente Específico,Princípios de Eletrônica Digital,1,Descrição de hardware em HDL (Verilog e VHDL) — contadores
 Engenharia de Computação,2023,Componente Específico,Programação de Computadores I,1,Gerenciamento de memória em C — memory leak (malloc/free)
 Engenharia de Computação,2019,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2019,Componente Específico,Sistemas Operacionais,3,Condição de corrida e sincronização com threads; Diagrama de estados de processos; Escalonamento Round Robin
-Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados I,2,MergeSort — implementação recursiva em Java; Árvore AVL — inserção e rotações
-Engenharia de Computação,2019,Componente Específico,Engenharia de Software I,2,Rigidez em projeto de software e princípios SOLID; Padrão de projeto Strategy — diagrama UML de classes
-Engenharia de Computação,2019,Componente Específico,Inteligência Artificial,2,Reconhecimento de padrões — conjunto de dados e classificação; Rede bayesiana — modelagem de dependências causais
-Engenharia de Computação,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,Função de transferência de malha fechada e constante de tempo; Controlador PID — implementação em código C
-Engenharia de Computação,2019,Componente Específico,Princípios de Eletrônica Digital,2,DEMUX de 4 canais — diagnóstico de defeito em circuito lógico; Simplificação de circuito lógico booleano e atraso de propagação
-Engenharia de Computação,2019,Componente Específico,Sinais e Sistemas,2,Filtros digitais passa-baixa — normalização de frequência (Nyquist); Circuito de corrente alternada — impedância e tensão RMS
-Engenharia de Computação,2019,Componente Específico,Análise Numérica,2,Programação linear — maximização em região viável; Regressão linear por mínimos quadrados
+Engenharia de Computação,2019,Componente Específico,Sistemas Operacionais,3,Condição de corrida e sincronização com threads | Diagrama de estados de processos | Escalonamento Round Robin
+Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados I,2,MergeSort — implementação recursiva em Java | Árvore AVL — inserção e rotações
+Engenharia de Computação,2019,Componente Específico,Engenharia de Software I,2,Rigidez em projeto de software e princípios SOLID | Padrão de projeto Strategy — diagrama UML de classes
+Engenharia de Computação,2019,Componente Específico,Inteligência Artificial,2,Reconhecimento de padrões — conjunto de dados e classificação | Rede bayesiana — modelagem de dependências causais
+Engenharia de Computação,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,Função de transferência de malha fechada e constante de tempo | Controlador PID — implementação em código C
+Engenharia de Computação,2019,Componente Específico,Princípios de Eletrônica Digital,2,DEMUX de 4 canais — diagnóstico de defeito em circuito lógico | Simplificação de circuito lógico booleano e atraso de propagação
+Engenharia de Computação,2019,Componente Específico,Sinais e Sistemas,2,Filtros digitais passa-baixa — normalização de frequência (Nyquist) | Circuito de corrente alternada — impedância e tensão RMS
+Engenharia de Computação,2019,Componente Específico,Análise Numérica,2,Programação linear — maximização em região viável | Regressão linear por mínimos quadrados
 Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados III,1,Coloração de grafos — número cromático mínimo
 Engenharia de Computação,2019,Componente Específico,Banco de Dados I,1,"SQL — comandos DELETE, INSERT e SELECT com filtros"
 Engenharia de Computação,2019,Componente Específico,Eletrônica I,1,Amplificador operacional — circuito com sensor NTC

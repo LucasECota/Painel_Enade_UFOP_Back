@@ -104,7 +104,7 @@ function agruparPorAno(linhasDeObjetos) {
   return resultado;
 }
 
-// Recebe a chave do curso ("ec", "si", "ee" ou "ep") e devolve o objeto
+// Recebe a chave do curso ("ec", "ep" ou "si") e devolve o objeto
 // completo e organizado, pronto pra ser usado pelas rotas:
 function montarDadosDoCurso(chaveDoCurso) {
   const caminhoDoArquivo = path.join(__dirname, '..', '..', 'data', `${chaveDoCurso}.csv`);
@@ -131,14 +131,15 @@ function montarDadosDoCurso(chaveDoCurso) {
   };
 }
 
-// Carrega os dados dos quatro cursos uma única vez, assim que esse
+// Carrega os dados dos cursos do AvaliaUFOP uma única vez, assim que esse
 // arquivo é importado pela primeira vez. Fica guardado aqui na memória, pra
 // não precisar ler o CSV do disco de novo a cada requisição.
+// A ordem aqui é a mesma exibida no front (Computação, Produção, Sistemas).
+// Engenharia Elétrica (ee.csv) não faz parte do AvaliaUFOP, então não é carregada.
 const cursos = {
   ec: montarDadosDoCurso('ec'),
-  si: montarDadosDoCurso('si'),
-  ee: montarDadosDoCurso('ee'),
   ep: montarDadosDoCurso('ep'),
+  si: montarDadosDoCurso('si'),
 };
 
 // Devolve todos os cursos já carregados.
@@ -146,7 +147,7 @@ function buscarTodosOsCursos() {
   return cursos;
 }
 
-// Devolve os dados de um curso específico ("ec", "si", "ee" ou "ep").
+// Devolve os dados de um curso específico ("ec", "ep" ou "si").
 // Se a chave não existir, devolve null em vez de quebrar.
 function buscarCurso(chaveDoCurso) {
   return cursos[chaveDoCurso] || null;

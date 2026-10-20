@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "aluno": "6bf0442179add3d7",
+      "estado": "Finalizada",
+      "iniciadoem": "7 outubro 2026  22:36 PM",
+      "completo": "7 outubro 2026  22:41 PM",
+      "tempoutilizado": "5 minutos 33 segundos",
+      "avaliar1000": "5,00",
+      "q1250": "2,50",
+      "q2250": "0,00",
+      "q3250": "0,00",
+      "q4250": "2,50"
+    },
+    {
+      "aluno": "6bf0442179add3d7",
+      "estado": "Finalizada",
+      "iniciadoem": "7 outubro 2026  22:42 PM",
+      "completo": "7 outubro 2026  22:53 PM",
+      "tempoutilizado": "10 minutos 40 segundos",
+      "avaliar1000": "7,50",
+      "q1250": "2,50",
+      "q2250": "2,50",
+      "q3250": "0,00",
+      "q4250": "2,50"
+    },
+    {
+      "sobrenome": "Média geral",
+      "nome": "",
+      "endereodee-mail": "",
+      "estado": "",
+      "iniciadoem": "",
+      "completo": "",
+      "tempoutilizado": "",
+      "avaliar1000": "6,25",
+      "q1250": "2,50",
+      "q2250": "1,25",
+      "q3250": "0,00",
+      "q4250": "2,50"
+    }
+  ]
+]
