@@ -7,7 +7,8 @@ const fs = require('fs');
 const path = require('path');
 const { gerarIdAnonimo } = require('../src/utils/anonimizacao');
 
-const raiz = path.join(__dirname, '..', 'data', 'avaliaufop');
+// DADOS_AVALIAUFOP permite apontar para outra pasta (usado nos testes).
+const raiz = process.env.DADOS_AVALIAUFOP || path.join(__dirname, '..', 'data', 'avaliaufop');
 
 function listarJsons(pasta) {
     return fs.readdirSync(pasta, { withFileTypes: true }).flatMap((item) => {
