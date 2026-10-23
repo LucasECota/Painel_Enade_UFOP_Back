@@ -1,5 +1,5 @@
 const express = require('express');
-const { criarCors, criarHelmet, limiteGeral, limiteDownloads } = require('./src/middlewares/seguranca');
+const { criarCors, criarHelmet, limiteGeral, limiteDownloads, lerTrustProxy } = require('./src/middlewares/seguranca');
 const { naoEncontrada, tratarErros } = require('./src/middlewares/erros');
 const enadeRoutes = require('./src/routes/enade.routes');
 const avaliaufopRoutes = require('./src/routes/avaliaufop.routes');
@@ -10,6 +10,7 @@ const relatoriosRoutes = require('./src/routes/relatorios.routes');
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.set('trust proxy', lerTrustProxy());
 app.use(criarHelmet());
 app.use(criarCors());
 
@@ -40,9 +41,12 @@ if (require.main === module) {
         process.exit(1);
     }
 
-    app.listen(port, () => {
-        console.log(`Example app listening on port ${port}`);
-    });
+    // HOST=127.0.0.1 faz a API aceitar só conexões locais (do Nginx, na mesma máquina).
+    // Sem HOST, escuta em todas as interfaces, como antes.
+    const host = process.env.HOST;
+    const aoSubir = () => console.log(`Example app listening on ${host || 'todas as interfaces'}:${port}`);
+    if (host) app.listen(port, host, aoSubir);
+    else app.listen(port, aoSubir);
 }
 
 module.exports = app;

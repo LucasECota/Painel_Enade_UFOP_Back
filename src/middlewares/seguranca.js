@@ -45,10 +45,26 @@ function criarLimitador({ max, janelaMs = 60 * 1000 }) {
     });
 }
 
+// TRUST_PROXY = quantos proxies ficam entre o visitante e esta API (1 com o Nginx na frente).
+// Sem isso, atrás de um proxy todos os visitantes parecem ter o mesmo IP (o do proxy) e
+// dividem a mesma cota do limite de requisições. Sem a variável: nenhum proxy (acesso direto).
+function lerTrustProxy(valor = process.env.TRUST_PROXY) {
+    const quantidade = Number(valor);
+    return Number.isInteger(quantidade) && quantidade > 0 ? quantidade : false;
+}
+
 const lerNumero = (valor, padrao) => (Number(valor) > 0 ? Number(valor) : padrao);
 
 // Limites por minuto; podem ser mudados por variável de ambiente.
 const limiteGeral = () => criarLimitador({ max: lerNumero(process.env.LIMITE_REQUISICOES, 120) });
 const limiteDownloads = () => criarLimitador({ max: lerNumero(process.env.LIMITE_DOWNLOADS, 20) });
 
-module.exports = { criarCors, criarHelmet, criarLimitador, limiteGeral, limiteDownloads, origensPermitidas };
+module.exports = {
+    criarCors,
+    criarHelmet,
+    criarLimitador,
+    limiteGeral,
+    limiteDownloads,
+    origensPermitidas,
+    lerTrustProxy,
+};
