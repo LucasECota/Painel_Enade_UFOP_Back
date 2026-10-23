@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Atualiza o site e a API com a versão mais nova do GitHub.
+# Copie para /opt/painel-enade/atualizar.sh, dê permissão (chmod +x) e rode quando houver novidade.
+# Interrompe no primeiro erro, sem derrubar o que está no ar.
+set -euo pipefail
+
+BACK=/opt/painel-enade/back
+FRONT=/opt/painel-enade/front
+SITE=/var/www/painel-enade
+
+echo "==> API"
+cd "$BACK"
+git pull --ff-only
+npm ci --omit=dev            # só o necessário para rodar (sem ferramentas de desenvolvimento)
+
+echo "==> Site"
+cd "$FRONT"
+git pull --ff-only
+npm ci
+VITE_API_URL=/api npm run build   # site e API no mesmo endereço: a API fica em /api
+
+echo "==> Publicando"
+sudo rsync -a --delete "$FRONT/dist/" "$SITE/"
+sudo systemctl restart painel-enade
+
+echo "==> Conferindo"
+sleep 2
+curl -fsS http://127.0.0.1:3000/api/avaliaufop > /dev/null && echo "API respondendo"
+echo "Pronto."

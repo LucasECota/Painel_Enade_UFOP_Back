@@ -3,6 +3,11 @@
 API em Express que serve os dados do site: edições do Enade, AvaliaUFOP, desempenho dos alunos,
 resultados do INEP e download dos relatórios em PDF.
 
+## Publicação
+
+O guia completo para publicar o site e a API em um servidor (com texto de pedido para a TI, Nginx,
+systemd e script de atualização) está em [DEPLOY.md](DEPLOY.md).
+
 ## Comandos
 
 | Comando | O que faz |

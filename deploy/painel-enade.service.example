@@ -1,0 +1,28 @@
+# Serviço do systemd para a API do Painel Enade (mantém a API rodando e reinicia se cair).
+# Copie para /etc/systemd/system/painel-enade.service e ative com:
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now painel-enade
+# Veja os registros com:  journalctl -u painel-enade -f
+[Unit]
+Description=Painel Enade ICEA/UFOP (API)
+After=network.target
+
+[Service]
+Type=simple
+User=painel-enade
+WorkingDirectory=/opt/painel-enade/back
+# lê as variáveis do arquivo .env (ANONIMIZACAO_SEGREDO, PORT, HOST, TRUST_PROXY...)
+EnvironmentFile=/opt/painel-enade/back/.env
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node app.js
+Restart=on-failure
+RestartSec=5
+
+# proteções básicas: a API só lê arquivos, não precisa escrever em lugar nenhum
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

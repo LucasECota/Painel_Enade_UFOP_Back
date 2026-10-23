@@ -1,0 +1,52 @@
+# Exemplo de configuração do Nginx para o Painel Enade.
+# Copie para /etc/nginx/sites-available/painel-enade, troque o endereço (server_name) e o
+# caminho do certificado HTTPS, e ative com: ln -s ... /etc/nginx/sites-enabled/
+# Teste a sintaxe antes de recarregar:  sudo nginx -t && sudo systemctl reload nginx
+
+# HTTP: redireciona tudo para HTTPS
+server {
+    listen 80;
+    server_name painel-enade.exemplo.ufop.br;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    http2 on;
+    server_name painel-enade.exemplo.ufop.br;
+
+    # certificado fornecido pela TI (ou emitido com o certbot)
+    ssl_certificate     /etc/ssl/certs/painel-enade.crt;
+    ssl_certificate_key /etc/ssl/private/painel-enade.key;
+
+    # cabeçalhos de segurança do site (a API já manda os dela, via helmet)
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+    # o site (React): arquivos gerados por "npm run build"
+    root /var/www/painel-enade;
+    index index.html;
+
+    # arquivos com hash no nome nunca mudam: cache longo
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        add_header X-Content-Type-Options "nosniff" always;
+    }
+
+    # a API (Node) só aceita conexões locais; o Nginx repassa as chamadas /api/
+    location /api/ {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        client_max_body_size 1m;
+    }
+
+    # qualquer outra rota do site (/resultados, /edicoes...) devolve o index.html;
+    # sem isso, apertar F5 numa página dá erro 404
+    location / {
+        try_files $uri /index.html;
+    }
+}
