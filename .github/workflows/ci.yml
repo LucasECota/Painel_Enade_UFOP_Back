@@ -1,0 +1,56 @@
+name: CI
+
+# Roda a cada envio para a branch principal e em todo pull request.
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+# O robô só precisa ler o código.
+permissions:
+  contents: read
+
+# Um envio novo cancela a execução anterior da mesma branch.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    name: Lint e testes
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # npm ci instala exatamente o que está no package-lock.json
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Testes
+        run: npm test
+
+  auditoria:
+    name: Vulnerabilidades (npm audit)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # falha se houver vulnerabilidade de severidade alta ou crítica nas dependências de produção
+      - name: npm audit
+        run: npm audit --omit=dev --audit-level=high
