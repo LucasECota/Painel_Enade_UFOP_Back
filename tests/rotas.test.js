@@ -31,9 +31,9 @@ describe('rotas da API', () => {
         test('devolve os dados de um curso e ano', async () => {
             const res = await buscar('/enade/ep?ano=2023');
             assert.equal(res.status, 200);
-            const dados = await res.json();
-            assert.ok(dados.totalQuestoes > 0);
-            assert.ok(Array.isArray(dados.ce.disciplinas));
+            const curso = await res.json();
+            assert.ok(curso.totalQuestoes > 0);
+            assert.ok(Array.isArray(curso.ce.disciplinas));
         });
 
         for (const [caminho, motivo] of [

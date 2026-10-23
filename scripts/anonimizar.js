@@ -23,7 +23,8 @@ function anonimizarLinha(linha) {
     const email = linha['endereodee-mail'];
     if (!email) return false; // linha de resumo (ex.: "Média geral") ou já anonimizada
 
-    const { sobrenome, nome, 'endereodee-mail': _email, ...resto } = linha;
+    // nome, sobrenome e e-mail são descartados de propósito (por isso o prefixo _)
+    const { sobrenome: _sobrenome, nome: _nome, 'endereodee-mail': _email, ...resto } = linha;
     Object.keys(linha).forEach((chave) => delete linha[chave]);
     Object.assign(linha, { aluno: gerarIdAnonimo(email) }, resto);
     return true;

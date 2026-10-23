@@ -9,7 +9,14 @@ resultados do INEP e download dos relatórios em PDF.
 | --- | --- |
 | `npm run dev` | Sobe a API em `http://localhost:3000` e reinicia sozinha ao editar o código (`node --watch`) |
 | `npm test` | Roda os testes automatizados (`node --test`, sem dependências extras) |
+| `npm run lint` | Verifica o código com o Oxlint (variáveis não usadas ou inexistentes, `==`, `var` etc.) |
 | `npm run anonimizar` | Troca nome/e-mail dos alunos por um código nos exports do Moodle |
+
+## Lint
+
+O [Oxlint](https://oxc.rs) lê o código sem executá-lo e aponta erros comuns. A configuração está em
+`.oxlintrc.json`: regras de correção como erro, mais `no-undef`, `eqeqeq`, `no-var`, `prefer-const` e
+`no-throw-literal`. Variáveis de propósito não usadas começam com `_`. A pasta `data/` é ignorada.
 
 ## Rotas
 
