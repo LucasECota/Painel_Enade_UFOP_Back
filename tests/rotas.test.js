@@ -98,7 +98,8 @@ describe('rotas da API', () => {
             const res = await buscar('/relatorios/2019/download');
             assert.equal(res.status, 200);
             assert.equal(res.headers.get('content-type'), 'application/pdf');
-            assert.match(res.headers.get('content-disposition'), /attachment; filename="enade-2019-/);
+            // o Express 5.3 passou a escrever o nome sem aspas; os dois formatos são válidos
+            assert.match(res.headers.get('content-disposition'), /^attachment; filename="?enade-2019-[^";]+\.pdf"?$/);
             const inicio = Buffer.from(await res.arrayBuffer()).subarray(0, 5).toString();
             assert.equal(inicio, '%PDF-');
         });
