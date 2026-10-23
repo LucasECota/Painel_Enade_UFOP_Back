@@ -51,6 +51,7 @@ jobs:
 
       - run: npm ci
 
-      # falha se houver vulnerabilidade de severidade alta ou crítica nas dependências de produção
+      # falha se houver vulnerabilidade de severidade alta ou crítica em qualquer dependência,
+      # inclusive as ferramentas de desenvolvimento (oxlint)
       - name: npm audit
-        run: npm audit --omit=dev --audit-level=high
+        run: npm audit --audit-level=high
