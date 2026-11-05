@@ -215,7 +215,7 @@ describe('repositório e rota de questões', () => {
             const cursos = await (await fetch(`${base}/cursos`)).json();
             const porChave = Object.fromEntries(cursos.map((c) => [c.chave, c.anosComAssuntos]));
 
-            assert.deepEqual(porChave, { ec: [2023, 2019, 2017, 2014], ep: [2023, 2019], si: [2021, 2017, 2014] });
+            assert.deepEqual(porChave, { ec: [2023, 2019, 2017, 2014], ep: [2023, 2019, 2017, 2014], si: [2021, 2017, 2014] });
         });
     });
 });
