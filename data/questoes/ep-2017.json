@@ -1,0 +1,755 @@
+{
+  "curso": "ep",
+  "nome": "Engenharia de Produção",
+  "ano": 2017,
+  "fonte": "INEP — Relatório de Curso do Enade 2017 (Engenharia de Produção, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Atualidades e Política Internacional",
+          "tema": "Brexit e a União Europeia",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 44,
+            "uf": 29.1,
+            "regiao": 28.5,
+            "catAdm": 42.5,
+            "orgAcad": 33.1,
+            "brasil": 28.3
+          },
+          "respostas": {
+            "A": 14,
+            "B": 20,
+            "C": 44,
+            "D": 18,
+            "E": 4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Geografia",
+          "tema": "Agricultura familiar e sustentabilidade",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 70,
+            "uf": 56.1,
+            "regiao": 53.4,
+            "catAdm": 62.8,
+            "orgAcad": 57.7,
+            "brasil": 55
+          },
+          "respostas": {
+            "A": 4,
+            "B": 6,
+            "C": 70,
+            "D": 14,
+            "E": 6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Matemática",
+          "tema": "Consumo de energia e tarifa por bandeiras",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 44,
+            "uf": 42.4,
+            "regiao": 42.2,
+            "catAdm": 51,
+            "orgAcad": 45.5,
+            "brasil": 42.6
+          },
+          "respostas": {
+            "A": 24,
+            "B": 44,
+            "C": 10,
+            "D": 18,
+            "E": 4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Língua Portuguesa e Comunicação",
+          "tema": "Televisão e o curto período de atenção (tirinha)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 84,
+            "uf": 64.4,
+            "regiao": 63,
+            "catAdm": 77.5,
+            "orgAcad": 67.2,
+            "brasil": 62.4
+          },
+          "respostas": {
+            "A": 0,
+            "B": 84,
+            "C": 0,
+            "D": 2,
+            "E": 14,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Ciências da Natureza",
+          "tema": "Hidrogéis (polímeros hidrorretentores) na agricultura",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 76,
+            "uf": 67.3,
+            "regiao": 65.1,
+            "catAdm": 73.5,
+            "orgAcad": 67.7,
+            "brasil": 65.2
+          },
+          "respostas": {
+            "A": 0,
+            "B": 4,
+            "C": 76,
+            "D": 10,
+            "E": 10,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Geografia",
+          "tema": "Imigração haitiana e política externa brasileira",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 94,
+            "uf": 88.7,
+            "regiao": 86.9,
+            "catAdm": 91.9,
+            "orgAcad": 88.4,
+            "brasil": 86.7
+          },
+          "respostas": {
+            "A": 2,
+            "B": 0,
+            "C": 0,
+            "D": 2,
+            "E": 94,
+            "SI": 2
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Artes e Cultura",
+          "tema": "Cultura popular e patrimônio (panela de barro capixaba)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 40,
+            "uf": 37.9,
+            "regiao": 36.7,
+            "catAdm": 45,
+            "orgAcad": 40.1,
+            "brasil": 37.2
+          },
+          "respostas": {
+            "A": 40,
+            "B": 18,
+            "C": 2,
+            "D": 32,
+            "E": 8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Objetivos de Desenvolvimento Sustentável (ODS)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 62,
+            "uf": 51.4,
+            "regiao": 50.3,
+            "catAdm": 62.5,
+            "orgAcad": 53.8,
+            "brasil": 49.9
+          },
+          "respostas": {
+            "A": 0,
+            "B": 0,
+            "C": 8,
+            "D": 62,
+            "E": 30,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Física III",
+          "tema": "Diagrama tensão × deformação de polímeros",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 66,
+            "uf": 61.7,
+            "regiao": 59.4,
+            "catAdm": 61.5,
+            "orgAcad": 60.8,
+            "brasil": 59.9
+          },
+          "respostas": {
+            "A": 2,
+            "B": 14,
+            "C": 2,
+            "D": 16,
+            "E": 66,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 10,
+          "disciplina": "Fundamentos de Ciência do Ambiente",
+          "tema": "Políticas ambientais e desenvolvimento econômico",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 62,
+            "uf": 39.7,
+            "regiao": 38.7,
+            "catAdm": 44.9,
+            "orgAcad": 39.9,
+            "brasil": 38.6
+          },
+          "respostas": {
+            "A": 4,
+            "B": 10,
+            "C": 12,
+            "D": 62,
+            "E": 12,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 11,
+          "disciplina": "Teoria da Administração I",
+          "tema": "Sistema Toyota de produção e just in time",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 12,
+          "disciplina": "Introdução às Equações Diferenciais Ordinárias",
+          "tema": "Lei de resfriamento de Newton",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 13,
+          "disciplina": "Física III",
+          "tema": "Escudo térmico de veículo espacial",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 66,
+            "uf": 60.6,
+            "regiao": 55.6,
+            "catAdm": 65,
+            "orgAcad": 58.2,
+            "brasil": 56.1
+          },
+          "respostas": {
+            "A": 16,
+            "B": 6,
+            "C": 0,
+            "D": 12,
+            "E": 66,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Física II",
+          "tema": "Pressão hidrostática e profundidade",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 32,
+            "uf": 37.9,
+            "regiao": 36.2,
+            "catAdm": 38.3,
+            "orgAcad": 37.6,
+            "brasil": 36.9
+          },
+          "respostas": {
+            "A": 32,
+            "B": 26,
+            "C": 4,
+            "D": 36,
+            "E": 2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Estatística e Probabilidade",
+          "tema": "Média, desvio padrão e dispersão relativa",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 54,
+            "uf": 41.1,
+            "regiao": 40.2,
+            "catAdm": 46.1,
+            "orgAcad": 42.6,
+            "brasil": 39.8
+          },
+          "respostas": {
+            "A": 6,
+            "B": 54,
+            "C": 4,
+            "D": 32,
+            "E": 4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Circuitos Elétricos I",
+          "tema": "Consumo de energia e potência elétrica",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 38,
+            "uf": 35,
+            "regiao": 33.9,
+            "catAdm": 46.2,
+            "orgAcad": 38.5,
+            "brasil": 35.1
+          },
+          "respostas": {
+            "A": 32,
+            "B": 4,
+            "C": 38,
+            "D": 10,
+            "E": 16,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 17,
+          "disciplina": "Cálculo Diferencial e Integral III",
+          "tema": "Multiplicadores de Lagrange (lata cilíndrica)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 18,
+          "disciplina": "Física III",
+          "tema": "Ensaio de flexão em três pontos",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 38,
+            "uf": 44.7,
+            "regiao": 44.3,
+            "catAdm": 48.7,
+            "orgAcad": 45.7,
+            "brasil": 44.1
+          },
+          "respostas": {
+            "A": 22,
+            "B": 38,
+            "C": 8,
+            "D": 22,
+            "E": 10,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 19,
+          "disciplina": "Controle Estatístico de Qualidade",
+          "tema": "Cartas de controle da média e da amplitude",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 80,
+            "uf": 61.9,
+            "regiao": 58.9,
+            "catAdm": 68.3,
+            "orgAcad": 62.2,
+            "brasil": 60.1
+          },
+          "respostas": {
+            "A": 6,
+            "B": 4,
+            "C": 10,
+            "D": 80,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 20,
+          "disciplina": "Gestão Ambiental",
+          "tema": "Licenciamento ambiental (EIA e RIMA)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 44,
+            "uf": 54.3,
+            "regiao": 53.8,
+            "catAdm": 61.8,
+            "orgAcad": 55.9,
+            "brasil": 54.1
+          },
+          "respostas": {
+            "A": 26,
+            "B": 6,
+            "C": 44,
+            "D": 8,
+            "E": 16,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Valor presente líquido (VPL) na substituição de equipamento",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 58,
+            "uf": 33.3,
+            "regiao": 35.8,
+            "catAdm": 45.5,
+            "orgAcad": 39.6,
+            "brasil": 35.1
+          },
+          "respostas": {
+            "A": 58,
+            "B": 8,
+            "C": 6,
+            "D": 20,
+            "E": 8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Previsão de demanda por média móvel ponderada",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 46,
+            "uf": 23.3,
+            "regiao": 23.3,
+            "catAdm": 41.6,
+            "orgAcad": 28.9,
+            "brasil": 23.1
+          },
+          "respostas": {
+            "A": 4,
+            "B": 2,
+            "C": 6,
+            "D": 46,
+            "E": 42,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Engenharia simultânea",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 54,
+            "uf": 43.8,
+            "regiao": 42.2,
+            "catAdm": 49.1,
+            "orgAcad": 44.5,
+            "brasil": 42.8
+          },
+          "respostas": {
+            "A": 0,
+            "B": 14,
+            "C": 26,
+            "D": 6,
+            "E": 54,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 24,
+          "disciplina": "Gestão da Qualidade",
+          "tema": "Níveis estratégico, tático e operacional da gestão da qualidade",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 25,
+          "disciplina": "Planejamento Estratégico e Mercadológico",
+          "tema": "Estratégia competitiva genérica e critérios de produção",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 64,
+            "uf": 47.1,
+            "regiao": 46.9,
+            "catAdm": 55.2,
+            "orgAcad": 49.6,
+            "brasil": 46.9
+          },
+          "respostas": {
+            "A": 8,
+            "B": 0,
+            "C": 6,
+            "D": 64,
+            "E": 22,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 26,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Sistemas ERP (Enterprise Resource Planning)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 98,
+            "uf": 81.7,
+            "regiao": 79.7,
+            "catAdm": 85.2,
+            "orgAcad": 81,
+            "brasil": 79.7
+          },
+          "respostas": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 2,
+            "E": 98,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Gestão da inovação tecnológica (P&D)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 68,
+            "uf": 48.9,
+            "regiao": 46.4,
+            "catAdm": 59.7,
+            "orgAcad": 51.4,
+            "brasil": 47
+          },
+          "respostas": {
+            "A": 14,
+            "B": 0,
+            "C": 68,
+            "D": 10,
+            "E": 8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 28,
+          "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
+          "tema": "Roteirização de veículos (milk run e método das economias)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 40,
+            "uf": 34.2,
+            "regiao": 33.4,
+            "catAdm": 36.4,
+            "orgAcad": 35,
+            "brasil": 34.1
+          },
+          "respostas": {
+            "A": 20,
+            "B": 8,
+            "C": 30,
+            "D": 2,
+            "E": 40,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Simulação a Eventos Discretos",
+          "tema": "Teoria das filas (atendimento drive-thru)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 22,
+            "uf": 24.3,
+            "regiao": 25.9,
+            "catAdm": 34.5,
+            "orgAcad": 28.7,
+            "brasil": 25.9
+          },
+          "respostas": {
+            "A": 40,
+            "B": 22,
+            "C": 12,
+            "D": 22,
+            "E": 4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Planejamento agregado (capacidade e produção necessária)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 30,
+            "uf": 31.8,
+            "regiao": 31.1,
+            "catAdm": 42.3,
+            "orgAcad": 34.2,
+            "brasil": 30.9
+          },
+          "respostas": {
+            "A": 30,
+            "B": 44,
+            "C": 16,
+            "D": 8,
+            "E": 2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Custos Industriais",
+          "tema": "Análise custo-volume entre dois projetos de investimento",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 16,
+            "uf": 19.2,
+            "regiao": 19.5,
+            "catAdm": 27.7,
+            "orgAcad": 22,
+            "brasil": 19.4
+          },
+          "respostas": {
+            "A": 32,
+            "B": 16,
+            "C": 24,
+            "D": 20,
+            "E": 8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 32,
+          "disciplina": "Planejamento e Controle de Produção II",
+          "tema": "Plano mestre de produção e MRP",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 22,
+            "uf": 26.2,
+            "regiao": 27.2,
+            "catAdm": 33,
+            "orgAcad": 29.3,
+            "brasil": 26.8
+          },
+          "respostas": {
+            "A": 16,
+            "B": 12,
+            "C": 22,
+            "D": 40,
+            "E": 10,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Gestão de Projetos",
+          "tema": "Diagrama de rede e caminho crítico",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 60,
+            "uf": 44.5,
+            "regiao": 42.8,
+            "catAdm": 53.9,
+            "orgAcad": 46.3,
+            "brasil": 42.9
+          },
+          "respostas": {
+            "A": 60,
+            "B": 12,
+            "C": 12,
+            "D": 4,
+            "E": 12,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 34,
+          "disciplina": "Métodos Estatísticos em Confiabilidade",
+          "tema": "Indicadores de manutenção (MTBF e MTTR)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 34,
+            "uf": 39.9,
+            "regiao": 38.3,
+            "catAdm": 48.7,
+            "orgAcad": 41.9,
+            "brasil": 37.8
+          },
+          "respostas": {
+            "A": 24,
+            "B": 34,
+            "C": 16,
+            "D": 22,
+            "E": 4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 35,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Payback simples com imposto de renda",
+          "situacao": "anulada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        }
+      ]
+    }
+  ]
+}

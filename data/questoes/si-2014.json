@@ -1,0 +1,713 @@
+{
+  "curso": "si",
+  "nome": "Sistemas de Informação",
+  "ano": 2014,
+  "fonte": "INEP — Relatório de Curso do Enade 2014 (Sistemas de Informação, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Artes e Cultura",
+          "tema": "Música e tecnologias digitais",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 57.7,
+            "uf": 56.6,
+            "regiao": 59.5,
+            "catAdm": 57,
+            "orgAcad": 58.6,
+            "brasil": 58.1
+          },
+          "respostas": {
+            "A": 57.7,
+            "B": 9.6,
+            "C": 0,
+            "D": 30.8,
+            "E": 1.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Sociologia",
+          "tema": "Terceiro setor e responsabilidade social (ONGs)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 44.2,
+            "uf": 46,
+            "regiao": 45.9,
+            "catAdm": 50,
+            "orgAcad": 46.9,
+            "brasil": 46.1
+          },
+          "respostas": {
+            "A": 3.8,
+            "B": 5.8,
+            "C": 44.2,
+            "D": 30.8,
+            "E": 15.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Pegada ecológica",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 80.8,
+            "uf": 66,
+            "regiao": 64.2,
+            "catAdm": 74.1,
+            "orgAcad": 68.5,
+            "brasil": 65.1
+          },
+          "respostas": {
+            "A": 5.8,
+            "B": 0,
+            "C": 1.9,
+            "D": 11.5,
+            "E": 80.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Tecnologia e Sociedade",
+          "tema": "Redes sociais e comunicação",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 96.2,
+            "uf": 84.1,
+            "regiao": 82.5,
+            "catAdm": 87.7,
+            "orgAcad": 84.6,
+            "brasil": 82.9
+          },
+          "respostas": {
+            "A": 0,
+            "B": 96.2,
+            "C": 0,
+            "D": 0,
+            "E": 3.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Ciência e Tecnologia",
+          "tema": "Inovação e criatividade (dispositivo Odon)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 34.6,
+            "uf": 36.2,
+            "regiao": 37.7,
+            "catAdm": 39.2,
+            "orgAcad": 38.7,
+            "brasil": 38.4
+          },
+          "respostas": {
+            "A": 5.8,
+            "B": 51.9,
+            "C": 1.9,
+            "D": 34.6,
+            "E": 5.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Sociologia",
+          "tema": "Desigualdade de gênero no trabalho",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 59.6,
+            "uf": 57.4,
+            "regiao": 56.8,
+            "catAdm": 62.8,
+            "orgAcad": 59.5,
+            "brasil": 57.7
+          },
+          "respostas": {
+            "A": 28.8,
+            "B": 1.9,
+            "C": 59.6,
+            "D": 5.8,
+            "E": 3.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Geografia",
+          "tema": "Tempo de deslocamento casa-trabalho (mobilidade urbana)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 69.2,
+            "uf": 56.1,
+            "regiao": 54.5,
+            "catAdm": 62.5,
+            "orgAcad": 57.9,
+            "brasil": 55.5
+          },
+          "respostas": {
+            "A": 13.5,
+            "B": 0,
+            "C": 11.5,
+            "D": 5.8,
+            "E": 69.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Geografia",
+          "tema": "Transformações do meio rural e urbano",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 88.5,
+            "uf": 81,
+            "regiao": 79.4,
+            "catAdm": 83.6,
+            "orgAcad": 80.4,
+            "brasil": 79.5
+          },
+          "respostas": {
+            "A": 3.8,
+            "B": 0,
+            "C": 5.8,
+            "D": 88.5,
+            "E": 1.9,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Comparação de dois arrays de matrículas — custo do programa",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 88.5,
+            "uf": 71.8,
+            "regiao": 66.1,
+            "catAdm": 76.8,
+            "orgAcad": 71.1,
+            "brasil": 66
+          },
+          "respostas": {
+            "A": 88.5,
+            "B": 1.9,
+            "C": 3.8,
+            "D": 3.8,
+            "E": 1.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 10,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Complexidade da leitura de arquivo ordenado de cidades",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 71.2,
+            "uf": 60.8,
+            "regiao": 54.9,
+            "catAdm": 62.7,
+            "orgAcad": 56.9,
+            "brasil": 54.6
+          },
+          "respostas": {
+            "A": 7.7,
+            "B": 71.2,
+            "C": 11.5,
+            "D": 1.9,
+            "E": 7.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 11,
+          "disciplina": "Estatística e Probabilidade",
+          "tema": "Probabilidade aplicada à classificação de erros de operação",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 65.4,
+            "uf": 54.7,
+            "regiao": 49.9,
+            "catAdm": 57.8,
+            "orgAcad": 51.7,
+            "brasil": 48.2
+          },
+          "respostas": {
+            "A": 11.5,
+            "B": 17.3,
+            "C": 1.9,
+            "D": 65.4,
+            "E": 3.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 12,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Modelagem para a alocação de horas e o orçamento de um projeto",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 55.8,
+            "uf": 34,
+            "regiao": 32.4,
+            "catAdm": 41.3,
+            "orgAcad": 35,
+            "brasil": 31.2
+          },
+          "respostas": {
+            "A": 55.8,
+            "B": 3.8,
+            "C": 11.5,
+            "D": 13.5,
+            "E": 15.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 13,
+          "disciplina": "Compiladores I",
+          "tema": "Compilação clássica e processo híbrido (C e Java)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 36.5,
+            "uf": 48.1,
+            "regiao": 47.6,
+            "catAdm": 51.6,
+            "orgAcad": 50.5,
+            "brasil": 48.3
+          },
+          "respostas": {
+            "A": 13.5,
+            "B": 7.7,
+            "C": 28.8,
+            "D": 36.5,
+            "E": 13.5,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Linguagens de Programação",
+          "tema": "Ranking de linguagens — gerações, paradigmas e licenças",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 50,
+            "uf": 39.4,
+            "regiao": 36.5,
+            "catAdm": 37.2,
+            "orgAcad": 36.2,
+            "brasil": 35.9
+          },
+          "respostas": {
+            "A": 7.7,
+            "B": 50,
+            "C": 5.8,
+            "D": 36.5,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Sistemas de Apoio à Decisão",
+          "tema": "Sistemas OLTP e OLAP",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 59.6,
+            "uf": 48.3,
+            "regiao": 48.4,
+            "catAdm": 47.9,
+            "orgAcad": 48,
+            "brasil": 46.8
+          },
+          "respostas": {
+            "A": 59.6,
+            "B": 15.4,
+            "C": 15.4,
+            "D": 7.7,
+            "E": 1.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Virtualização de servidores e gerenciamento eletrônico de documentos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 17,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Estados de processos e transições do escalonador",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 18,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Arquitetura empresarial integrada por processos",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 23.1,
+            "uf": 23.3,
+            "regiao": 21.5,
+            "catAdm": 27,
+            "orgAcad": 24.7,
+            "brasil": 22.3
+          },
+          "respostas": {
+            "A": 15.4,
+            "B": 26.9,
+            "C": 5.8,
+            "D": 28.8,
+            "E": 23.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 19,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Execução simultânea de programas cpu-bound e io-bound",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 20,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Roteamento entre sistemas autônomos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 21,
+          "disciplina": "Gerência de Projetos de Software",
+          "tema": "Ferramentas para priorizar problemas em um projeto",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 26.9,
+            "uf": 20.4,
+            "regiao": 18.9,
+            "catAdm": 20.2,
+            "orgAcad": 19.6,
+            "brasil": 18.2
+          },
+          "respostas": {
+            "A": 19.2,
+            "B": 26.9,
+            "C": 1.9,
+            "D": 9.6,
+            "E": 42.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Segurança em Redes",
+          "tema": "Criptografia, autenticidade e integridade em transações",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 57.7,
+            "uf": 41.6,
+            "regiao": 38.6,
+            "catAdm": 44,
+            "orgAcad": 41,
+            "brasil": 39.2
+          },
+          "respostas": {
+            "A": 5.8,
+            "B": 19.2,
+            "C": 3.8,
+            "D": 57.7,
+            "E": 13.5,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Arquiteturas distribuídas para diferentes padrões de acesso a documentos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 24,
+          "disciplina": "Engenharia de Software II",
+          "tema": "Métricas para a manutenção de software",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 51.9,
+            "uf": 44.6,
+            "regiao": 46.7,
+            "catAdm": 45.8,
+            "orgAcad": 46.8,
+            "brasil": 46.6
+          },
+          "respostas": {
+            "A": 7.7,
+            "B": 0,
+            "C": 15.4,
+            "D": 25,
+            "E": 51.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 25,
+          "disciplina": "Gerência de Projetos de Software",
+          "tema": "Gráficos de apoio à análise das informações do projeto",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 59.6,
+            "uf": 55.6,
+            "regiao": 57.2,
+            "catAdm": 55.8,
+            "orgAcad": 57.1,
+            "brasil": 55.1
+          },
+          "respostas": {
+            "A": 11.5,
+            "B": 3.8,
+            "C": 59.6,
+            "D": 25,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 26,
+          "disciplina": "Qualidade de Software",
+          "tema": "MPS.BR — gerência de recursos humanos",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 30.8,
+            "uf": 33.8,
+            "regiao": 33.6,
+            "catAdm": 35.3,
+            "orgAcad": 34.4,
+            "brasil": 34
+          },
+          "respostas": {
+            "A": 46.2,
+            "B": 30.8,
+            "C": 13.5,
+            "D": 7.7,
+            "E": 1.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Qualidade de Software",
+          "tema": "Custo e valor da qualidade do produto de software",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 71.2,
+            "uf": 54.9,
+            "regiao": 52.8,
+            "catAdm": 59.7,
+            "orgAcad": 56,
+            "brasil": 52.7
+          },
+          "respostas": {
+            "A": 3.8,
+            "B": 1.9,
+            "C": 71.2,
+            "D": 13.5,
+            "E": 9.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 28,
+          "disciplina": "Interação Humano-Computador",
+          "tema": "Usabilidade segundo a norma ISO 9241",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 48.1,
+            "uf": 56.4,
+            "regiao": 55.5,
+            "catAdm": 60.3,
+            "orgAcad": 59.2,
+            "brasil": 55.6
+          },
+          "respostas": {
+            "A": 26.9,
+            "B": 11.5,
+            "C": 48.1,
+            "D": 11.5,
+            "E": 1.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Segurança e Auditoria de Sistemas",
+          "tema": "Auditoria do plano de contingência e recuperação de desastres",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 86.5,
+            "uf": 78.4,
+            "regiao": 79.7,
+            "catAdm": 79.4,
+            "orgAcad": 80.7,
+            "brasil": 79.4
+          },
+          "respostas": {
+            "A": 86.5,
+            "B": 1.9,
+            "C": 11.5,
+            "D": 0,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Banco de Dados I",
+          "tema": "Modelagem de dados de atendimentos com ambulâncias",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 46.2,
+            "uf": 45.5,
+            "regiao": 44.3,
+            "catAdm": 44.9,
+            "orgAcad": 43.2,
+            "brasil": 43.5
+          },
+          "respostas": {
+            "A": 28.8,
+            "B": 1.9,
+            "C": 46.2,
+            "D": 3.8,
+            "E": 19.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Banco de Dados I",
+          "tema": "Consulta SQL com FULL OUTER JOIN",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 32,
+          "disciplina": "Engenharia de Software II",
+          "tema": "Modelagem de processo de negócio em BPMN",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 51.9,
+            "uf": 53.5,
+            "regiao": 52.2,
+            "catAdm": 51.5,
+            "orgAcad": 51.9,
+            "brasil": 51.4
+          },
+          "respostas": {
+            "A": 13.5,
+            "B": 51.9,
+            "C": 7.7,
+            "D": 11.5,
+            "E": 15.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Informática e Sociedade",
+          "tema": "Telecentros e inclusão digital",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 34.6,
+            "uf": 20.4,
+            "regiao": 18.6,
+            "catAdm": 22.1,
+            "orgAcad": 20.2,
+            "brasil": 19
+          },
+          "respostas": {
+            "A": 50,
+            "B": 13.5,
+            "C": 34.6,
+            "D": 1.9,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 34,
+          "disciplina": "Gestão da Informação",
+          "tema": "Gestão do conhecimento na administração pública",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 35,
+          "disciplina": "Engenharia de Software I",
+          "tema": "Uso da UML na prática",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        }
+      ]
+    }
+  ]
+}

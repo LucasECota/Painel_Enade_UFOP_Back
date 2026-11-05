@@ -1,0 +1,741 @@
+{
+  "curso": "si",
+  "nome": "Sistemas de Informação",
+  "ano": 2021,
+  "fonte": "INEP — Relatório de Curso do Enade 2021 (Sistemas de Informação, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Sociologia",
+          "tema": "Mobilidade social, escolaridade e renda",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 51.1,
+            "uf": 47,
+            "regiao": 44,
+            "catAdm": 46.8,
+            "orgAcad": 45.1,
+            "brasil": 43.2
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 31.1,
+            "C": 13.3,
+            "D": 2.2,
+            "E": 51.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Desperdício de alimentos (hortaliças)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 31.1,
+            "uf": 30.8,
+            "regiao": 25.7,
+            "catAdm": 28.1,
+            "orgAcad": 26.5,
+            "brasil": 24.9
+          },
+          "respostas": {
+            "A": 17.8,
+            "B": 42.2,
+            "C": 31.1,
+            "D": 6.7,
+            "E": 2.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Geografia",
+          "tema": "Mobilidade urbana e uso de bicicletas",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 66.7,
+            "uf": 57.8,
+            "regiao": 54.8,
+            "catAdm": 60,
+            "orgAcad": 56,
+            "brasil": 53.8
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 66.7,
+            "C": 4.4,
+            "D": 4.4,
+            "E": 22.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Economia e Trabalho",
+          "tema": "Trabalho informal e Gig Economy",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 40.5,
+            "regiao": 35.5,
+            "catAdm": 39.5,
+            "orgAcad": 36.7,
+            "brasil": 35.1
+          },
+          "respostas": {
+            "A": 53.3,
+            "B": 33.3,
+            "C": 4.4,
+            "D": 6.7,
+            "E": 2.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Suicídio na população indígena",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 66.7,
+            "uf": 51.3,
+            "regiao": 45.6,
+            "catAdm": 55.6,
+            "orgAcad": 48.9,
+            "brasil": 48.6
+          },
+          "respostas": {
+            "A": 66.7,
+            "B": 0,
+            "C": 26.7,
+            "D": 2.2,
+            "E": 2.2,
+            "SI": 2.2
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Pandemia e desigualdades (expectativa de vida)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 66.7,
+            "uf": 62.2,
+            "regiao": 59.9,
+            "catAdm": 62.3,
+            "orgAcad": 60.1,
+            "brasil": 58
+          },
+          "respostas": {
+            "A": 66.7,
+            "B": 11.1,
+            "C": 11.1,
+            "D": 0,
+            "E": 8.9,
+            "SI": 2.2
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Tecnologia e Sociedade",
+          "tema": "Busca de informações de saúde na internet",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 62.2,
+            "uf": 66.7,
+            "regiao": 64.3,
+            "catAdm": 67.3,
+            "orgAcad": 64.8,
+            "brasil": 64.1
+          },
+          "respostas": {
+            "A": 15.6,
+            "B": 6.7,
+            "C": 62.2,
+            "D": 6.7,
+            "E": 6.7,
+            "SI": 2.2
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Ciência Política",
+          "tema": "Conceito de democracia",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 20,
+            "uf": 21.1,
+            "regiao": 21.2,
+            "catAdm": 21.4,
+            "orgAcad": 21.3,
+            "brasil": 20.9
+          },
+          "respostas": {
+            "A": 26.7,
+            "B": 20,
+            "C": 17.8,
+            "D": 20,
+            "E": 13.3,
+            "SI": 2.2
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Engenharia de Software I",
+          "tema": "Diagrama de Classes UML — Herança, Associação e Multiplicidade",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 10,
+          "disciplina": "Gestão da Informação",
+          "tema": "Inteligência Organizacional e Redes Sociais como Fonte de Informação",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 40,
+            "uf": 46.2,
+            "regiao": 42.6,
+            "catAdm": 45.3,
+            "orgAcad": 43.6,
+            "brasil": 42.6
+          },
+          "respostas": {
+            "A": 17.8,
+            "B": 6.7,
+            "C": 8.9,
+            "D": 26.7,
+            "E": 40,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 11,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Virtualização — Hipervisor Tipo II e Máquinas Virtuais",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 55.6,
+            "uf": 51.7,
+            "regiao": 50.8,
+            "catAdm": 52.6,
+            "orgAcad": 51.9,
+            "brasil": 51.5
+          },
+          "respostas": {
+            "A": 0,
+            "B": 15.6,
+            "C": 55.6,
+            "D": 22.2,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 12,
+          "disciplina": "Segurança e Auditoria de Sistemas",
+          "tema": "Princípios CIA — Confidencialidade, Integridade e Disponibilidade",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 28.4,
+            "regiao": 25.9,
+            "catAdm": 27.8,
+            "orgAcad": 27.4,
+            "brasil": 26.2
+          },
+          "respostas": {
+            "A": 44.4,
+            "B": 33.3,
+            "C": 8.9,
+            "D": 6.7,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 13,
+          "disciplina": "Engenharia de Software II",
+          "tema": "Qualidade de Processo de Software — Padrões e Monitoramento",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 48.9,
+            "uf": 44.4,
+            "regiao": 44.4,
+            "catAdm": 43.9,
+            "orgAcad": 44,
+            "brasil": 43.9
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 13.3,
+            "C": 4.4,
+            "D": 48.9,
+            "E": 31.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Engenharia de Software II",
+          "tema": "Modelos de Maturidade — CMMI-Dev e MPS-SW",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 71.1,
+            "uf": 59.8,
+            "regiao": 57.4,
+            "catAdm": 61.9,
+            "orgAcad": 58.3,
+            "brasil": 58.5
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 8.9,
+            "C": 71.1,
+            "D": 8.9,
+            "E": 8.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Gerência de Projetos de Software",
+          "tema": "Conceito de Projeto — Definição e Características segundo PMBOK",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 66.7,
+            "uf": 63.5,
+            "regiao": 62.1,
+            "catAdm": 64.3,
+            "orgAcad": 62.7,
+            "brasil": 62
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 2.2,
+            "C": 11.1,
+            "D": 66.7,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Computação em Nuvem — IaaS, PaaS e SaaS",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 26.7,
+            "uf": 20.7,
+            "regiao": 19.7,
+            "catAdm": 23.4,
+            "orgAcad": 22.3,
+            "brasil": 20.4
+          },
+          "respostas": {
+            "A": 26.7,
+            "B": 37.8,
+            "C": 13.3,
+            "D": 6.7,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 17,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Protocolo IPv4 — TTL, Fragmentação e Máscara de Subrede",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 18,
+          "disciplina": "Engenharia de Software II",
+          "tema": "CMMI por Estágios — Níveis de Maturidade",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 19,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Gerenciamento de Serviços de TI — SLA (Acordo de Nível de Serviço)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 55.6,
+            "uf": 59.8,
+            "regiao": 58,
+            "catAdm": 55.9,
+            "orgAcad": 56.3,
+            "brasil": 57.9
+          },
+          "respostas": {
+            "A": 55.6,
+            "B": 31.1,
+            "C": 8.9,
+            "D": 2.2,
+            "E": 2.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 20,
+          "disciplina": "Linguagens de Programação",
+          "tema": "Programação Lógica — Fatos, Regras e Consultas em Prolog",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 64.4,
+            "uf": 42.4,
+            "regiao": 36.2,
+            "catAdm": 46,
+            "orgAcad": 39.6,
+            "brasil": 36.9
+          },
+          "respostas": {
+            "A": 8.9,
+            "B": 64.4,
+            "C": 11.1,
+            "D": 11.1,
+            "E": 4.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Banco de Dados I",
+          "tema": "SQL — Consultas com JOIN, Subconsultas e Filtros",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 22,
+          "disciplina": "Gerência de Projetos de Software",
+          "tema": "Gerenciamento de Projetos — EAP, Matriz de Responsabilidade e PMBOK",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 46.7,
+            "uf": 41.8,
+            "regiao": 38.8,
+            "catAdm": 42,
+            "orgAcad": 38.9,
+            "brasil": 38.9
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 6.7,
+            "C": 13.3,
+            "D": 31.1,
+            "E": 46.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Banco de Dados I",
+          "tema": "SQL — Consultas com Subconsultas Aninhadas e IN/NOT IN",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 86.7,
+            "uf": 86.5,
+            "regiao": 82.3,
+            "catAdm": 86.3,
+            "orgAcad": 83,
+            "brasil": 83.1
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 86.7,
+            "C": 6.7,
+            "D": 2.2,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 24,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Programação Linear — Modelagem e Restrições de Inequações",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 28.9,
+            "uf": 30.2,
+            "regiao": 27.8,
+            "catAdm": 30.3,
+            "orgAcad": 28.3,
+            "brasil": 27.1
+          },
+          "respostas": {
+            "A": 31.1,
+            "B": 28.9,
+            "C": 28.9,
+            "D": 6.7,
+            "E": 4.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 25,
+          "disciplina": "Segurança e Auditoria de Sistemas",
+          "tema": "Segurança da Informação — Pilares CIA, Legalidade e Autenticidade (ISO 27002)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 75.6,
+            "uf": 62.1,
+            "regiao": 57.9,
+            "catAdm": 61.7,
+            "orgAcad": 57.7,
+            "brasil": 58.5
+          },
+          "respostas": {
+            "A": 0,
+            "B": 2.2,
+            "C": 17.8,
+            "D": 4.4,
+            "E": 75.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 26,
+          "disciplina": "Sistemas de Apoio à Decisão",
+          "tema": "Big Data — Características Volume, Variedade, Velocidade e Veracidade",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 62.2,
+            "uf": 60.8,
+            "regiao": 56.5,
+            "catAdm": 58.3,
+            "orgAcad": 56.1,
+            "brasil": 56.1
+          },
+          "respostas": {
+            "A": 15.6,
+            "B": 0,
+            "C": 6.7,
+            "D": 15.6,
+            "E": 62.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Avaliação de Desempenho de Sistemas",
+          "tema": "Métricas de Desempenho — Throughput e Utilização de Disco",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 28,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Governança de TI — Fatores Motivadores e Frameworks",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 62.2,
+            "uf": 58.3,
+            "regiao": 55.9,
+            "catAdm": 58.7,
+            "orgAcad": 57,
+            "brasil": 56.5
+          },
+          "respostas": {
+            "A": 62.2,
+            "B": 11.1,
+            "C": 20,
+            "D": 2.2,
+            "E": 4.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Banco de Dados I",
+          "tema": "Modelagem ER — Entidades, Relacionamentos, Cardinalidade e Participação",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 57.8,
+            "uf": 46.5,
+            "regiao": 43.6,
+            "catAdm": 46.7,
+            "orgAcad": 44.5,
+            "brasil": 44.2
+          },
+          "respostas": {
+            "A": 0,
+            "B": 8.9,
+            "C": 26.7,
+            "D": 57.8,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Inteligência Artificial",
+          "tema": "Sistemas Especialistas — Componentes e Motor de Inferência",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 15.6,
+            "uf": 16.5,
+            "regiao": 15.3,
+            "catAdm": 20.4,
+            "orgAcad": 17.9,
+            "brasil": 16.2
+          },
+          "respostas": {
+            "A": 20,
+            "B": 15.6,
+            "C": 22.2,
+            "D": 26.7,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Frameworks de Governança de TI — ISO 38500, CobiT, BSC e CMMI",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 37.8,
+            "uf": 27.8,
+            "regiao": 27.8,
+            "catAdm": 26.9,
+            "orgAcad": 27.6,
+            "brasil": 27.7
+          },
+          "respostas": {
+            "A": 37.8,
+            "B": 8.9,
+            "C": 17.8,
+            "D": 20,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 32,
+          "disciplina": "Engenharia de Software I",
+          "tema": "Diagrama de Sequência UML — Chamadas Paralelas e Sequenciais",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 42.2,
+            "uf": 37.2,
+            "regiao": 36.3,
+            "catAdm": 38.4,
+            "orgAcad": 36.8,
+            "brasil": 35.5
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 24.4,
+            "C": 42.2,
+            "D": 15.6,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Tabela Hash — Função de Dispersão e Tratamento de Colisões (ANULADA)",
+          "situacao": "anulada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 34,
+          "disciplina": "Fundamentos de Sistemas de Informação",
+          "tema": "Internet das Coisas (IoT) e Cidades Inteligentes",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 40,
+            "uf": 37.5,
+            "regiao": 35,
+            "catAdm": 39.8,
+            "orgAcad": 37.3,
+            "brasil": 35.6
+          },
+          "respostas": {
+            "A": 8.9,
+            "B": 17.8,
+            "C": 17.8,
+            "D": 40,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 35,
+          "disciplina": "Interação Humano-Computador",
+          "tema": "Ergonomia e Usabilidade — Legibilidade e Contraste em Interfaces",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 40,
+            "uf": 38.6,
+            "regiao": 36.8,
+            "catAdm": 39,
+            "orgAcad": 36.5,
+            "brasil": 36.3
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 22.2,
+            "C": 20,
+            "D": 40,
+            "E": 13.3,
+            "SI": 0
+          }
+        }
+      ]
+    }
+  ]
+}

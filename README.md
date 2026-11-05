@@ -63,10 +63,24 @@ O CI só passa a rodar depois que o projeto for enviado a um repositório no Git
 
 ### Gerando a tabela de acertos por questão
 
-O Relatório de Curso do Enade 2023 tem, nas tabelas 5.1.1 (Formação Geral) e 5.1.3 (Componente Específico),
-o percentual de acerto de cada questão (curso, UF, região, categoria administrativa, organização acadêmica e
-Brasil), o gabarito e a distribuição das respostas. O script lê essas tabelas do PDF e junta a **disciplina**
-(do arquivo da prova, `.jsonl`) e o **tema** (da lista de assuntos do CSV, na ordem das questões; a coluna `discursivas` diz quantos dos primeiros assuntos são de questões discursivas):
+Todo Relatório de Curso do INEP (2008 a 2023) tem uma tabela com o percentual de acerto de cada questão
+(curso, UF, região, categoria administrativa, organização acadêmica e Brasil, conforme o ano), o gabarito
+e a distribuição das respostas. O script lê essas tabelas do PDF (o layout muda de um ano para outro:
+`padrao` de 2014 em diante; o script também lê os de 2011 e 2008) e junta a **disciplina** e o **tema** de cada questão:
+
+- **Componente Específico:** a disciplina vem do arquivo da prova (`.jsonl`) e o tema da lista de assuntos
+  do CSV, na ordem das questões (a coluna `discursivas` diz quantos dos primeiros assuntos são de questões
+  discursivas). Para EP 2014 e 2017 não havia `.jsonl`; as disciplinas estão em `scripts/fontes/`. Só se gera a
+  tabela dos anos que têm o caderno de prova (por isso não há EP 2011, SI 2011 nem SI 2008).
+- **Formação Geral:** vem de `data/formacao-geral.json` (a prova é a mesma para todos os cursos do ano).
+
+Para refazer todos os arquivos de uma vez, a partir de `scripts/relatorios.json`:
+
+```bash
+node scripts/extrair-questoes.js --todos
+```
+
+Para um relatório só:
 
 ```bash
 node scripts/extrair-questoes.js --curso ec --ano 2023 \
@@ -76,8 +90,7 @@ node scripts/extrair-questoes.js --curso ec --ano 2023 \
 ```
 
 O script avisa se o gabarito do relatório diferir do da prova ou se a quantidade de assuntos de uma disciplina
-não bater com a de questões. Nos relatórios de 2014 e 2011 a distribuição das respostas vem só em gráficos, e
-os de 2017 e 2021 são resumidos, então esses anos não têm a tabela.
+não bater com a de questões.
 
 ## Testes
 

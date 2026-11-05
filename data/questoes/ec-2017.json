@@ -1,0 +1,699 @@
+{
+  "curso": "ec",
+  "nome": "Engenharia de Computação",
+  "ano": 2017,
+  "fonte": "INEP — Relatório de Curso do Enade 2017 (Engenharia de Computação, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Atualidades e Política Internacional",
+          "tema": "Brexit e a União Europeia",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 40,
+            "uf": 39.7,
+            "regiao": 40.3,
+            "catAdm": 48.9,
+            "orgAcad": 44.1,
+            "brasil": 42.5
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 0,
+            "C": 40,
+            "D": 33.3,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Geografia",
+          "tema": "Agricultura familiar e sustentabilidade",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 46.7,
+            "uf": 53.7,
+            "regiao": 52.7,
+            "catAdm": 61.2,
+            "orgAcad": 58.2,
+            "brasil": 55.9
+          },
+          "respostas": {
+            "A": 20,
+            "B": 0,
+            "C": 46.7,
+            "D": 13.3,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Matemática",
+          "tema": "Consumo de energia e tarifa por bandeiras",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 13.3,
+            "uf": 46.7,
+            "regiao": 49.4,
+            "catAdm": 55.7,
+            "orgAcad": 53.5,
+            "brasil": 51.5
+          },
+          "respostas": {
+            "A": 40,
+            "B": 13.3,
+            "C": 13.3,
+            "D": 26.7,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Língua Portuguesa e Comunicação",
+          "tema": "Televisão e o curto período de atenção (tirinha)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 93.3,
+            "uf": 77.9,
+            "regiao": 75.9,
+            "catAdm": 83.5,
+            "orgAcad": 79.9,
+            "brasil": 77.5
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 93.3,
+            "C": 0,
+            "D": 0,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Ciências da Natureza",
+          "tema": "Hidrogéis (polímeros hidrorretentores) na agricultura",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 80,
+            "uf": 76.4,
+            "regiao": 74.4,
+            "catAdm": 75.7,
+            "orgAcad": 75.2,
+            "brasil": 74.3
+          },
+          "respostas": {
+            "A": 0,
+            "B": 0,
+            "C": 80,
+            "D": 0,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Geografia",
+          "tema": "Imigração haitiana e política externa brasileira",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 100,
+            "uf": 90.9,
+            "regiao": 90.6,
+            "catAdm": 90.5,
+            "orgAcad": 90.8,
+            "brasil": 90.1
+          },
+          "respostas": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0,
+            "E": 100,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Artes e Cultura",
+          "tema": "Cultura popular e patrimônio (panela de barro capixaba)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 46.7,
+            "uf": 39.1,
+            "regiao": 41.7,
+            "catAdm": 47.9,
+            "orgAcad": 44.8,
+            "brasil": 42.8
+          },
+          "respostas": {
+            "A": 46.7,
+            "B": 13.3,
+            "C": 13.3,
+            "D": 20,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Objetivos de Desenvolvimento Sustentável (ODS)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 53.3,
+            "uf": 57.7,
+            "regiao": 53.5,
+            "catAdm": 61.6,
+            "orgAcad": 57.5,
+            "brasil": 55.2
+          },
+          "respostas": {
+            "A": 0,
+            "B": 13.3,
+            "C": 0,
+            "D": 53.3,
+            "E": 33.3,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Física III",
+          "tema": "Diagrama tensão × deformação de polímeros",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 10,
+          "disciplina": "Fundamentos de Ciência do Ambiente",
+          "tema": "Políticas ambientais e desenvolvimento econômico",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 13.3,
+            "uf": 34.8,
+            "regiao": 36.9,
+            "catAdm": 36.8,
+            "orgAcad": 36.3,
+            "brasil": 36
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 26.7,
+            "C": 13.3,
+            "D": 13.3,
+            "E": 40,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 11,
+          "disciplina": "Teoria da Administração I",
+          "tema": "Sistema Toyota de produção (toyotismo)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 12,
+          "disciplina": "Introdução às Equações Diferenciais Ordinárias",
+          "tema": "Lei de resfriamento de Newton",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 20,
+            "uf": 17.6,
+            "regiao": 20.1,
+            "catAdm": 26.6,
+            "orgAcad": 22.4,
+            "brasil": 20.1
+          },
+          "respostas": {
+            "A": 20,
+            "B": 33.3,
+            "C": 6.7,
+            "D": 26.7,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 13,
+          "disciplina": "Física III",
+          "tema": "Escudo térmico de veículo espacial",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 53.3,
+            "uf": 69.4,
+            "regiao": 64.3,
+            "catAdm": 64.3,
+            "orgAcad": 62.2,
+            "brasil": 62.5
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 13.3,
+            "C": 0,
+            "D": 26.7,
+            "E": 53.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Física II",
+          "tema": "Pressão hidrostática e profundidade",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 46.7,
+            "uf": 43.7,
+            "regiao": 42.1,
+            "catAdm": 39.2,
+            "orgAcad": 39.6,
+            "brasil": 40.8
+          },
+          "respostas": {
+            "A": 46.7,
+            "B": 13.3,
+            "C": 6.7,
+            "D": 33.3,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Estatística e Probabilidade",
+          "tema": "Média, desvio padrão e dispersão relativa",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 26.7,
+            "uf": 44.8,
+            "regiao": 43.7,
+            "catAdm": 46.3,
+            "orgAcad": 44,
+            "brasil": 44.6
+          },
+          "respostas": {
+            "A": 0,
+            "B": 26.7,
+            "C": 0,
+            "D": 66.7,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Circuitos Elétricos I",
+          "tema": "Consumo de energia e potência elétrica",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 46.7,
+            "uf": 49.5,
+            "regiao": 50.3,
+            "catAdm": 60,
+            "orgAcad": 56.3,
+            "brasil": 53.4
+          },
+          "respostas": {
+            "A": 40,
+            "B": 0,
+            "C": 46.7,
+            "D": 6.7,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 17,
+          "disciplina": "Cálculo Diferencial e Integral III",
+          "tema": "Multiplicadores de Lagrange (otimização de uma lata cilíndrica)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 18,
+          "disciplina": "Física III",
+          "tema": "Ensaio de flexão em três pontos",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 60,
+            "uf": 44.8,
+            "regiao": 46.6,
+            "catAdm": 52,
+            "orgAcad": 47.7,
+            "brasil": 47.9
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 60,
+            "C": 13.3,
+            "D": 13.3,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 19,
+          "disciplina": "Princípios de Eletrônica Digital",
+          "tema": "Circuito combinacional (controle de catracas)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 40,
+            "uf": 55,
+            "regiao": 53.8,
+            "catAdm": 60.2,
+            "orgAcad": 58.2,
+            "brasil": 55.6
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 13.3,
+            "C": 40,
+            "D": 20,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 20,
+          "disciplina": "Fundamentos Teóricos da Computação",
+          "tema": "Linguagens regulares e expressões regulares",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 53.3,
+            "uf": 45,
+            "regiao": 42.6,
+            "catAdm": 48.7,
+            "orgAcad": 44.5,
+            "brasil": 42.1
+          },
+          "respostas": {
+            "A": 53.3,
+            "B": 20,
+            "C": 20,
+            "D": 6.7,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Microprocessadores e Microcontroladores",
+          "tema": "Manipulação de bits em registrador",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 20,
+            "uf": 21.4,
+            "regiao": 23.7,
+            "catAdm": 26.8,
+            "orgAcad": 23.8,
+            "brasil": 23.8
+          },
+          "respostas": {
+            "A": 33.3,
+            "B": 6.7,
+            "C": 26.7,
+            "D": 13.3,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Programação de Computadores I",
+          "tema": "Ponteiros em C",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 20,
+            "uf": 25.3,
+            "regiao": 28.7,
+            "catAdm": 35.2,
+            "orgAcad": 32,
+            "brasil": 28.9
+          },
+          "respostas": {
+            "A": 20,
+            "B": 26.7,
+            "C": 20,
+            "D": 26.7,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Sinais e Sistemas",
+          "tema": "Filtro digital — estabilidade e polos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 24,
+          "disciplina": "Inteligência Artificial",
+          "tema": "Heurísticas admissíveis",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 25,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Firewall, IDS e antivírus",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 26,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Filas e pilhas na gestão de eventos",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 53.3,
+            "uf": 52,
+            "regiao": 50.2,
+            "catAdm": 60.9,
+            "orgAcad": 55.6,
+            "brasil": 51.5
+          },
+          "respostas": {
+            "A": 53.3,
+            "B": 6.7,
+            "C": 20,
+            "D": 6.7,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Internet das Coisas",
+          "tema": "Sistema de monitoramento com acelerômetros",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 80,
+            "uf": 73.9,
+            "regiao": 71,
+            "catAdm": 72.5,
+            "orgAcad": 71.5,
+            "brasil": 71.1
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 0,
+            "C": 0,
+            "D": 80,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 28,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Problema do transporte",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 26.7,
+            "uf": 28.9,
+            "regiao": 29,
+            "catAdm": 33.5,
+            "orgAcad": 29.2,
+            "brasil": 28
+          },
+          "respostas": {
+            "A": 26.7,
+            "B": 13.3,
+            "C": 20,
+            "D": 20,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Computação verde e virtualização",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 46.1,
+            "regiao": 46.6,
+            "catAdm": 47.1,
+            "orgAcad": 45.9,
+            "brasil": 46.4
+          },
+          "respostas": {
+            "A": 33.3,
+            "B": 20,
+            "C": 13.3,
+            "D": 13.3,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Informática e Sociedade",
+          "tema": "Marco Civil da Internet",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 86.7,
+            "uf": 71.5,
+            "regiao": 71.7,
+            "catAdm": 72.3,
+            "orgAcad": 71.9,
+            "brasil": 71.3
+          },
+          "respostas": {
+            "A": 86.7,
+            "B": 6.7,
+            "C": 6.7,
+            "D": 0,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Engenharia de Software I",
+          "tema": "Métodos ágeis",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 32,
+          "disciplina": "Computação Gráfica",
+          "tema": "GPU e OpenGL",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 60,
+            "uf": 30.6,
+            "regiao": 30.5,
+            "catAdm": 31.2,
+            "orgAcad": 28.9,
+            "brasil": 28.7
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 60,
+            "C": 6.7,
+            "D": 13.3,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Banco de Dados I",
+          "tema": "Segurança em bancos de dados",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 34,
+          "disciplina": "Interação Humano-Computador",
+          "tema": "Acessibilidade de smartphones para idosos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 35,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Roteamento por estado de enlace",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 80,
+            "uf": 58.2,
+            "regiao": 53.3,
+            "catAdm": 66.3,
+            "orgAcad": 59.9,
+            "brasil": 54.7
+          },
+          "respostas": {
+            "A": 0,
+            "B": 13.3,
+            "C": 80,
+            "D": 0,
+            "E": 6.7,
+            "SI": 0
+          }
+        }
+      ]
+    }
+  ]
+}

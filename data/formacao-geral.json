@@ -1,0 +1,436 @@
+{
+  "2008": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Literatura e Linguagens",
+      "tema": "Machado de Assis e as transformações políticas do século XIX"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Interação entre o homem e a natureza"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Ciências da Natureza",
+      "tema": "Raios ultravioleta e fator de proteção solar (FPS)"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Direitos das mulheres na União Europeia"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "História",
+      "tema": "Grande Depressão de 1929 e a fotografia"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Cidades sustentáveis e uso de energia"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Desigualdade de renda no Brasil"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Filosofia",
+      "tema": "Nietzsche e o Expressionismo"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Direitos humanos"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Educação",
+      "tema": "Desempenho dos estudantes brasileiros no Pisa"
+    }
+  ],
+  "2011": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Literatura e Linguagens",
+      "tema": "Interpretação de poema (Retrato de uma princesa desconhecida)"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Exclusão digital"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Cibercultura e comunidades de debate"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "História",
+      "tema": "História da educação brasileira (escolanovismo)"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Desmatamento na Amazônia Legal"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Economia e Trabalho",
+      "tema": "Escolaridade, desemprego e salário"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Desenvolvimento sustentável"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Classe trabalhadora e manifestações sociais no Reino Unido"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Educação a distância (EaD)"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Sociologia",
+      "tema": "Analfabetismo e desigualdades sociais (SIS 2010)"
+    }
+  ],
+  "2014": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Artes e Cultura",
+      "tema": "Música e tecnologias digitais"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Terceiro setor e responsabilidade social (ONGs)"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Pegada ecológica"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Redes sociais e comunicação"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Ciência e Tecnologia",
+      "tema": "Inovação e criatividade (dispositivo Odon)"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Desigualdade de gênero no trabalho"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Tempo de deslocamento casa-trabalho (mobilidade urbana)"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Transformações do meio rural e urbano"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Mobilidade urbana e desenvolvimento sustentável"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Violência urbana e responsabilidade penal"
+    }
+  ],
+  "2017": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Atualidades e Política Internacional",
+      "tema": "Brexit e a União Europeia"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Agricultura familiar e sustentabilidade"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Matemática",
+      "tema": "Consumo de energia e tarifa por bandeiras"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Língua Portuguesa e Comunicação",
+      "tema": "Televisão e o curto período de atenção (tirinha)"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Ciências da Natureza",
+      "tema": "Hidrogéis (polímeros hidrorretentores) na agricultura"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Imigração haitiana e política externa brasileira"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Artes e Cultura",
+      "tema": "Cultura popular e patrimônio (panela de barro capixaba)"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Objetivos de Desenvolvimento Sustentável (ODS)"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Sífilis congênita e vulnerabilidade das mulheres"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Nome social e identidade de gênero de pessoas trans"
+    }
+  ],
+  "2019": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Acordos internacionais sobre mudanças climáticas"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Artes e Cultura",
+      "tema": "Poesia concreta (Augusto de Campos)"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Produção de alimentos e segurança alimentar"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Saneamento básico e abastecimento de água"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Território indígena e marco temporal"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Violência contra mulheres negras (Atlas da Violência)"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Acessibilidade das pessoas com deficiência"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Síndrome de Burnout e trabalho"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Desastres naturais e prevenção"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Ciência e Tecnologia",
+      "tema": "Produção científica e tecnológica do Brasil"
+    }
+  ],
+  "2021": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Mobilidade social, escolaridade e renda"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Desperdício de alimentos (hortaliças)"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Mobilidade urbana e uso de bicicletas"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Economia e Trabalho",
+      "tema": "Trabalho informal e Gig Economy"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Suicídio na população indígena"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Pandemia e desigualdades (expectativa de vida)"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Busca de informações de saúde na internet"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Ciência Política",
+      "tema": "Conceito de democracia"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Artes e Cultura",
+      "tema": "Arte, cultura e censura (liberdade artística)"
+    },
+    {
+      "numero": "D2",
+      "tipo": "discursiva",
+      "disciplina": "Meio Ambiente e Sustentabilidade",
+      "tema": "Cidades inteligentes e desenvolvimento sustentável"
+    }
+  ],
+  "2023": [
+    {
+      "numero": "1",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Fome, insegurança alimentar e desigualdade social"
+    },
+    {
+      "numero": "2",
+      "tipo": "objetiva",
+      "disciplina": "Geografia",
+      "tema": "Urbanização e saneamento básico"
+    },
+    {
+      "numero": "3",
+      "tipo": "objetiva",
+      "disciplina": "Saúde e Sociedade",
+      "tema": "Queda da vacinação infantil"
+    },
+    {
+      "numero": "4",
+      "tipo": "objetiva",
+      "disciplina": "Tecnologia e Sociedade",
+      "tema": "Inteligência artificial generativa (ChatGPT)"
+    },
+    {
+      "numero": "5",
+      "tipo": "objetiva",
+      "disciplina": "Sociologia",
+      "tema": "Mulheres e mobilidade urbana"
+    },
+    {
+      "numero": "6",
+      "tipo": "objetiva",
+      "disciplina": "Literatura e Linguagens",
+      "tema": "Racismo e preconceito na literatura brasileira"
+    },
+    {
+      "numero": "7",
+      "tipo": "objetiva",
+      "disciplina": "Economia e Trabalho",
+      "tema": "Idosos no mercado de trabalho e aposentadoria"
+    },
+    {
+      "numero": "8",
+      "tipo": "objetiva",
+      "disciplina": "Direitos Humanos e Cidadania",
+      "tema": "Encarceramento feminino e política de drogas"
+    },
+    {
+      "numero": "9",
+      "tipo": "objetiva",
+      "disciplina": "Filosofia",
+      "tema": "Sociedade do desempenho"
+    },
+    {
+      "numero": "D1",
+      "tipo": "discursiva",
+      "disciplina": "Sociologia",
+      "tema": "Desigualdades sociais (Síntese de Indicadores Sociais do IBGE)"
+    }
+  ]
+}

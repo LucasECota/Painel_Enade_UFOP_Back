@@ -151,10 +151,10 @@ describe('extração da tabela do PDF (scripts/extrair-questoes.js)', () => {
 });
 
 describe('repositório e rota de questões', () => {
-    test('lista os anos com tabela de cada curso (hoje só Computação e Produção em 2023)', () => {
-        assert.deepEqual(anosComQuestoes('ec'), [2023]);
-        assert.deepEqual(anosComQuestoes('ep'), [2023]);
-        assert.deepEqual(anosComQuestoes('si'), []);
+    test('lista os anos com tabela de cada curso (um por relatório de curso do INEP na pasta)', () => {
+        assert.deepEqual(anosComQuestoes('ec'), [2023, 2017, 2014]);
+        assert.deepEqual(anosComQuestoes('ep'), [2023, 2017, 2014]);
+        assert.deepEqual(anosComQuestoes('si'), [2021, 2017, 2014]);
         assert.deepEqual(anosComQuestoes('xx'), []);
     });
 
@@ -190,11 +190,12 @@ describe('repositório e rota de questões', () => {
 
         test('sem o ano, devolve a edição mais recente que tem a tabela', async () => {
             assert.equal((await (await fetch(`${base}/ec/questoes`)).json()).ano, 2023);
+            assert.equal((await (await fetch(`${base}/si/questoes`)).json()).ano, 2021);
         });
 
         for (const caminho of [
             '/ec/questoes?ano=2019',
-            '/si/questoes',
+            '/si/questoes?ano=2019',
             '/xx/questoes?ano=2023',
             '/ec/questoes?ano=../../package',
             '/ec/questoes?ano=2023.json',
@@ -208,7 +209,11 @@ describe('repositório e rota de questões', () => {
             const cursos = await (await fetch(`${base}/cursos`)).json();
             const porChave = Object.fromEntries(cursos.map((c) => [c.chave, c.anosComQuestoes]));
 
-            assert.deepEqual(porChave, { ec: [2023], ep: [2023], si: [] });
+            assert.deepEqual(porChave, {
+                ec: [2023, 2017, 2014],
+                ep: [2023, 2017, 2014],
+                si: [2021, 2017, 2014],
+            });
         });
 
         test('/cursos informa em quais anos cada curso tem os assuntos por disciplina', async () => {
@@ -266,7 +271,8 @@ describe('integridade de data/questoes', () => {
                     for (const v of [...Object.values(q.acertos), ...Object.values(q.respostas)]) {
                         assert.ok(v >= 0 && v <= 100, `questão ${q.numero}: ${v}`);
                     }
-                    assert.equal(q.acertos.curso, q.respostas[q.gabarito], `questão ${q.numero}`);
+                    // alguns relatórios antigos trazem "-" no acerto do curso: aí não há o que comparar
+                    if (q.acertos.curso !== null) assert.equal(q.acertos.curso, q.respostas[q.gabarito], `questão ${q.numero}`);
                 }
             });
 
@@ -296,6 +302,11 @@ describe('integridade de data/questoes', () => {
             test('toda questão do Componente Específico tem disciplina', () => {
                 const ce = dados.componentes.find((c) => c.tipo === 'especifico').questoes;
                 assert.ok(ce.every((q) => q.disciplina));
+            });
+
+            test('toda questão de Formação Geral tem disciplina e tema', () => {
+                const fg = dados.componentes.find((c) => c.tipo === 'formacaoGeral').questoes;
+                assert.ok(fg.every((q) => q.disciplina && q.tema));
             });
         });
     }
@@ -349,5 +360,44 @@ describe('assuntos por disciplina (data/*.csv)', () => {
                 assert.equal(total, ano === 2023 ? 1 : 3, `${chave} ${ano}`);
             }
         }
+    });
+});
+
+// A Formação Geral é a mesma prova para todos os cursos do ano: o arquivo data/formacao-geral.json
+// diz a disciplina e o tema de cada questão e precisa casar com as tabelas do INEP.
+describe('data/formacao-geral.json', () => {
+    const fg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'formacao-geral.json'), 'utf-8'));
+    const { buscarTodosOsCursos } = require('../src/data/enadeRepository');
+
+    test('cada ano tem 2 discursivas (1 em 2023) e as objetivas numeradas de 1 em diante, todas com disciplina e tema', () => {
+        for (const [ano, questoes] of Object.entries(fg)) {
+            const objetivas = questoes.filter((q) => q.tipo === 'objetiva');
+            assert.equal(questoes.filter((q) => q.tipo === 'discursiva').length, ano === '2023' ? 1 : 2, ano);
+            assert.deepEqual(
+                objetivas.map((q) => Number(q.numero)),
+                objetivas.map((_, i) => i + 1),
+                ano
+            );
+            for (const q of questoes) assert.ok(q.disciplina && q.tema, `${ano} questão ${q.numero}`);
+        }
+    });
+
+    test('o número de objetivas bate com a tabela de Formação Geral de cada relatório', () => {
+        for (const arquivo of fs.readdirSync(path.join(__dirname, '..', 'data', 'questoes'))) {
+            const dados = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'questoes', arquivo), 'utf-8'));
+            const tabela = dados.componentes.find((c) => c.tipo === 'formacaoGeral').questoes;
+            const objetivas = fg[dados.ano].filter((q) => q.tipo === 'objetiva');
+            assert.equal(tabela.length, objetivas.length, arquivo);
+        }
+    });
+
+    test('a API mostra as disciplinas da Formação Geral e as discursivas vêm primeiro na lista de assuntos', () => {
+        const { fg: bloco } = buscarTodosOsCursos().ec.porAno[2017];
+        const direitos = bloco.disciplinas.find((d) => d.nome === 'Direitos Humanos e Cidadania');
+
+        assert.equal(bloco.total, 10);
+        assert.equal(bloco.disciplinas.reduce((soma, d) => soma + d.qtd, 0), 10);
+        assert.equal(direitos.discursivas, 1);
+        assert.equal(direitos.assuntos[0], 'Nome social e identidade de gênero de pessoas trans');
     });
 });

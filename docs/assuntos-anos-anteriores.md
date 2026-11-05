@@ -41,3 +41,20 @@ tema cabe em mais de uma disciplina:
 | EP 2017 | D5 (balanceamento de linha) | Organização Industrial | Processos de Produção |
 | EP 2017 | 27 (inovação tecnológica) | Sistema de Desenvolvimento de Produtos | Planejamento Estratégico e Mercadológico |
 | EP 2017 | 29 (teoria das filas) | Simulação a Eventos Discretos | Programação Linear e Inteira |
+
+## Formação Geral (todos os anos)
+
+`data/formacao-geral.json` tem a disciplina e o tema de cada questão de Formação Geral de 2008, 2011, 2014,
+2017, 2019, 2021 e 2023, escolhidos por mim a partir do enunciado. As disciplinas são gerais de propósito
+(Sociologia, Meio Ambiente e Sustentabilidade, Geografia, Saúde e Sociedade, Direitos Humanos e Cidadania
+etc.), e é fácil trocar: basta editar o arquivo e rodar `node scripts/extrair-questoes.js --todos`.
+
+Questões em que a disciplina é discutível: 2008 Q1 (Machado de Assis: Literatura ou História), 2011 Q1 (poema:
+só dá para dizer "interpretação de poema"), 2014 Q7 (tempo de deslocamento: Geografia ou Matemática), 2017 Q3
+(tarifa de energia: Matemática) e 2023 Q1 (fome: Sociologia ou Saúde).
+
+## Divergências de gabarito
+
+Nos arquivos de prova da pasta do Projeto Enade há dois gabaritos que não batem com o relatório do INEP (e,
+pela regra "o acerto do curso é a resposta do gabarito", o relatório está certo): EP 2023 Q36 (prova B,
+relatório C) e SI 2014 Q5 de Formação Geral (prova B, relatório D).

@@ -1,0 +1,65 @@
+[
+  {
+    "curso": "ec",
+    "ano": 2023,
+    "pdf": "enade-2023-engenharia-de-computacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia da Computacao/2023/enade_2023_engenharia_computacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ec",
+    "ano": 2017,
+    "pdf": "enade-2017-engenharia-de-computacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia da Computacao/2017/enade_2017_engenharia_computacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ec",
+    "ano": 2014,
+    "pdf": "enade-2014-engenharia-de-computacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia da Computacao/2014/enade_2014_engenharia_computacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ep",
+    "ano": 2023,
+    "pdf": "enade-2023-engenharia-de-producao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia de Produção/2023/enade_2023_engenharia_producao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ep",
+    "ano": 2017,
+    "pdf": "enade-2017-engenharia-de-producao-relatorio-de-curso.pdf",
+    "prova": "scripts/fontes/ep-2017.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ep",
+    "ano": 2014,
+    "pdf": "enade-2014-engenharia-de-producao-relatorio-de-curso.pdf",
+    "prova": "scripts/fontes/ep-2014.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "si",
+    "ano": 2021,
+    "pdf": "enade-2021-sistemas-de-informacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Sistema de Informacao/2021/enade_2021_sistemas_de_informacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "si",
+    "ano": 2017,
+    "pdf": "enade-2017-sistemas-de-informacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Sistema de Informacao/2017/enade_2017_sistemas_de_informacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "si",
+    "ano": 2014,
+    "pdf": "enade-2014-sistemas-de-informacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Sistema de Informacao/2014/enade_2014_sistemas_informacao.jsonl",
+    "formato": "padrao"
+  }
+]

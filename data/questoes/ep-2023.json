@@ -10,8 +10,8 @@
       "questoes": [
         {
           "numero": 1,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Sociologia",
+          "tema": "Fome, insegurança alimentar e desigualdade social",
           "situacao": "valida",
           "gabarito": "D",
           "acertos": {
@@ -33,8 +33,8 @@
         },
         {
           "numero": 2,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Geografia",
+          "tema": "Urbanização e saneamento básico",
           "situacao": "valida",
           "gabarito": "D",
           "acertos": {
@@ -56,8 +56,8 @@
         },
         {
           "numero": 3,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Queda da vacinação infantil",
           "situacao": "valida",
           "gabarito": "B",
           "acertos": {
@@ -79,8 +79,8 @@
         },
         {
           "numero": 4,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Tecnologia e Sociedade",
+          "tema": "Inteligência artificial generativa (ChatGPT)",
           "situacao": "valida",
           "gabarito": "A",
           "acertos": {
@@ -102,8 +102,8 @@
         },
         {
           "numero": 5,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Sociologia",
+          "tema": "Mulheres e mobilidade urbana",
           "situacao": "valida",
           "gabarito": "E",
           "acertos": {
@@ -125,8 +125,8 @@
         },
         {
           "numero": 6,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Literatura e Linguagens",
+          "tema": "Racismo e preconceito na literatura brasileira",
           "situacao": "valida",
           "gabarito": "C",
           "acertos": {
@@ -148,8 +148,8 @@
         },
         {
           "numero": 7,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Economia e Trabalho",
+          "tema": "Idosos no mercado de trabalho e aposentadoria",
           "situacao": "valida",
           "gabarito": "A",
           "acertos": {
@@ -171,8 +171,8 @@
         },
         {
           "numero": 8,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Encarceramento feminino e política de drogas",
           "situacao": "valida",
           "gabarito": "B",
           "acertos": {
@@ -194,8 +194,8 @@
         },
         {
           "numero": 9,
-          "disciplina": null,
-          "tema": null,
+          "disciplina": "Filosofia",
+          "tema": "Sociedade do desempenho",
           "situacao": "valida",
           "gabarito": "E",
           "acertos": {

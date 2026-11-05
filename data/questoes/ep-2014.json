@@ -1,0 +1,741 @@
+{
+  "curso": "ep",
+  "nome": "Engenharia de Produção",
+  "ano": 2014,
+  "fonte": "INEP — Relatório de Curso do Enade 2014 (Engenharia de Produção, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Artes e Cultura",
+          "tema": "Música e tecnologias digitais",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 47.6,
+            "uf": 54.9,
+            "regiao": 56.8,
+            "catAdm": 59.4,
+            "orgAcad": 57,
+            "brasil": 56
+          },
+          "respostas": {
+            "A": 47.6,
+            "B": 6,
+            "C": 9.5,
+            "D": 34.5,
+            "E": 2.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Sociologia",
+          "tema": "Terceiro setor e responsabilidade social (ONGs)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 48.8,
+            "uf": 44.9,
+            "regiao": 47.1,
+            "catAdm": 51.5,
+            "orgAcad": 48.2,
+            "brasil": 47.1
+          },
+          "respostas": {
+            "A": 3.6,
+            "B": 3.6,
+            "C": 48.8,
+            "D": 33.3,
+            "E": 10.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Pegada ecológica",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 76.2,
+            "uf": 71.4,
+            "regiao": 70.3,
+            "catAdm": 84.5,
+            "orgAcad": 75.9,
+            "brasil": 71
+          },
+          "respostas": {
+            "A": 2.4,
+            "B": 2.4,
+            "C": 7.1,
+            "D": 11.9,
+            "E": 76.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Tecnologia e Sociedade",
+          "tema": "Redes sociais e comunicação",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 85.7,
+            "uf": 85.3,
+            "regiao": 84.1,
+            "catAdm": 90,
+            "orgAcad": 86.4,
+            "brasil": 84.5
+          },
+          "respostas": {
+            "A": 1.2,
+            "B": 85.7,
+            "C": 4.8,
+            "D": 0,
+            "E": 8.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Ciência e Tecnologia",
+          "tema": "Inovação e criatividade (dispositivo Odon)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 42.9,
+            "uf": 37.2,
+            "regiao": 39.1,
+            "catAdm": 44.8,
+            "orgAcad": 40.7,
+            "brasil": 38.8
+          },
+          "respostas": {
+            "A": 3.6,
+            "B": 46.4,
+            "C": 3.6,
+            "D": 42.9,
+            "E": 3.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Sociologia",
+          "tema": "Desigualdade de gênero no trabalho",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 65.5,
+            "uf": 59.7,
+            "regiao": 59.8,
+            "catAdm": 68.7,
+            "orgAcad": 63.3,
+            "brasil": 59.8
+          },
+          "respostas": {
+            "A": 21.4,
+            "B": 2.4,
+            "C": 65.5,
+            "D": 6,
+            "E": 4.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Geografia",
+          "tema": "Tempo de deslocamento casa-trabalho (mobilidade urbana)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 67.9,
+            "uf": 60.4,
+            "regiao": 59.6,
+            "catAdm": 74.6,
+            "orgAcad": 65.5,
+            "brasil": 59.7
+          },
+          "respostas": {
+            "A": 6,
+            "B": 6,
+            "C": 11.9,
+            "D": 8.3,
+            "E": 67.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Geografia",
+          "tema": "Transformações do meio rural e urbano",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 83.3,
+            "uf": 81.7,
+            "regiao": 81.6,
+            "catAdm": 86.7,
+            "orgAcad": 83.6,
+            "brasil": 81.8
+          },
+          "respostas": {
+            "A": 4.8,
+            "B": 0,
+            "C": 7.1,
+            "D": 83.3,
+            "E": 4.8,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Estatística e Probabilidade",
+          "tema": "Distribuição normal",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 38.1,
+            "uf": 33.9,
+            "regiao": 34,
+            "catAdm": 48.5,
+            "orgAcad": 39.2,
+            "brasil": 33.7
+          },
+          "respostas": {
+            "A": 4.8,
+            "B": 19,
+            "C": 31,
+            "D": 7.1,
+            "E": 38.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 10,
+          "disciplina": "Circuitos Elétricos I",
+          "tema": "Cargas resistivas, capacitivas e indutivas em um circuito",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 11,
+          "disciplina": "Fundamentos de Ciência do Ambiente",
+          "tema": "DBO e qualidade da água",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 46.4,
+            "uf": 52.2,
+            "regiao": 53.1,
+            "catAdm": 67.9,
+            "orgAcad": 58,
+            "brasil": 53.4
+          },
+          "respostas": {
+            "A": 21.4,
+            "B": 19,
+            "C": 8.3,
+            "D": 4.8,
+            "E": 46.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 12,
+          "disciplina": "Fundamentos de Ciência do Ambiente",
+          "tema": "Conforto térmico e fluxo de calor em paredes",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 13,
+          "disciplina": "Física I",
+          "tema": "Cabos superleves de fibra de carbono em elevadores",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 64.3,
+            "uf": 60.2,
+            "regiao": 59.3,
+            "catAdm": 68.1,
+            "orgAcad": 62.6,
+            "brasil": 59.9
+          },
+          "respostas": {
+            "A": 2.4,
+            "B": 4.8,
+            "C": 14.3,
+            "D": 13.1,
+            "E": 64.3,
+            "SI": 1.2
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Programação de Computadores I",
+          "tema": "Algoritmo para o fator de atrito (Colebrook-White)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 39.3,
+            "uf": 38.9,
+            "regiao": 38.1,
+            "catAdm": 48.1,
+            "orgAcad": 41.7,
+            "brasil": 38
+          },
+          "respostas": {
+            "A": 19,
+            "B": 39.3,
+            "C": 14.3,
+            "D": 16.7,
+            "E": 10.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Algoritmo de ordenação (sort) em pseudocódigo",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 18.9,
+            "regiao": 18.6,
+            "catAdm": 26.9,
+            "orgAcad": 21.3,
+            "brasil": 18.8
+          },
+          "respostas": {
+            "A": 25,
+            "B": 15.5,
+            "C": 33.3,
+            "D": 6,
+            "E": 20.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Fundamentos de Ciência do Ambiente",
+          "tema": "Biomassa como fonte de energia térmica",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 36.6,
+            "regiao": 36,
+            "catAdm": 42.5,
+            "orgAcad": 38.1,
+            "brasil": 36.4
+          },
+          "respostas": {
+            "A": 14.3,
+            "B": 11.9,
+            "C": 19,
+            "D": 33.3,
+            "E": 21.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 17,
+          "disciplina": "Filosofia e Ética",
+          "tema": "Pesquisas eleitorais e a decisão do eleitor",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 66.7,
+            "uf": 65.4,
+            "regiao": 62.7,
+            "catAdm": 75.1,
+            "orgAcad": 67.2,
+            "brasil": 63.7
+          },
+          "respostas": {
+            "A": 11.9,
+            "B": 66.7,
+            "C": 4.8,
+            "D": 13.1,
+            "E": 3.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 18,
+          "disciplina": "Física I",
+          "tema": "Propriedades do alumínio aeronáutico",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 88.1,
+            "uf": 84.7,
+            "regiao": 83.9,
+            "catAdm": 88.2,
+            "orgAcad": 85.1,
+            "brasil": 84.5
+          },
+          "respostas": {
+            "A": 88.1,
+            "B": 2.4,
+            "C": 4.8,
+            "D": 3.6,
+            "E": 1.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 19,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Mix de produção com recursos limitados",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 52.4,
+            "uf": 56.6,
+            "regiao": 57.1,
+            "catAdm": 71.7,
+            "orgAcad": 62.8,
+            "brasil": 57.9
+          },
+          "respostas": {
+            "A": 0,
+            "B": 4.8,
+            "C": 33.3,
+            "D": 52.4,
+            "E": 9.5,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 20,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "DFMA (projeto para manufatura e montagem)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 25,
+            "uf": 26.4,
+            "regiao": 28.5,
+            "catAdm": 36.4,
+            "orgAcad": 31.8,
+            "brasil": 29.8
+          },
+          "respostas": {
+            "A": 25,
+            "B": 11.9,
+            "C": 25,
+            "D": 25,
+            "E": 13.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Controle Estatístico de Qualidade",
+          "tema": "Exatidão e precisão em medições",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 72.6,
+            "uf": 65.1,
+            "regiao": 65.7,
+            "catAdm": 76.2,
+            "orgAcad": 69.3,
+            "brasil": 66.4
+          },
+          "respostas": {
+            "A": 72.6,
+            "B": 3.6,
+            "C": 14.3,
+            "D": 6,
+            "E": 3.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Logística Reversa",
+          "tema": "Logística reversa e sustentabilidade",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 29.5,
+            "regiao": 30.3,
+            "catAdm": 33.7,
+            "orgAcad": 31.5,
+            "brasil": 30
+          },
+          "respostas": {
+            "A": 32.1,
+            "B": 33.3,
+            "C": 22.6,
+            "D": 4.8,
+            "E": 7.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Gestão de Projetos",
+          "tema": "Escritório de Projetos (PMO)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 35.7,
+            "uf": 30.3,
+            "regiao": 32.5,
+            "catAdm": 40.5,
+            "orgAcad": 35.6,
+            "brasil": 32.8
+          },
+          "respostas": {
+            "A": 1.2,
+            "B": 35.7,
+            "C": 17.9,
+            "D": 27.4,
+            "E": 17.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 24,
+          "disciplina": "Processos de Produção",
+          "tema": "Mix de produtos e restrição de capacidade (gargalo)",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 7.1,
+            "uf": 9.7,
+            "regiao": 11.4,
+            "catAdm": 17.8,
+            "orgAcad": 13.7,
+            "brasil": 11.3
+          },
+          "respostas": {
+            "A": 7.1,
+            "B": 29.8,
+            "C": 19,
+            "D": 13.1,
+            "E": 29.8,
+            "SI": 1.2
+          }
+        },
+        {
+          "numero": 25,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "TI aplicada à gestão da cadeia de suprimentos",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 61.9,
+            "uf": 55.8,
+            "regiao": 56.4,
+            "catAdm": 68.9,
+            "orgAcad": 60.9,
+            "brasil": 56.9
+          },
+          "respostas": {
+            "A": 6,
+            "B": 10.7,
+            "C": 10.7,
+            "D": 10.7,
+            "E": 61.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 26,
+          "disciplina": "Simulação a Eventos Discretos",
+          "tema": "Teoria das filas (taxa de perda)",
+          "situacao": "anulada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 27,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Lote econômico de compra",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 28,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Inovação aberta",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 77.4,
+            "uf": 73.4,
+            "regiao": 72.3,
+            "catAdm": 81.5,
+            "orgAcad": 75.5,
+            "brasil": 72.6
+          },
+          "respostas": {
+            "A": 4.8,
+            "B": 7.1,
+            "C": 77.4,
+            "D": 10.7,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Gestão da Qualidade",
+          "tema": "FMEA e desperdícios do pensamento enxuto",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 38.1,
+            "uf": 34.6,
+            "regiao": 34.3,
+            "catAdm": 43.7,
+            "orgAcad": 37.5,
+            "brasil": 35.4
+          },
+          "respostas": {
+            "A": 4.8,
+            "B": 38.1,
+            "C": 38.1,
+            "D": 13.1,
+            "E": 6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Viabilidade econômica (TMA e fluxo de caixa)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 42.9,
+            "uf": 41.2,
+            "regiao": 42.1,
+            "catAdm": 52.8,
+            "orgAcad": 46.1,
+            "brasil": 42.8
+          },
+          "respostas": {
+            "A": 9.5,
+            "B": 28.6,
+            "C": 42.9,
+            "D": 16.7,
+            "E": 2.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Compartilhamento de veículos — comparação de custos",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 29.8,
+            "uf": 30.4,
+            "regiao": 30.9,
+            "catAdm": 42.1,
+            "orgAcad": 35.7,
+            "brasil": 31.5
+          },
+          "respostas": {
+            "A": 10.7,
+            "B": 15.5,
+            "C": 17.9,
+            "D": 29.8,
+            "E": 26.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 32,
+          "disciplina": "Segurança do Trabalho",
+          "tema": "Prevenção de acidentes e riscos no posto de trabalho",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 44,
+            "uf": 47.3,
+            "regiao": 46.5,
+            "catAdm": 54,
+            "orgAcad": 50,
+            "brasil": 47.6
+          },
+          "respostas": {
+            "A": 44,
+            "B": 9.5,
+            "C": 11.9,
+            "D": 11.9,
+            "E": 21.4,
+            "SI": 1.2
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Gestão da Qualidade",
+          "tema": "Sistema de Gestão Integrado (ISO 9001, ISO 14001 e OHSAS 18001)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 45.2,
+            "uf": 41.7,
+            "regiao": 43,
+            "catAdm": 52.2,
+            "orgAcad": 46,
+            "brasil": 43.4
+          },
+          "respostas": {
+            "A": 16.7,
+            "B": 8.3,
+            "C": 19,
+            "D": 10.7,
+            "E": 45.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 34,
+          "disciplina": "Ergonomia",
+          "tema": "Altura da superfície de trabalho em pé",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 35,
+          "disciplina": "Gestão Ambiental",
+          "tema": "Avaliação do Ciclo de Vida (ACV)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        }
+      ]
+    }
+  ]
+}

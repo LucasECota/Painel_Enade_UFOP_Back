@@ -106,6 +106,32 @@ function agruparPorAno(linhasDeObjetos) {
   return resultado;
 }
 
+// Disciplinas e assuntos da Formação Geral de cada ano (a prova é a mesma para todos os cursos).
+// Devolve { ano: [{ nome, qtd, discursivas, assuntos }] }, com as discursivas primeiro em cada lista.
+function carregarFormacaoGeral() {
+  const caminho = path.join(__dirname, '..', '..', 'data', 'formacao-geral.json');
+  if (!fs.existsSync(caminho)) return {};
+
+  const porAno = JSON.parse(fs.readFileSync(caminho, 'utf-8'));
+  const resultado = {};
+  for (const [ano, questoes] of Object.entries(porAno)) {
+    const porDisciplina = new Map();
+    // discursivas antes das objetivas, cada grupo na ordem das questões
+    const ordenadas = [...questoes.filter((q) => q.tipo === 'discursiva'), ...questoes.filter((q) => q.tipo !== 'discursiva')];
+    for (const q of ordenadas) {
+      if (!porDisciplina.has(q.disciplina)) porDisciplina.set(q.disciplina, { nome: q.disciplina, qtd: 0, discursivas: 0, assuntos: [] });
+      const d = porDisciplina.get(q.disciplina);
+      d.qtd += 1;
+      if (q.tipo === 'discursiva') d.discursivas += 1;
+      d.assuntos.push(q.tema);
+    }
+    resultado[ano] = [...porDisciplina.values()].sort((a, b) => b.qtd - a.qtd || a.nome.localeCompare(b.nome, 'pt-BR'));
+  }
+  return resultado;
+}
+
+const formacaoGeralPorAno = carregarFormacaoGeral();
+
 // Recebe a chave do curso ("ec", "ep" ou "si") e devolve o objeto
 // completo e organizado, pronto pra ser usado pelas rotas:
 function montarDadosDoCurso(chaveDoCurso) {
@@ -119,6 +145,11 @@ function montarDadosDoCurso(chaveDoCurso) {
 
   // Separa o "geral" do resto: o resto vira "porAno"
   const { geral, ...porAno } = agrupadoPorAno;
+
+  // Formação Geral: quando há disciplinas e assuntos do ano, substituem a linha "(sem disciplina associada)"
+  for (const [ano, disciplinas] of Object.entries(formacaoGeralPorAno)) {
+    if (porAno[ano]) porAno[ano].fg.disciplinas = disciplinas;
+  }
 
   // As chaves de porAno são texto ("2023"), convertemos pra número e ordenamos do mais recente pro mais antigo
   const anos = Object.keys(porAno)
