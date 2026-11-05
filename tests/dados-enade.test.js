@@ -27,10 +27,6 @@ describe('integridade de data/resultados-enade.json', () => {
                 }
             });
 
-            test('o CPC tem as mesmas edições do Enade e valores entre 0 e 5', () => {
-                assert.deepEqual(curso.cpc.map((c) => c.ano), curso.edicoes.map((e) => e.ano));
-                assert.ok(curso.cpc.every((c) => c.valor >= 0 && c.valor <= 5));
-            });
 
             test('nota geral = 75% do Específico + 25% da Formação Geral (regra do INEP, tolerância de 0,15)', () => {
                 const { geral, formacaoGeral, especifico } = curso.comparacao;

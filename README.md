@@ -53,7 +53,7 @@ O CI só passa a rodar depois que o projeto for enviado a um repositório no Git
 ## Dados
 
 - `data/avaliaufop/` — exports de notas do Moodle (veja o README dessa pasta).
-- `data/resultados-enade.json` — conceito, CPC, comparação com o Brasil e perfil dos concluintes.
+- `data/resultados-enade.json` — conceito, comparação com o Brasil e perfil dos concluintes.
 - `data/relatorios-inep/` — PDFs do INEP, no padrão `enade-AAAA-ufop-joao-monlevade.pdf`.
 
 ## Testes
