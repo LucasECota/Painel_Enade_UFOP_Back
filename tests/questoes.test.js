@@ -325,8 +325,29 @@ describe('assuntos por disciplina (data/*.csv)', () => {
             test(`${chave} ${ano}: um assunto por questão em cada disciplina`, () => {
                 for (const d of curso.porAno[ano].ce.disciplinas) {
                     assert.equal(d.assuntos.length, d.qtd, `${d.nome}: ${d.qtd} questões e ${d.assuntos.length} assuntos`);
+                    assert.ok(d.discursivas >= 0 && d.discursivas <= d.qtd, `${d.nome}: discursivas fora do possível`);
                 }
             });
         }
     }
+
+    test('EC 2017: discursivas por disciplina vêm dos arquivos da prova', () => {
+        const { ce } = buscarTodosOsCursos().ec.porAno[2017];
+        const discursivas = Object.fromEntries(ce.disciplinas.filter((d) => d.discursivas).map((d) => [d.nome, d.discursivas]));
+
+        assert.deepEqual(discursivas, {
+            'Algoritmos e Estruturas de Dados I': 1,
+            'Microprocessadores e Microcontroladores': 1,
+            'Sistemas Operacionais': 1,
+        });
+    });
+
+    test('cada edição tem 3 discursivas de Componente Específico (2023 tem 1)', () => {
+        for (const [chave, curso] of Object.entries(buscarTodosOsCursos())) {
+            for (const ano of curso.anosComAssuntos) {
+                const total = curso.porAno[ano].ce.disciplinas.reduce((soma, d) => soma + d.discursivas, 0);
+                assert.equal(total, ano === 2023 ? 1 : 3, `${chave} ${ano}`);
+            }
+        }
+    });
 });

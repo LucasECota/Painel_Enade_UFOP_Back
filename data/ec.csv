@@ -1,134 +1,134 @@
-curso,ano,tipo,disciplina,quantidade,assunto
-Engenharia de Computação,geral,Formação Geral,(sem disciplina associada),40,
-Engenharia de Computação,geral,Componente Específico,Redes de Computadores I,9,
-Engenharia de Computação,geral,Componente Específico,Sistemas Operacionais,8,
-Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados I,7,
-Engenharia de Computação,geral,Componente Específico,Inteligência Artificial,6,
-Engenharia de Computação,geral,Componente Específico,Princípios de Eletrônica Digital,6,
-Engenharia de Computação,geral,Componente Específico,Sinais e Sistemas,6,
-Engenharia de Computação,geral,Componente Específico,Sistemas Distribuídos,6,
-Engenharia de Computação,geral,Componente Específico,Banco de Dados I,5,
-Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados III,4,
-Engenharia de Computação,geral,Componente Específico,Circuitos Elétricos I,4,
-Engenharia de Computação,geral,Componente Específico,Fundamentos de Ciência do Ambiente,4,
-Engenharia de Computação,geral,Componente Específico,Microprocessadores e Microcontroladores,4,
-Engenharia de Computação,geral,Componente Específico,Programação de Computadores I,4,
-Engenharia de Computação,geral,Componente Específico,Engenharia de Software I,3,
-Engenharia de Computação,geral,Componente Específico,Estatística e Probabilidade,3,
-Engenharia de Computação,geral,Componente Específico,Fundamentos Teóricos da Computação,3,
-Engenharia de Computação,geral,Componente Específico,Física III,3,
-Engenharia de Computação,geral,Componente Específico,Interação Humano-Computador,3,
-Engenharia de Computação,geral,Componente Específico,Linguagens de Programação,3,
-Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados II,2,
-Engenharia de Computação,geral,Componente Específico,Análise Numérica,2,
-Engenharia de Computação,geral,Componente Específico,Física I,2,
-Engenharia de Computação,geral,Componente Específico,Informática e Sociedade,2,
-Engenharia de Computação,geral,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,
-Engenharia de Computação,geral,Componente Específico,Organização e Arquitetura de Computadores I,2,
-Engenharia de Computação,geral,Componente Específico,Avaliação de Desempenho de Sistemas,1,
-Engenharia de Computação,geral,Componente Específico,Compiladores I,1,
-Engenharia de Computação,geral,Componente Específico,Computação Gráfica,1,
-Engenharia de Computação,geral,Componente Específico,Cálculo Diferencial e Integral III,1,
-Engenharia de Computação,geral,Componente Específico,Eletrônica I,1,
-Engenharia de Computação,geral,Componente Específico,Filosofia e Ética,1,
-Engenharia de Computação,geral,Componente Específico,Fundamentos de Comunicações,1,
-Engenharia de Computação,geral,Componente Específico,Física II,1,
-Engenharia de Computação,geral,Componente Específico,Instrumentação,1,
-Engenharia de Computação,geral,Componente Específico,Internet das Coisas,1,
-Engenharia de Computação,geral,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1,
-Engenharia de Computação,geral,Componente Específico,Matemática Discreta,1,
-Engenharia de Computação,geral,Componente Específico,Processamento Digital de Imagens,1,
-Engenharia de Computação,geral,Componente Específico,Programação Linear e Inteira,1,
-Engenharia de Computação,geral,Componente Específico,Segurança e Auditoria de Sistemas,1,
-Engenharia de Computação,geral,Componente Específico,Sistemas de Controle I,1,
-Engenharia de Computação,geral,Componente Específico,Teoria da Administração I,1,
-Engenharia de Computação,2023,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2023,Componente Específico,Sistemas Distribuídos,4,Computação em nuvem (pública vs privada) | Virtualização de hardware e máquinas virtuais | Segurança da informação (criptografia e controle de acesso) | Arquitetura de microsserviços
-Engenharia de Computação,2023,Componente Específico,Redes de Computadores I,3,"Protocolo OSPF e algoritmo de Dijkstra | Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED) | Protocolos TCP e UDP"
-Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados I,2,Quicksort — análise de complexidade e implementação em C | Estruturas de dados aplicadas ao controlador PID (pilha e fila)
-Engenharia de Computação,2023,Componente Específico,Circuitos Elétricos I,2,Resistência elétrica e resistividade (R=ρL/A) | Lei de Kirchhoff das correntes e grafos de circuito
-Engenharia de Computação,2023,Componente Específico,Inteligência Artificial,2,SVM — Support Vector Machine | Busca gulosa em grafos
-Engenharia de Computação,2023,Componente Específico,Microprocessadores e Microcontroladores,2,Operações bit a bit (bitwise) em C | Registradores de I/O em sistemas embarcados
-Engenharia de Computação,2023,Componente Específico,Sinais e Sistemas,2,Filtros passa-baixa com amplificador operacional | Teorema da amostragem (Nyquist-Shannon)
-Engenharia de Computação,2023,Componente Específico,Sistemas Operacionais,2,"Multiprocessamento e threads com memória compartilhada | Memória virtual — paginação, TLB e MMU"
-Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados II,1,Vetores dinâmicos e análise amortizada
-Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados III,1,Subsequência Comum Mais Longa (LCS) — programação dinâmica
-Engenharia de Computação,2023,Componente Específico,Avaliação de Desempenho de Sistemas,1,Impacto de threads e núcleos no desempenho — Lei de Amdahl
-Engenharia de Computação,2023,Componente Específico,Banco de Dados I,1,SQL — consultas com JOIN em banco relacional
-Engenharia de Computação,2023,Componente Específico,Compiladores I,1,Gramáticas livres de contexto e análise sintática/semântica
-Engenharia de Computação,2023,Componente Específico,Interação Humano-Computador,1,Acessibilidade em IHC — design equitativo e informações perceptíveis
-Engenharia de Computação,2023,Componente Específico,Linguagens de Programação,1,Programação funcional — listas e pattern matching (Haskell)
-Engenharia de Computação,2023,Componente Específico,Matemática Discreta,1,Relações de equivalência e classes de equivalência
-Engenharia de Computação,2023,Componente Específico,Organização e Arquitetura de Computadores I,1,"Dependência de dados e conflitos em multiprocessamento (RAW, WAW)"
-Engenharia de Computação,2023,Componente Específico,Princípios de Eletrônica Digital,1,Descrição de hardware em HDL (Verilog e VHDL) — contadores
-Engenharia de Computação,2023,Componente Específico,Programação de Computadores I,1,Gerenciamento de memória em C — memory leak (malloc/free)
-Engenharia de Computação,2019,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2019,Componente Específico,Sistemas Operacionais,3,Condição de corrida e sincronização com threads | Diagrama de estados de processos | Escalonamento Round Robin
-Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados I,2,MergeSort — implementação recursiva em Java | Árvore AVL — inserção e rotações
-Engenharia de Computação,2019,Componente Específico,Engenharia de Software I,2,Rigidez em projeto de software e princípios SOLID | Padrão de projeto Strategy — diagrama UML de classes
-Engenharia de Computação,2019,Componente Específico,Inteligência Artificial,2,Reconhecimento de padrões — conjunto de dados e classificação | Rede bayesiana — modelagem de dependências causais
-Engenharia de Computação,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,Função de transferência de malha fechada e constante de tempo | Controlador PID — implementação em código C
-Engenharia de Computação,2019,Componente Específico,Princípios de Eletrônica Digital,2,DEMUX de 4 canais — diagnóstico de defeito em circuito lógico | Simplificação de circuito lógico booleano e atraso de propagação
-Engenharia de Computação,2019,Componente Específico,Sinais e Sistemas,2,Filtros digitais passa-baixa — normalização de frequência (Nyquist) | Circuito de corrente alternada — impedância e tensão RMS
-Engenharia de Computação,2019,Componente Específico,Análise Numérica,2,Programação linear — maximização em região viável | Regressão linear por mínimos quadrados
-Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados III,1,Coloração de grafos — número cromático mínimo
-Engenharia de Computação,2019,Componente Específico,Banco de Dados I,1,"SQL — comandos DELETE, INSERT e SELECT com filtros"
-Engenharia de Computação,2019,Componente Específico,Eletrônica I,1,Amplificador operacional — circuito com sensor NTC
-Engenharia de Computação,2019,Componente Específico,Estatística e Probabilidade,1,Desvio padrão populacional — algoritmo e análise de correção
-Engenharia de Computação,2019,Componente Específico,Fundamentos de Comunicações,1,Comprimento crítico de trilha PCB — cálculo para PCI Express
-Engenharia de Computação,2019,Componente Específico,Fundamentos Teóricos da Computação,1,Autômato finito determinístico — reconhecimento de linguagem regular
-Engenharia de Computação,2019,Componente Específico,Interação Humano-Computador,1,Usabilidade — atributo de inteligibilidade
-Engenharia de Computação,2019,Componente Específico,Linguagens de Programação,1,Recursão em cauda — transformação para iteração em Python/busca binária
-Engenharia de Computação,2019,Componente Específico,Organização e Arquitetura de Computadores I,1,Hardware trojan — detecção e prevenção em microprocessadores
-Engenharia de Computação,2019,Componente Específico,Programação de Computadores I,1,Produtório — funções iterativa e recursiva em linguagem C
-Engenharia de Computação,2019,Componente Específico,Redes de Computadores I,1,Spanning tree mínima — algoritmo de Kruskal
-Engenharia de Computação,2019,Componente Específico,Segurança e Auditoria de Sistemas,1,Criptografia simétrica — DES e Triple DES (3DES)
-Engenharia de Computação,2019,Componente Específico,Sistemas Distribuídos,1,IoT — heterogeneidade e consistência em ambiente concorrente
-Engenharia de Computação,2017,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2017,Componente Específico,Física III,3,Diagrama tensão × deformação de polímeros | Escudo térmico de veículo espacial | Ensaio de flexão em três pontos
-Engenharia de Computação,2017,Componente Específico,Algoritmos e Estruturas de Dados I,2,Autômatos celulares — regras do Jogo da Vida em C | Filas e pilhas na gestão de eventos
-Engenharia de Computação,2017,Componente Específico,Microprocessadores e Microcontroladores,2,Microcontrolador para monitoramento ambiental (termistor e conversor A/D) | Manipulação de bits em registrador
-Engenharia de Computação,2017,Componente Específico,Redes de Computadores I,2,"Firewall, IDS e antivírus | Roteamento por estado de enlace"
-Engenharia de Computação,2017,Componente Específico,Sistemas Operacionais,2,Gerência de memória — alocação first-fit | Computação verde e virtualização
-Engenharia de Computação,2017,Componente Específico,Banco de Dados I,1,Segurança em bancos de dados
-Engenharia de Computação,2017,Componente Específico,Circuitos Elétricos I,1,Consumo de energia e potência elétrica
-Engenharia de Computação,2017,Componente Específico,Computação Gráfica,1,GPU e OpenGL
-Engenharia de Computação,2017,Componente Específico,Cálculo Diferencial e Integral III,1,Multiplicadores de Lagrange (otimização de uma lata cilíndrica)
-Engenharia de Computação,2017,Componente Específico,Engenharia de Software I,1,Métodos ágeis
-Engenharia de Computação,2017,Componente Específico,Estatística e Probabilidade,1,"Média, desvio padrão e dispersão relativa"
-Engenharia de Computação,2017,Componente Específico,Fundamentos Teóricos da Computação,1,Linguagens regulares e expressões regulares
-Engenharia de Computação,2017,Componente Específico,Fundamentos de Ciência do Ambiente,1,Políticas ambientais e desenvolvimento econômico
-Engenharia de Computação,2017,Componente Específico,Física II,1,Pressão hidrostática e profundidade
-Engenharia de Computação,2017,Componente Específico,Informática e Sociedade,1,Marco Civil da Internet
-Engenharia de Computação,2017,Componente Específico,Inteligência Artificial,1,Heurísticas admissíveis
-Engenharia de Computação,2017,Componente Específico,Interação Humano-Computador,1,Acessibilidade de smartphones para idosos
-Engenharia de Computação,2017,Componente Específico,Internet das Coisas,1,Sistema de monitoramento com acelerômetros
-Engenharia de Computação,2017,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1,Lei de resfriamento de Newton
-Engenharia de Computação,2017,Componente Específico,Princípios de Eletrônica Digital,1,Circuito combinacional (controle de catracas)
-Engenharia de Computação,2017,Componente Específico,Programação Linear e Inteira,1,Problema do transporte
-Engenharia de Computação,2017,Componente Específico,Programação de Computadores I,1,Ponteiros em C
-Engenharia de Computação,2017,Componente Específico,Sinais e Sistemas,1,Filtro digital — estabilidade e polos
-Engenharia de Computação,2017,Componente Específico,Teoria da Administração I,1,Sistema Toyota de produção (toyotismo)
-Engenharia de Computação,2014,Formação Geral,(sem disciplina associada),10,
-Engenharia de Computação,2014,Componente Específico,Fundamentos de Ciência do Ambiente,3,DBO e qualidade da água | Conforto térmico e fluxo de calor em paredes | Biomassa como fonte de energia térmica
-Engenharia de Computação,2014,Componente Específico,Redes de Computadores I,3,Marco Civil da Internet e neutralidade da rede | TCP — números de sequência e confirmações | CSMA/CD — probabilidade de transmissão sem colisão
-Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados III,2,Grafo orientado — matriz de adjacência e grafo transposto | Problemas do carteiro chinês e do caixeiro viajante
-Engenharia de Computação,2014,Componente Específico,Banco de Dados I,2,Modelo lógico a partir de protótipo de tela | Tabelas e chaves no modelo relacional (investimentos)
-Engenharia de Computação,2014,Componente Específico,Física I,2,Cabos superleves de fibra de carbono em elevadores | Propriedades do alumínio aeronáutico
-Engenharia de Computação,2014,Componente Específico,Princípios de Eletrônica Digital,2,Tabela verdade e minimização de circuito lógico | Matriz lógica programável (PLA)
-Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,1,Algoritmo de ordenação (sort) em pseudocódigo
-Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados II,1,Profundidade de árvore B
-Engenharia de Computação,2014,Componente Específico,Circuitos Elétricos I,1,Cargas resistivas e capacitivas em circuito com lâmpadas
-Engenharia de Computação,2014,Componente Específico,Estatística e Probabilidade,1,Distribuição normal
-Engenharia de Computação,2014,Componente Específico,Filosofia e Ética,1,Pesquisas eleitorais e a decisão do eleitor
-Engenharia de Computação,2014,Componente Específico,Fundamentos Teóricos da Computação,1,Expressões regulares
-Engenharia de Computação,2014,Componente Específico,Informática e Sociedade,1,Indústria de alta tecnologia e localização industrial
-Engenharia de Computação,2014,Componente Específico,Inteligência Artificial,1,Rede neural perceptron
-Engenharia de Computação,2014,Componente Específico,Instrumentação,1,"Sistema de aquisição de vibrações (sensor, amplificador, Sample & Hold e conversor A/D)"
-Engenharia de Computação,2014,Componente Específico,Linguagens de Programação,1,Execução de código Java com arrays e strings
-Engenharia de Computação,2014,Componente Específico,Processamento Digital de Imagens,1,Compressão de imagens
-Engenharia de Computação,2014,Componente Específico,Programação de Computadores I,1,Algoritmo para o fator de atrito em tubulações
-Engenharia de Computação,2014,Componente Específico,Sinais e Sistemas,1,Filtros digitais IIR e FIR
-Engenharia de Computação,2014,Componente Específico,Sistemas de Controle I,1,Lugar das raízes (root locus)
-Engenharia de Computação,2014,Componente Específico,Sistemas Distribuídos,1,Computação em nuvem e dispositivos clientes
-Engenharia de Computação,2014,Componente Específico,Sistemas Operacionais,1,"Gerenciamento de memória — paginação, segmentação e swapping"
+curso,ano,tipo,disciplina,quantidade,assunto,discursivas
+Engenharia de Computação,geral,Formação Geral,(sem disciplina associada),40,,
+Engenharia de Computação,geral,Componente Específico,Redes de Computadores I,9,,
+Engenharia de Computação,geral,Componente Específico,Sistemas Operacionais,8,,
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados I,7,,
+Engenharia de Computação,geral,Componente Específico,Inteligência Artificial,6,,
+Engenharia de Computação,geral,Componente Específico,Princípios de Eletrônica Digital,6,,
+Engenharia de Computação,geral,Componente Específico,Sinais e Sistemas,6,,
+Engenharia de Computação,geral,Componente Específico,Sistemas Distribuídos,6,,
+Engenharia de Computação,geral,Componente Específico,Banco de Dados I,5,,
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados III,4,,
+Engenharia de Computação,geral,Componente Específico,Circuitos Elétricos I,4,,
+Engenharia de Computação,geral,Componente Específico,Fundamentos de Ciência do Ambiente,4,,
+Engenharia de Computação,geral,Componente Específico,Microprocessadores e Microcontroladores,4,,
+Engenharia de Computação,geral,Componente Específico,Programação de Computadores I,4,,
+Engenharia de Computação,geral,Componente Específico,Engenharia de Software I,3,,
+Engenharia de Computação,geral,Componente Específico,Estatística e Probabilidade,3,,
+Engenharia de Computação,geral,Componente Específico,Fundamentos Teóricos da Computação,3,,
+Engenharia de Computação,geral,Componente Específico,Física III,3,,
+Engenharia de Computação,geral,Componente Específico,Interação Humano-Computador,3,,
+Engenharia de Computação,geral,Componente Específico,Linguagens de Programação,3,,
+Engenharia de Computação,geral,Componente Específico,Algoritmos e Estruturas de Dados II,2,,
+Engenharia de Computação,geral,Componente Específico,Análise Numérica,2,,
+Engenharia de Computação,geral,Componente Específico,Física I,2,,
+Engenharia de Computação,geral,Componente Específico,Informática e Sociedade,2,,
+Engenharia de Computação,geral,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,,
+Engenharia de Computação,geral,Componente Específico,Organização e Arquitetura de Computadores I,2,,
+Engenharia de Computação,geral,Componente Específico,Avaliação de Desempenho de Sistemas,1,,
+Engenharia de Computação,geral,Componente Específico,Compiladores I,1,,
+Engenharia de Computação,geral,Componente Específico,Computação Gráfica,1,,
+Engenharia de Computação,geral,Componente Específico,Cálculo Diferencial e Integral III,1,,
+Engenharia de Computação,geral,Componente Específico,Eletrônica I,1,,
+Engenharia de Computação,geral,Componente Específico,Filosofia e Ética,1,,
+Engenharia de Computação,geral,Componente Específico,Fundamentos de Comunicações,1,,
+Engenharia de Computação,geral,Componente Específico,Física II,1,,
+Engenharia de Computação,geral,Componente Específico,Instrumentação,1,,
+Engenharia de Computação,geral,Componente Específico,Internet das Coisas,1,,
+Engenharia de Computação,geral,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1,,
+Engenharia de Computação,geral,Componente Específico,Matemática Discreta,1,,
+Engenharia de Computação,geral,Componente Específico,Processamento Digital de Imagens,1,,
+Engenharia de Computação,geral,Componente Específico,Programação Linear e Inteira,1,,
+Engenharia de Computação,geral,Componente Específico,Segurança e Auditoria de Sistemas,1,,
+Engenharia de Computação,geral,Componente Específico,Sistemas de Controle I,1,,
+Engenharia de Computação,geral,Componente Específico,Teoria da Administração I,1,,
+Engenharia de Computação,2023,Formação Geral,(sem disciplina associada),10,,
+Engenharia de Computação,2023,Componente Específico,Sistemas Distribuídos,4,Computação em nuvem (pública vs privada) | Virtualização de hardware e máquinas virtuais | Segurança da informação (criptografia e controle de acesso) | Arquitetura de microsserviços,
+Engenharia de Computação,2023,Componente Específico,Redes de Computadores I,3,"Protocolo OSPF e algoritmo de Dijkstra | Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED) | Protocolos TCP e UDP",
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados I,2,Quicksort — análise de complexidade e implementação em C | Estruturas de dados aplicadas ao controlador PID (pilha e fila),1
+Engenharia de Computação,2023,Componente Específico,Circuitos Elétricos I,2,Resistência elétrica e resistividade (R=ρL/A) | Lei de Kirchhoff das correntes e grafos de circuito,
+Engenharia de Computação,2023,Componente Específico,Inteligência Artificial,2,SVM — Support Vector Machine | Busca gulosa em grafos,
+Engenharia de Computação,2023,Componente Específico,Microprocessadores e Microcontroladores,2,Operações bit a bit (bitwise) em C | Registradores de I/O em sistemas embarcados,
+Engenharia de Computação,2023,Componente Específico,Sinais e Sistemas,2,Filtros passa-baixa com amplificador operacional | Teorema da amostragem (Nyquist-Shannon),
+Engenharia de Computação,2023,Componente Específico,Sistemas Operacionais,2,"Multiprocessamento e threads com memória compartilhada | Memória virtual — paginação, TLB e MMU",
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados II,1,Vetores dinâmicos e análise amortizada,
+Engenharia de Computação,2023,Componente Específico,Algoritmos e Estruturas de Dados III,1,Subsequência Comum Mais Longa (LCS) — programação dinâmica,
+Engenharia de Computação,2023,Componente Específico,Avaliação de Desempenho de Sistemas,1,Impacto de threads e núcleos no desempenho — Lei de Amdahl,
+Engenharia de Computação,2023,Componente Específico,Banco de Dados I,1,SQL — consultas com JOIN em banco relacional,
+Engenharia de Computação,2023,Componente Específico,Compiladores I,1,Gramáticas livres de contexto e análise sintática/semântica,
+Engenharia de Computação,2023,Componente Específico,Interação Humano-Computador,1,Acessibilidade em IHC — design equitativo e informações perceptíveis,
+Engenharia de Computação,2023,Componente Específico,Linguagens de Programação,1,Programação funcional — listas e pattern matching (Haskell),
+Engenharia de Computação,2023,Componente Específico,Matemática Discreta,1,Relações de equivalência e classes de equivalência,
+Engenharia de Computação,2023,Componente Específico,Organização e Arquitetura de Computadores I,1,"Dependência de dados e conflitos em multiprocessamento (RAW, WAW)",
+Engenharia de Computação,2023,Componente Específico,Princípios de Eletrônica Digital,1,Descrição de hardware em HDL (Verilog e VHDL) — contadores,
+Engenharia de Computação,2023,Componente Específico,Programação de Computadores I,1,Gerenciamento de memória em C — memory leak (malloc/free),
+Engenharia de Computação,2019,Formação Geral,(sem disciplina associada),10,,
+Engenharia de Computação,2019,Componente Específico,Sistemas Operacionais,3,Condição de corrida e sincronização com threads | Diagrama de estados de processos | Escalonamento Round Robin,
+Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados I,2,MergeSort — implementação recursiva em Java | Árvore AVL — inserção e rotações,1
+Engenharia de Computação,2019,Componente Específico,Engenharia de Software I,2,Rigidez em projeto de software e princípios SOLID | Padrão de projeto Strategy — diagrama UML de classes,
+Engenharia de Computação,2019,Componente Específico,Inteligência Artificial,2,Reconhecimento de padrões — conjunto de dados e classificação | Rede bayesiana — modelagem de dependências causais,
+Engenharia de Computação,2019,Componente Específico,Modelagem e Análise de Sistemas Lineares,2,Função de transferência de malha fechada e constante de tempo | Controlador PID — implementação em código C,
+Engenharia de Computação,2019,Componente Específico,Princípios de Eletrônica Digital,2,DEMUX de 4 canais — diagnóstico de defeito em circuito lógico | Simplificação de circuito lógico booleano e atraso de propagação,
+Engenharia de Computação,2019,Componente Específico,Sinais e Sistemas,2,Filtros digitais passa-baixa — normalização de frequência (Nyquist) | Circuito de corrente alternada — impedância e tensão RMS,1
+Engenharia de Computação,2019,Componente Específico,Análise Numérica,2,Programação linear — maximização em região viável | Regressão linear por mínimos quadrados,
+Engenharia de Computação,2019,Componente Específico,Algoritmos e Estruturas de Dados III,1,Coloração de grafos — número cromático mínimo,
+Engenharia de Computação,2019,Componente Específico,Banco de Dados I,1,"SQL — comandos DELETE, INSERT e SELECT com filtros",
+Engenharia de Computação,2019,Componente Específico,Eletrônica I,1,Amplificador operacional — circuito com sensor NTC,
+Engenharia de Computação,2019,Componente Específico,Estatística e Probabilidade,1,Desvio padrão populacional — algoritmo e análise de correção,
+Engenharia de Computação,2019,Componente Específico,Fundamentos de Comunicações,1,Comprimento crítico de trilha PCB — cálculo para PCI Express,
+Engenharia de Computação,2019,Componente Específico,Fundamentos Teóricos da Computação,1,Autômato finito determinístico — reconhecimento de linguagem regular,
+Engenharia de Computação,2019,Componente Específico,Interação Humano-Computador,1,Usabilidade — atributo de inteligibilidade,
+Engenharia de Computação,2019,Componente Específico,Linguagens de Programação,1,Recursão em cauda — transformação para iteração em Python/busca binária,
+Engenharia de Computação,2019,Componente Específico,Organização e Arquitetura de Computadores I,1,Hardware trojan — detecção e prevenção em microprocessadores,
+Engenharia de Computação,2019,Componente Específico,Programação de Computadores I,1,Produtório — funções iterativa e recursiva em linguagem C,1
+Engenharia de Computação,2019,Componente Específico,Redes de Computadores I,1,Spanning tree mínima — algoritmo de Kruskal,
+Engenharia de Computação,2019,Componente Específico,Segurança e Auditoria de Sistemas,1,Criptografia simétrica — DES e Triple DES (3DES),
+Engenharia de Computação,2019,Componente Específico,Sistemas Distribuídos,1,IoT — heterogeneidade e consistência em ambiente concorrente,
+Engenharia de Computação,2017,Formação Geral,(sem disciplina associada),10,,
+Engenharia de Computação,2017,Componente Específico,Física III,3,Diagrama tensão × deformação de polímeros | Escudo térmico de veículo espacial | Ensaio de flexão em três pontos,
+Engenharia de Computação,2017,Componente Específico,Algoritmos e Estruturas de Dados I,2,Autômatos celulares — regras do Jogo da Vida em C | Filas e pilhas na gestão de eventos,1
+Engenharia de Computação,2017,Componente Específico,Microprocessadores e Microcontroladores,2,Microcontrolador para monitoramento ambiental (termistor e conversor A/D) | Manipulação de bits em registrador,1
+Engenharia de Computação,2017,Componente Específico,Redes de Computadores I,2,"Firewall, IDS e antivírus | Roteamento por estado de enlace",
+Engenharia de Computação,2017,Componente Específico,Sistemas Operacionais,2,Gerência de memória — alocação first-fit | Computação verde e virtualização,1
+Engenharia de Computação,2017,Componente Específico,Banco de Dados I,1,Segurança em bancos de dados,
+Engenharia de Computação,2017,Componente Específico,Circuitos Elétricos I,1,Consumo de energia e potência elétrica,
+Engenharia de Computação,2017,Componente Específico,Computação Gráfica,1,GPU e OpenGL,
+Engenharia de Computação,2017,Componente Específico,Cálculo Diferencial e Integral III,1,Multiplicadores de Lagrange (otimização de uma lata cilíndrica),
+Engenharia de Computação,2017,Componente Específico,Engenharia de Software I,1,Métodos ágeis,
+Engenharia de Computação,2017,Componente Específico,Estatística e Probabilidade,1,"Média, desvio padrão e dispersão relativa",
+Engenharia de Computação,2017,Componente Específico,Fundamentos Teóricos da Computação,1,Linguagens regulares e expressões regulares,
+Engenharia de Computação,2017,Componente Específico,Fundamentos de Ciência do Ambiente,1,Políticas ambientais e desenvolvimento econômico,
+Engenharia de Computação,2017,Componente Específico,Física II,1,Pressão hidrostática e profundidade,
+Engenharia de Computação,2017,Componente Específico,Informática e Sociedade,1,Marco Civil da Internet,
+Engenharia de Computação,2017,Componente Específico,Inteligência Artificial,1,Heurísticas admissíveis,
+Engenharia de Computação,2017,Componente Específico,Interação Humano-Computador,1,Acessibilidade de smartphones para idosos,
+Engenharia de Computação,2017,Componente Específico,Internet das Coisas,1,Sistema de monitoramento com acelerômetros,
+Engenharia de Computação,2017,Componente Específico,Introdução às Equações Diferenciais Ordinárias,1,Lei de resfriamento de Newton,
+Engenharia de Computação,2017,Componente Específico,Princípios de Eletrônica Digital,1,Circuito combinacional (controle de catracas),
+Engenharia de Computação,2017,Componente Específico,Programação Linear e Inteira,1,Problema do transporte,
+Engenharia de Computação,2017,Componente Específico,Programação de Computadores I,1,Ponteiros em C,
+Engenharia de Computação,2017,Componente Específico,Sinais e Sistemas,1,Filtro digital — estabilidade e polos,
+Engenharia de Computação,2017,Componente Específico,Teoria da Administração I,1,Sistema Toyota de produção (toyotismo),
+Engenharia de Computação,2014,Formação Geral,(sem disciplina associada),10,,
+Engenharia de Computação,2014,Componente Específico,Fundamentos de Ciência do Ambiente,3,DBO e qualidade da água | Conforto térmico e fluxo de calor em paredes | Biomassa como fonte de energia térmica,
+Engenharia de Computação,2014,Componente Específico,Redes de Computadores I,3,Marco Civil da Internet e neutralidade da rede | TCP — números de sequência e confirmações | CSMA/CD — probabilidade de transmissão sem colisão,
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados III,2,Grafo orientado — matriz de adjacência e grafo transposto | Problemas do carteiro chinês e do caixeiro viajante,1
+Engenharia de Computação,2014,Componente Específico,Banco de Dados I,2,Modelo lógico a partir de protótipo de tela | Tabelas e chaves no modelo relacional (investimentos),
+Engenharia de Computação,2014,Componente Específico,Física I,2,Cabos superleves de fibra de carbono em elevadores | Propriedades do alumínio aeronáutico,
+Engenharia de Computação,2014,Componente Específico,Princípios de Eletrônica Digital,2,Tabela verdade e minimização de circuito lógico | Matriz lógica programável (PLA),1
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,1,Algoritmo de ordenação (sort) em pseudocódigo,
+Engenharia de Computação,2014,Componente Específico,Algoritmos e Estruturas de Dados II,1,Profundidade de árvore B,
+Engenharia de Computação,2014,Componente Específico,Circuitos Elétricos I,1,Cargas resistivas e capacitivas em circuito com lâmpadas,
+Engenharia de Computação,2014,Componente Específico,Estatística e Probabilidade,1,Distribuição normal,
+Engenharia de Computação,2014,Componente Específico,Filosofia e Ética,1,Pesquisas eleitorais e a decisão do eleitor,
+Engenharia de Computação,2014,Componente Específico,Fundamentos Teóricos da Computação,1,Expressões regulares,
+Engenharia de Computação,2014,Componente Específico,Informática e Sociedade,1,Indústria de alta tecnologia e localização industrial,
+Engenharia de Computação,2014,Componente Específico,Inteligência Artificial,1,Rede neural perceptron,
+Engenharia de Computação,2014,Componente Específico,Instrumentação,1,"Sistema de aquisição de vibrações (sensor, amplificador, Sample & Hold e conversor A/D)",
+Engenharia de Computação,2014,Componente Específico,Linguagens de Programação,1,Execução de código Java com arrays e strings,
+Engenharia de Computação,2014,Componente Específico,Processamento Digital de Imagens,1,Compressão de imagens,
+Engenharia de Computação,2014,Componente Específico,Programação de Computadores I,1,Algoritmo para o fator de atrito em tubulações,
+Engenharia de Computação,2014,Componente Específico,Sinais e Sistemas,1,Filtros digitais IIR e FIR,
+Engenharia de Computação,2014,Componente Específico,Sistemas de Controle I,1,Lugar das raízes (root locus),
+Engenharia de Computação,2014,Componente Específico,Sistemas Distribuídos,1,Computação em nuvem e dispositivos clientes,1
+Engenharia de Computação,2014,Componente Específico,Sistemas Operacionais,1,"Gerenciamento de memória — paginação, segmentação e swapping",

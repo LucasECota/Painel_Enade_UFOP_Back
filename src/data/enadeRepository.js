@@ -96,6 +96,8 @@ function agruparPorAno(linhasDeObjetos) {
       nome: linha.disciplina,
       qtd: quantidade,
       assuntos: dividirAssuntos(linha.assunto),
+      // quantas das questões são discursivas: são os primeiros assuntos da lista
+      discursivas: Number(linha.discursivas) || 0,
     });
     bloco.total += quantidade;
     resultado[ano].totalQuestoes += quantidade;

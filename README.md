@@ -66,7 +66,7 @@ O CI só passa a rodar depois que o projeto for enviado a um repositório no Git
 O Relatório de Curso do Enade 2023 tem, nas tabelas 5.1.1 (Formação Geral) e 5.1.3 (Componente Específico),
 o percentual de acerto de cada questão (curso, UF, região, categoria administrativa, organização acadêmica e
 Brasil), o gabarito e a distribuição das respostas. O script lê essas tabelas do PDF e junta a **disciplina**
-(do arquivo da prova, `.jsonl`) e o **tema** (da lista de assuntos do CSV, na ordem das questões):
+(do arquivo da prova, `.jsonl`) e o **tema** (da lista de assuntos do CSV, na ordem das questões; a coluna `discursivas` diz quantos dos primeiros assuntos são de questões discursivas):
 
 ```bash
 node scripts/extrair-questoes.js --curso ec --ano 2023 \
