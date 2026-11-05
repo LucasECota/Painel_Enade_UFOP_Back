@@ -1,0 +1,824 @@
+{
+  "curso": "ec",
+  "nome": "Engenharia de Computação",
+  "ano": 2023,
+  "fonte": "INEP — Relatório de Curso do Enade 2023 (Engenharia de Computação, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 71.1,
+            "uf": 63.4,
+            "regiao": 66.2,
+            "catAdm": 69.7,
+            "orgAcad": 68.1,
+            "brasil": 66.8
+          },
+          "respostas": {
+            "A": 20,
+            "B": 6.7,
+            "C": 2.2,
+            "D": 71.1,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 2,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 71.1,
+            "uf": 79.1,
+            "regiao": 79.2,
+            "catAdm": 81,
+            "orgAcad": 80.1,
+            "brasil": 80.7
+          },
+          "respostas": {
+            "A": 0,
+            "B": 8.9,
+            "C": 6.7,
+            "D": 71.1,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 73.3,
+            "uf": 70.6,
+            "regiao": 66.3,
+            "catAdm": 69.6,
+            "orgAcad": 66.9,
+            "brasil": 66
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 73.3,
+            "C": 8.9,
+            "D": 2.2,
+            "E": 2.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 57.8,
+            "uf": 62.5,
+            "regiao": 60.1,
+            "catAdm": 63,
+            "orgAcad": 61.5,
+            "brasil": 60.6
+          },
+          "respostas": {
+            "A": 57.8,
+            "B": 15.6,
+            "C": 0,
+            "D": 6.7,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 53.3,
+            "uf": 52.5,
+            "regiao": 53.5,
+            "catAdm": 52.3,
+            "orgAcad": 52.7,
+            "brasil": 52.2
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 2.2,
+            "C": 28.9,
+            "D": 2.2,
+            "E": 53.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 75.6,
+            "uf": 81.9,
+            "regiao": 79.9,
+            "catAdm": 84.3,
+            "orgAcad": 82.5,
+            "brasil": 82
+          },
+          "respostas": {
+            "A": 0,
+            "B": 11.1,
+            "C": 75.6,
+            "D": 4.4,
+            "E": 8.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 37.8,
+            "uf": 36.6,
+            "regiao": 34.9,
+            "catAdm": 38.2,
+            "orgAcad": 35.8,
+            "brasil": 35.4
+          },
+          "respostas": {
+            "A": 37.8,
+            "B": 0,
+            "C": 37.8,
+            "D": 6.7,
+            "E": 17.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 68.9,
+            "uf": 54.1,
+            "regiao": 50.4,
+            "catAdm": 54.1,
+            "orgAcad": 53,
+            "brasil": 52.3
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 68.9,
+            "C": 8.9,
+            "D": 4.4,
+            "E": 4.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 9,
+          "disciplina": "Informática e Sociedade",
+          "tema": null,
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 31.1,
+            "uf": 26.9,
+            "regiao": 27,
+            "catAdm": 28.1,
+            "orgAcad": 27.4,
+            "brasil": 27.3
+          },
+          "respostas": {
+            "A": 8.9,
+            "B": 6.7,
+            "C": 28.9,
+            "D": 24.4,
+            "E": 31.1,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 10,
+          "disciplina": "Circuitos Elétricos I",
+          "tema": "Resistência elétrica e resistividade (R=ρL/A)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 31.1,
+            "uf": 39.4,
+            "regiao": 36.5,
+            "catAdm": 42.5,
+            "orgAcad": 39.8,
+            "brasil": 38.2
+          },
+          "respostas": {
+            "A": 22.2,
+            "B": 31.1,
+            "C": 13.3,
+            "D": 15.6,
+            "E": 17.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 11,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Protocolo OSPF e algoritmo de Dijkstra",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 44.4,
+            "uf": 36.6,
+            "regiao": 30.7,
+            "catAdm": 37,
+            "orgAcad": 34.2,
+            "brasil": 33.4
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 15.6,
+            "C": 44.4,
+            "D": 22.2,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 12,
+          "disciplina": "Matemática Discreta",
+          "tema": "Relações de equivalência e classes de equivalência",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 17.8,
+            "uf": 15.3,
+            "regiao": 18.3,
+            "catAdm": 19.7,
+            "orgAcad": 19.4,
+            "brasil": 18.9
+          },
+          "respostas": {
+            "A": 17.8,
+            "B": 22.2,
+            "C": 35.6,
+            "D": 17.8,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 13,
+          "disciplina": "Circuitos Elétricos I",
+          "tema": "Lei de Kirchhoff das correntes e grafos de circuito",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 28.9,
+            "uf": 30,
+            "regiao": 26.6,
+            "catAdm": 30.6,
+            "orgAcad": 28.4,
+            "brasil": 27.5
+          },
+          "respostas": {
+            "A": 33.3,
+            "B": 8.9,
+            "C": 17.8,
+            "D": 28.9,
+            "E": 11.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 14,
+          "disciplina": "Linguagens de Programação",
+          "tema": "Programação funcional — listas e pattern matching (Haskell)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 17.8,
+            "uf": 20.3,
+            "regiao": 17.3,
+            "catAdm": 18.3,
+            "orgAcad": 17,
+            "brasil": 17
+          },
+          "respostas": {
+            "A": 6.7,
+            "B": 28.9,
+            "C": 6.7,
+            "D": 40,
+            "E": 17.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Programação de Computadores I",
+          "tema": "Gerenciamento de memória em C — memory leak (malloc/free)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 34.1,
+            "regiao": 31.9,
+            "catAdm": 39.4,
+            "orgAcad": 35.7,
+            "brasil": 35
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 22.2,
+            "C": 33.3,
+            "D": 28.9,
+            "E": 13.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Microprocessadores e Microcontroladores",
+          "tema": "Operações bit a bit (bitwise) em C",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 6.7,
+            "uf": 11.9,
+            "regiao": 8.5,
+            "catAdm": 13.9,
+            "orgAcad": 11.7,
+            "brasil": 10.6
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 60,
+            "C": 11.1,
+            "D": 8.9,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 17,
+          "disciplina": "Algoritmos e Estruturas de Dados III",
+          "tema": "Subsequência Comum Mais Longa (LCS) — programação dinâmica",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 18,
+          "disciplina": "Algoritmos e Estruturas de Dados II",
+          "tema": "Vetores dinâmicos e análise amortizada",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 19,
+          "disciplina": "Compiladores I",
+          "tema": "Gramáticas livres de contexto e análise sintática/semântica",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 20,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Computação em nuvem (pública vs privada)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 43.1,
+            "regiao": 43.3,
+            "catAdm": 48.9,
+            "orgAcad": 47.3,
+            "brasil": 46.1
+          },
+          "respostas": {
+            "A": 15.6,
+            "B": 33.3,
+            "C": 2.2,
+            "D": 28.9,
+            "E": 20,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Interação Humano-Computador",
+          "tema": "Acessibilidade em IHC — design equitativo e informações perceptíveis",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 55.6,
+            "uf": 48.4,
+            "regiao": 42.9,
+            "catAdm": 49.6,
+            "orgAcad": 46.5,
+            "brasil": 45.9
+          },
+          "respostas": {
+            "A": 55.6,
+            "B": 11.1,
+            "C": 24.4,
+            "D": 0,
+            "E": 8.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Banco de Dados I",
+          "tema": "SQL — consultas com JOIN em banco relacional",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 33.3,
+            "uf": 41.9,
+            "regiao": 34.6,
+            "catAdm": 36.5,
+            "orgAcad": 35.5,
+            "brasil": 36.5
+          },
+          "respostas": {
+            "A": 33.3,
+            "B": 8.9,
+            "C": 13.3,
+            "D": 11.1,
+            "E": 33.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Sinais e Sistemas",
+          "tema": "Filtros passa-baixa com amplificador operacional",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 22.2,
+            "uf": 37.5,
+            "regiao": 35.8,
+            "catAdm": 37.5,
+            "orgAcad": 37,
+            "brasil": 36.8
+          },
+          "respostas": {
+            "A": 22.2,
+            "B": 15.6,
+            "C": 33.3,
+            "D": 17.8,
+            "E": 11.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 24,
+          "disciplina": "Microprocessadores e Microcontroladores",
+          "tema": "Registradores de I/O em sistemas embarcados",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 42.2,
+            "uf": 43.4,
+            "regiao": 39.9,
+            "catAdm": 41.2,
+            "orgAcad": 40.8,
+            "brasil": 40.2
+          },
+          "respostas": {
+            "A": 15.6,
+            "B": 17.8,
+            "C": 11.1,
+            "D": 42.2,
+            "E": 11.1,
+            "SI": 2.2
+          }
+        },
+        {
+          "numero": 25,
+          "disciplina": "Princípios de Eletrônica Digital",
+          "tema": "Descrição de hardware em HDL (Verilog e VHDL) — contadores",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 26,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Multiprocessamento e threads com memória compartilhada",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 82.2,
+            "uf": 75.6,
+            "regiao": 64.1,
+            "catAdm": 71.2,
+            "orgAcad": 68,
+            "brasil": 68.3
+          },
+          "respostas": {
+            "A": 0,
+            "B": 6.7,
+            "C": 6.7,
+            "D": 4.4,
+            "E": 82.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Virtualização de hardware e máquinas virtuais",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 26.7,
+            "uf": 37.2,
+            "regiao": 32.1,
+            "catAdm": 36.4,
+            "orgAcad": 35.2,
+            "brasil": 35.4
+          },
+          "respostas": {
+            "A": 11.1,
+            "B": 22.2,
+            "C": 26.7,
+            "D": 24.4,
+            "E": 15.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 28,
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Memória virtual — paginação, TLB e MMU",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 44.4,
+            "uf": 49.1,
+            "regiao": 44.9,
+            "catAdm": 44.4,
+            "orgAcad": 43.6,
+            "brasil": 45.2
+          },
+          "respostas": {
+            "A": 44.4,
+            "B": 6.7,
+            "C": 20,
+            "D": 20,
+            "E": 8.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Inteligência Artificial",
+          "tema": "SVM — Support Vector Machine",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 40,
+            "uf": 51.2,
+            "regiao": 39.6,
+            "catAdm": 47.9,
+            "orgAcad": 45.2,
+            "brasil": 44.8
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 40,
+            "C": 22.2,
+            "D": 13.3,
+            "E": 11.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Organização e Arquitetura de Computadores I",
+          "tema": "Dependência de dados e conflitos em multiprocessamento (RAW, WAW)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 68.9,
+            "uf": 63.7,
+            "regiao": 48.8,
+            "catAdm": 59.5,
+            "orgAcad": 56.3,
+            "brasil": 56.7
+          },
+          "respostas": {
+            "A": 11.1,
+            "B": 11.1,
+            "C": 2.2,
+            "D": 6.7,
+            "E": 68.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Sinais e Sistemas",
+          "tema": "Teorema da amostragem (Nyquist-Shannon)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 13.3,
+            "uf": 25,
+            "regiao": 22.9,
+            "catAdm": 28.2,
+            "orgAcad": 26.9,
+            "brasil": 26
+          },
+          "respostas": {
+            "A": 40,
+            "B": 26.7,
+            "C": 13.3,
+            "D": 13.3,
+            "E": 6.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 32,
+          "disciplina": "Inteligência Artificial",
+          "tema": "Busca gulosa em grafos",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 64.4,
+            "uf": 59.4,
+            "regiao": 55,
+            "catAdm": 57.7,
+            "orgAcad": 56.7,
+            "brasil": 57
+          },
+          "respostas": {
+            "A": 2.2,
+            "B": 64.4,
+            "C": 15.6,
+            "D": 15.6,
+            "E": 2.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 33,
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Estruturas de dados aplicadas ao controlador PID (pilha e fila)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 28.9,
+            "uf": 33.4,
+            "regiao": 35.1,
+            "catAdm": 35.3,
+            "orgAcad": 34.9,
+            "brasil": 36.1
+          },
+          "respostas": {
+            "A": 11.1,
+            "B": 13.3,
+            "C": 22.2,
+            "D": 28.9,
+            "E": 24.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 34,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 35,
+          "disciplina": "Redes de Computadores I",
+          "tema": "Protocolos TCP e UDP",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 71.1,
+            "uf": 45.6,
+            "regiao": 39.6,
+            "catAdm": 44.6,
+            "orgAcad": 43.4,
+            "brasil": 43
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 4.4,
+            "C": 6.7,
+            "D": 13.3,
+            "E": 71.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 36,
+          "disciplina": "Avaliação de Desempenho de Sistemas",
+          "tema": "Impacto de threads e núcleos no desempenho — Lei de Amdahl",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 73.3,
+            "uf": 64.7,
+            "regiao": 49.3,
+            "catAdm": 57.8,
+            "orgAcad": 53.7,
+            "brasil": 54.2
+          },
+          "respostas": {
+            "A": 13.3,
+            "B": 2.2,
+            "C": 73.3,
+            "D": 6.7,
+            "E": 4.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 37,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Segurança da informação (criptografia e controle de acesso)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 17.8,
+            "uf": 26.9,
+            "regiao": 27.4,
+            "catAdm": 30.9,
+            "orgAcad": 29.6,
+            "brasil": 29.1
+          },
+          "respostas": {
+            "A": 4.4,
+            "B": 6.7,
+            "C": 17.8,
+            "D": 20,
+            "E": 51.1,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 38,
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Arquitetura de microsserviços",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 77.8,
+            "uf": 68.1,
+            "regiao": 59.4,
+            "catAdm": 65.2,
+            "orgAcad": 61.7,
+            "brasil": 63
+          },
+          "respostas": {
+            "A": 77.8,
+            "B": 0,
+            "C": 6.7,
+            "D": 2.2,
+            "E": 13.3,
+            "SI": 0
+          }
+        }
+      ]
+    }
+  ]
+}

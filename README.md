@@ -28,6 +28,9 @@ O [Oxlint](https://oxc.rs) lê o código sem executá-lo e aponta erros comuns. 
 `/api/enade`, `/api/avaliaufop`, `/api/desempenho`, `/api/resultados` e `/api/relatorios`
 (`/:ano/download` baixa o PDF).
 
+Em `/api/enade`, `GET /:curso/questoes?ano=2023` devolve a tabela de acertos por questão (com a disciplina e
+o tema de cada uma), e `GET /cursos` informa em `anosComQuestoes` quais edições têm essa tabela.
+
 ## Integração contínua (CI)
 
 O arquivo `.github/workflows/ci.yml` faz o GitHub rodar, a cada push na `master` e em todo pull request:
@@ -55,6 +58,26 @@ O CI só passa a rodar depois que o projeto for enviado a um repositório no Git
 - `data/avaliaufop/` — exports de notas do Moodle (veja o README dessa pasta).
 - `data/resultados-enade.json` — conceito, comparação com o Brasil e perfil dos concluintes.
 - `data/relatorios-inep/` — PDFs do INEP, no padrão `enade-AAAA-ufop-joao-monlevade.pdf`.
+- `data/relatorios-curso/` — Relatórios de Curso do INEP, no padrão `enade-AAAA-<curso>-relatorio-de-curso.pdf`.
+- `data/questoes/` — tabela de acertos por questão (`<curso>-<ano>.json`), gerada a partir dos relatórios de curso.
+
+### Gerando a tabela de acertos por questão
+
+O Relatório de Curso do Enade 2023 tem, nas tabelas 5.1.1 (Formação Geral) e 5.1.3 (Componente Específico),
+o percentual de acerto de cada questão (curso, UF, região, categoria administrativa, organização acadêmica e
+Brasil), o gabarito e a distribuição das respostas. O script lê essas tabelas do PDF e junta a **disciplina**
+(do arquivo da prova, `.jsonl`) e o **tema** (da lista de assuntos do CSV, na ordem das questões):
+
+```bash
+node scripts/extrair-questoes.js --curso ec --ano 2023 \
+  --pdf data/relatorios-curso/enade-2023-engenharia-de-computacao-relatorio-de-curso.pdf \
+  --prova "../Projeto Enade/Questoes/Engenharia da Computacao/2023/enade_2023_engenharia_computacao.jsonl" \
+  --assuntos data/ec.csv
+```
+
+O script avisa se o gabarito do relatório diferir do da prova ou se a quantidade de assuntos de uma disciplina
+não bater com a de questões. Nos relatórios de 2014 e 2011 a distribuição das respostas vem só em gráficos, e
+os de 2017 e 2021 são resumidos, então esses anos não têm a tabela.
 
 ## Testes
 
