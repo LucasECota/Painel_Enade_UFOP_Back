@@ -12,12 +12,14 @@ const router = express.Router();
 router.get('/cursos', (req, res) => {
     const cursos = buscarTodosOsCursos();
 
-    // Transforma { ec: {...}, si: {...} } em uma lista: [{ chave, nome, anos, anosComQuestoes }, ...]
+    // Transforma { ec: {...}, si: {...} } em uma lista: [{ chave, nome, anos, anosComAssuntos, anosComQuestoes }, ...]
+    // "anosComAssuntos" são as edições com os assuntos de cada disciplina.
     // "anosComQuestoes" são as edições que têm a tabela de acertos por questão.
     const lista = Object.entries(cursos).map(([chave, curso]) => ({
         chave,
         nome: curso.nome,
         anos: curso.anos,
+        anosComAssuntos: curso.anosComAssuntos,
         anosComQuestoes: anosComQuestoes(chave),
     }));
 

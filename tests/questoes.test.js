@@ -210,6 +210,13 @@ describe('repositório e rota de questões', () => {
 
             assert.deepEqual(porChave, { ec: [2023], ep: [2023], si: [] });
         });
+
+        test('/cursos informa em quais anos cada curso tem os assuntos por disciplina', async () => {
+            const cursos = await (await fetch(`${base}/cursos`)).json();
+            const porChave = Object.fromEntries(cursos.map((c) => [c.chave, c.anosComAssuntos]));
+
+            assert.deepEqual(porChave, { ec: [2023, 2019, 2017, 2014], ep: [2023, 2019], si: [2021, 2017, 2014] });
+        });
     });
 });
 
@@ -306,4 +313,20 @@ describe('relatórios de curso em data/relatorios-curso', () => {
             );
         }
     });
+});
+
+// Nos anos com assuntos, cada questão do Componente Específico precisa ter o seu: se faltar ou
+// sobrar um, os temas ficam trocados de questão.
+describe('assuntos por disciplina (data/*.csv)', () => {
+    const { buscarTodosOsCursos } = require('../src/data/enadeRepository');
+
+    for (const [chave, curso] of Object.entries(buscarTodosOsCursos())) {
+        for (const ano of curso.anosComAssuntos) {
+            test(`${chave} ${ano}: um assunto por questão em cada disciplina`, () => {
+                for (const d of curso.porAno[ano].ce.disciplinas) {
+                    assert.equal(d.assuntos.length, d.qtd, `${d.nome}: ${d.qtd} questões e ${d.assuntos.length} assuntos`);
+                }
+            });
+        }
+    }
 });

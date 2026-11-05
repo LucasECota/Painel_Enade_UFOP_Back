@@ -123,9 +123,15 @@ function montarDadosDoCurso(chaveDoCurso) {
     .map(Number)
     .sort((a, b) => b - a);
 
+  // Edições em que o Componente Específico tem assuntos cadastrados (as demais só têm as quantidades)
+  const anosComAssuntos = anos.filter((ano) =>
+    porAno[ano].ce.disciplinas.some((disciplina) => disciplina.assuntos.length > 0),
+  );
+
   return {
     nome: nomeDoCurso,
     anos,
+    anosComAssuntos,
     geral,
     porAno,
   };

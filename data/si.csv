@@ -62,23 +62,23 @@ Sistemas de Informação,2017,Componente Específico,Redes de Computadores I,1,"
 Sistemas de Informação,2017,Componente Específico,Segurança e Auditoria de Sistemas,1,Segurança da Informação — Responsabilidade Organizacional e Ataques Cibernéticos
 Sistemas de Informação,2017,Componente Específico,Sistemas Operacionais,1,Arquitetura Cliente-Servidor — Computação em Nuvem e Hospedagem de Aplicações
 Sistemas de Informação,2014,Formação Geral,(sem disciplina associada),10,
-Sistemas de Informação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,3,
-Sistemas de Informação,2014,Componente Específico,Gestão da Tecnologia da Informação,3,
-Sistemas de Informação,2014,Componente Específico,Banco de Dados I,2,
-Sistemas de Informação,2014,Componente Específico,Engenharia de Software I,2,
-Sistemas de Informação,2014,Componente Específico,Engenharia de Software II,2,
-Sistemas de Informação,2014,Componente Específico,Gerência de Projetos de Software,2,
-Sistemas de Informação,2014,Componente Específico,Qualidade de Software,2,
-Sistemas de Informação,2014,Componente Específico,Sistemas Operacionais,2,
-Sistemas de Informação,2014,Componente Específico,Compiladores I,1,
-Sistemas de Informação,2014,Componente Específico,Estatística e Probabilidade,1,
-Sistemas de Informação,2014,Componente Específico,Gestão da Informação,1,
-Sistemas de Informação,2014,Componente Específico,Informática e Sociedade,1,
-Sistemas de Informação,2014,Componente Específico,Interação Humano-Computador,1,
-Sistemas de Informação,2014,Componente Específico,Linguagens de Programação,1,
-Sistemas de Informação,2014,Componente Específico,Programação Linear e Inteira,1,
-Sistemas de Informação,2014,Componente Específico,Redes de Computadores I,1,
-Sistemas de Informação,2014,Componente Específico,Segurança e Auditoria de Sistemas,1,
-Sistemas de Informação,2014,Componente Específico,Segurança em Redes,1,
-Sistemas de Informação,2014,Componente Específico,Sistemas Distribuídos,1,
-Sistemas de Informação,2014,Componente Específico,Sistemas de Apoio à Decisão,1,
+Sistemas de Informação,2014,Componente Específico,Algoritmos e Estruturas de Dados I,3,Algoritmo de pesquisa binária | Comparação de dois arrays de matrículas — custo do programa | Complexidade da leitura de arquivo ordenado de cidades
+Sistemas de Informação,2014,Componente Específico,Gestão da Tecnologia da Informação,3,ITIL e comunicação dos serviços de TI | Virtualização de servidores e gerenciamento eletrônico de documentos | Arquitetura empresarial integrada por processos
+Sistemas de Informação,2014,Componente Específico,Banco de Dados I,2,Modelagem de dados de atendimentos com ambulâncias | Consulta SQL com FULL OUTER JOIN
+Sistemas de Informação,2014,Componente Específico,Engenharia de Software I,2,Modelagem UML de um sistema de comércio eletrônico | Uso da UML na prática
+Sistemas de Informação,2014,Componente Específico,Engenharia de Software II,2,Métricas para a manutenção de software | Modelagem de processo de negócio em BPMN
+Sistemas de Informação,2014,Componente Específico,Gerência de Projetos de Software,2,Ferramentas para priorizar problemas em um projeto | Gráficos de apoio à análise das informações do projeto
+Sistemas de Informação,2014,Componente Específico,Qualidade de Software,2,MPS.BR — gerência de recursos humanos | Custo e valor da qualidade do produto de software
+Sistemas de Informação,2014,Componente Específico,Sistemas Operacionais,2,Estados de processos e transições do escalonador | Execução simultânea de programas cpu-bound e io-bound
+Sistemas de Informação,2014,Componente Específico,Compiladores I,1,Compilação clássica e processo híbrido (C e Java)
+Sistemas de Informação,2014,Componente Específico,Estatística e Probabilidade,1,Probabilidade aplicada à classificação de erros de operação
+Sistemas de Informação,2014,Componente Específico,Gestão da Informação,1,Gestão do conhecimento na administração pública
+Sistemas de Informação,2014,Componente Específico,Informática e Sociedade,1,Telecentros e inclusão digital
+Sistemas de Informação,2014,Componente Específico,Interação Humano-Computador,1,Usabilidade segundo a norma ISO 9241
+Sistemas de Informação,2014,Componente Específico,Linguagens de Programação,1,"Ranking de linguagens — gerações, paradigmas e licenças"
+Sistemas de Informação,2014,Componente Específico,Programação Linear e Inteira,1,Modelagem para a alocação de horas e o orçamento de um projeto
+Sistemas de Informação,2014,Componente Específico,Redes de Computadores I,1,Roteamento entre sistemas autônomos
+Sistemas de Informação,2014,Componente Específico,Segurança e Auditoria de Sistemas,1,Auditoria do plano de contingência e recuperação de desastres
+Sistemas de Informação,2014,Componente Específico,Segurança em Redes,1,"Criptografia, autenticidade e integridade em transações"
+Sistemas de Informação,2014,Componente Específico,Sistemas Distribuídos,1,Arquiteturas distribuídas para diferentes padrões de acesso a documentos
+Sistemas de Informação,2014,Componente Específico,Sistemas de Apoio à Decisão,1,Sistemas OLTP e OLAP
