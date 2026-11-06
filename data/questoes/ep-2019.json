@@ -1,0 +1,755 @@
+{
+  "curso": "ep",
+  "nome": "Engenharia de Produção",
+  "ano": 2019,
+  "fonte": "INEP — Relatório de Curso do Enade 2019 (Engenharia de Produção, UFOP, João Monlevade)",
+  "componentes": [
+    {
+      "tipo": "formacaoGeral",
+      "titulo": "Formação Geral",
+      "questoes": [
+        {
+          "numero": 1,
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Acordos internacionais sobre mudanças climáticas",
+          "situacao": "anulada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 2,
+          "disciplina": "Artes e Cultura",
+          "tema": "Poesia concreta (Augusto de Campos)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 81.7,
+            "uf": 69.4,
+            "regiao": 69,
+            "catAdm": 80.5,
+            "orgAcad": 72.3,
+            "brasil": 67.9
+          },
+          "respostas": {
+            "A": 7.3,
+            "B": 4.6,
+            "C": 2.8,
+            "D": 81.7,
+            "E": 3.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 3,
+          "disciplina": "Geografia",
+          "tema": "Produção de alimentos e segurança alimentar",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 72.5,
+            "uf": 63.8,
+            "regiao": 62.6,
+            "catAdm": 73.7,
+            "orgAcad": 66.4,
+            "brasil": 62.3
+          },
+          "respostas": {
+            "A": 4.6,
+            "B": 5.5,
+            "C": 72.5,
+            "D": 12.8,
+            "E": 4.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 4,
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Saneamento básico e abastecimento de água",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 57.8,
+            "uf": 49.4,
+            "regiao": 48.5,
+            "catAdm": 55.4,
+            "orgAcad": 51.3,
+            "brasil": 48.5
+          },
+          "respostas": {
+            "A": 9.2,
+            "B": 57.8,
+            "C": 27.5,
+            "D": 2.8,
+            "E": 2.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 5,
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Território indígena e marco temporal",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 19.3,
+            "uf": 14.9,
+            "regiao": 15.4,
+            "catAdm": 22.5,
+            "orgAcad": 17.8,
+            "brasil": 15.5
+          },
+          "respostas": {
+            "A": 23.9,
+            "B": 7.3,
+            "C": 19.3,
+            "D": 15.6,
+            "E": 33.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 6,
+          "disciplina": "Sociologia",
+          "tema": "Violência contra mulheres negras (Atlas da Violência)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 61.5,
+            "uf": 49.6,
+            "regiao": 47.5,
+            "catAdm": 56.1,
+            "orgAcad": 50,
+            "brasil": 46.8
+          },
+          "respostas": {
+            "A": 15.6,
+            "B": 16.5,
+            "C": 61.5,
+            "D": 0.9,
+            "E": 5.5,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 7,
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Acessibilidade das pessoas com deficiência",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 56,
+            "uf": 55,
+            "regiao": 54.8,
+            "catAdm": 58,
+            "orgAcad": 55.5,
+            "brasil": 55.9
+          },
+          "respostas": {
+            "A": 0.9,
+            "B": 7.3,
+            "C": 2.8,
+            "D": 56,
+            "E": 33,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 8,
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Síndrome de Burnout e trabalho",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 82.6,
+            "uf": 58.9,
+            "regiao": 58.4,
+            "catAdm": 72.9,
+            "orgAcad": 63.6,
+            "brasil": 58.8
+          },
+          "respostas": {
+            "A": 0.9,
+            "B": 82.6,
+            "C": 6.4,
+            "D": 4.6,
+            "E": 5.5,
+            "SI": 0
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "especifico",
+      "titulo": "Componente Específico",
+      "questoes": [
+        {
+          "numero": 9,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Fases do desenvolvimento de produtos",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 45,
+            "uf": 39.4,
+            "regiao": 39.7,
+            "catAdm": 45.1,
+            "orgAcad": 42,
+            "brasil": 39.4
+          },
+          "respostas": {
+            "A": 44,
+            "B": 45,
+            "C": 3.7,
+            "D": 4.6,
+            "E": 1.8,
+            "SI": 0.9
+          }
+        },
+        {
+          "numero": 10,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Custo de estocagem (otimização de funções)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 11,
+          "disciplina": "Simulação a Eventos Discretos",
+          "tema": "Simulação de sistemas de filas (método Monte Carlo)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 45,
+            "uf": 34.8,
+            "regiao": 33.5,
+            "catAdm": 41.4,
+            "orgAcad": 36,
+            "brasil": 33.2
+          },
+          "respostas": {
+            "A": 9.2,
+            "B": 18.3,
+            "C": 45,
+            "D": 23.9,
+            "E": 3.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 12,
+          "disciplina": "Estatística I",
+          "tema": "Análise de histogramas de frequência",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 78.9,
+            "uf": 60.1,
+            "regiao": 59.8,
+            "catAdm": 79.2,
+            "orgAcad": 66.7,
+            "brasil": 58.7
+          },
+          "respostas": {
+            "A": 78.9,
+            "B": 8.3,
+            "C": 3.7,
+            "D": 2.8,
+            "E": 6.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 13,
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Ferramentas de desenvolvimento de produtos (QFD, FMEA, Pugh, Design Thinking)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 14,
+          "disciplina": "Ergonomia",
+          "tema": "Margem de manobra e carga de trabalho",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 30.3,
+            "uf": 27.6,
+            "regiao": 26.9,
+            "catAdm": 32.3,
+            "orgAcad": 28.9,
+            "brasil": 26.5
+          },
+          "respostas": {
+            "A": 11,
+            "B": 38.5,
+            "C": 12.8,
+            "D": 30.3,
+            "E": 7.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 15,
+          "disciplina": "Planejamento Estratégico e Mercadológico",
+          "tema": "Estratégias competitivas genéricas de Porter",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 71.6,
+            "uf": 56.4,
+            "regiao": 55.9,
+            "catAdm": 61.1,
+            "orgAcad": 57.6,
+            "brasil": 55
+          },
+          "respostas": {
+            "A": 2.8,
+            "B": 3.7,
+            "C": 16.5,
+            "D": 5.5,
+            "E": 71.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 16,
+          "disciplina": "Segurança do Trabalho",
+          "tema": "Sistema de gestão de segurança e saúde ocupacional (ISO 45001)",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 17,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Variáveis para previsão de demanda, capacidade e estoque",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 70.6,
+            "uf": 64.2,
+            "regiao": 62.9,
+            "catAdm": 63.7,
+            "orgAcad": 63,
+            "brasil": 62.8
+          },
+          "respostas": {
+            "A": 2.8,
+            "B": 1.8,
+            "C": 70.6,
+            "D": 2.8,
+            "E": 22,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 18,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Previsão de demanda por média móvel ponderada",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 78.9,
+            "uf": 59.2,
+            "regiao": 60.1,
+            "catAdm": 75.4,
+            "orgAcad": 64.6,
+            "brasil": 58.8
+          },
+          "respostas": {
+            "A": 5.5,
+            "B": 78.9,
+            "C": 4.6,
+            "D": 6.4,
+            "E": 4.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 19,
+          "disciplina": "Planejamento e Controle de Produção II",
+          "tema": "Sistema Kanban e Just in Time (JIT)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 47.7,
+            "uf": 39.9,
+            "regiao": 39.5,
+            "catAdm": 49.6,
+            "orgAcad": 42.8,
+            "brasil": 39.7
+          },
+          "respostas": {
+            "A": 4.6,
+            "B": 14.7,
+            "C": 17.4,
+            "D": 15.6,
+            "E": 47.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 20,
+          "disciplina": "Processos de Produção",
+          "tema": "Capacidade produtiva e identificação de gargalos",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 32.1,
+            "uf": 26.7,
+            "regiao": 28.9,
+            "catAdm": 38.6,
+            "orgAcad": 32.5,
+            "brasil": 28.8
+          },
+          "respostas": {
+            "A": 17.4,
+            "B": 12.8,
+            "C": 32.1,
+            "D": 18.3,
+            "E": 19.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 21,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Payback (tempo de retorno do investimento)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 42.2,
+            "uf": 41.7,
+            "regiao": 42.4,
+            "catAdm": 55.2,
+            "orgAcad": 46.1,
+            "brasil": 41.7
+          },
+          "respostas": {
+            "A": 9.2,
+            "B": 16.5,
+            "C": 20.2,
+            "D": 42.2,
+            "E": 11.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 22,
+          "disciplina": "Gestão de Projetos",
+          "tema": "PERT/CPM com distribuição triangular de tempos",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 39.4,
+            "uf": 34.9,
+            "regiao": 35.4,
+            "catAdm": 47,
+            "orgAcad": 39.2,
+            "brasil": 34.6
+          },
+          "respostas": {
+            "A": 39.4,
+            "B": 7.3,
+            "C": 5.5,
+            "D": 8.3,
+            "E": 39.4,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 23,
+          "disciplina": "Gestão Ambiental",
+          "tema": "Política Nacional de Resíduos Sólidos (PNRS)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 66.1,
+            "uf": 63.6,
+            "regiao": 65.3,
+            "catAdm": 68.1,
+            "orgAcad": 66.4,
+            "brasil": 65.6
+          },
+          "respostas": {
+            "A": 5.5,
+            "B": 0,
+            "C": 66.1,
+            "D": 5.5,
+            "E": 22.9,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 24,
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Indústria 4.0 e transformação digital",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 57.8,
+            "uf": 49.7,
+            "regiao": 49.3,
+            "catAdm": 55.6,
+            "orgAcad": 52.3,
+            "brasil": 50.9
+          },
+          "respostas": {
+            "A": 6.4,
+            "B": 0,
+            "C": 22,
+            "D": 13.8,
+            "E": 57.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 25,
+          "disciplina": "Engenharia Econômica",
+          "tema": "Taxa Interna de Retorno (TIR) e Valor Presente Líquido (VPL)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 18.3,
+            "uf": 28.7,
+            "regiao": 31.2,
+            "catAdm": 37,
+            "orgAcad": 32.8,
+            "brasil": 30.4
+          },
+          "respostas": {
+            "A": 10.1,
+            "B": 17.4,
+            "C": 37.6,
+            "D": 18.3,
+            "E": 16.5,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 26,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Programação linear aplicada a mix de produção",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 37.6,
+            "uf": 25,
+            "regiao": 25.4,
+            "catAdm": 31.7,
+            "orgAcad": 27.4,
+            "brasil": 24.7
+          },
+          "respostas": {
+            "A": 37.6,
+            "B": 8.3,
+            "C": 43.1,
+            "D": 11,
+            "E": 0,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 27,
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Problema de transporte (Pesquisa Operacional)",
+          "situacao": "valida",
+          "gabarito": "C",
+          "acertos": {
+            "curso": 41.3,
+            "uf": 36.1,
+            "regiao": 36.1,
+            "catAdm": 47.7,
+            "orgAcad": 39.9,
+            "brasil": 35.6
+          },
+          "respostas": {
+            "A": 9.2,
+            "B": 11,
+            "C": 41.3,
+            "D": 22.9,
+            "E": 14.7,
+            "SI": 0.9
+          }
+        },
+        {
+          "numero": 28,
+          "disciplina": "Planejamento e Controle de Produção I",
+          "tema": "Capacidade máxima, programada e disponível",
+          "situacao": "valida",
+          "gabarito": "A",
+          "acertos": {
+            "curso": 41.3,
+            "uf": 29.8,
+            "regiao": 29.6,
+            "catAdm": 37.3,
+            "orgAcad": 32.1,
+            "brasil": 29.8
+          },
+          "respostas": {
+            "A": 41.3,
+            "B": 17.4,
+            "C": 10.1,
+            "D": 12.8,
+            "E": 18.3,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 29,
+          "disciplina": "Métodos Estatísticos em Confiabilidade",
+          "tema": "Indicadores de manutenção (MTBF e MTTR)",
+          "situacao": "valida",
+          "gabarito": "D",
+          "acertos": {
+            "curso": 56.9,
+            "uf": 46.3,
+            "regiao": 46.5,
+            "catAdm": 57.2,
+            "orgAcad": 50.5,
+            "brasil": 46
+          },
+          "respostas": {
+            "A": 3.7,
+            "B": 16.5,
+            "C": 19.3,
+            "D": 56.9,
+            "E": 3.7,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 30,
+          "disciplina": "Controle Estatístico de Qualidade",
+          "tema": "Cartas de controle de variáveis (Controle Estatístico de Processo)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 44,
+            "uf": 30.9,
+            "regiao": 29.5,
+            "catAdm": 36.4,
+            "orgAcad": 31.6,
+            "brasil": 30
+          },
+          "respostas": {
+            "A": 13.8,
+            "B": 22,
+            "C": 14.7,
+            "D": 5.5,
+            "E": 44,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 31,
+          "disciplina": "Gestão da Qualidade",
+          "tema": "Ferramenta SIPOC",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 57.8,
+            "uf": 38.6,
+            "regiao": 43.1,
+            "catAdm": 56.3,
+            "orgAcad": 47.5,
+            "brasil": 41.6
+          },
+          "respostas": {
+            "A": 14.7,
+            "B": 57.8,
+            "C": 5.5,
+            "D": 12.8,
+            "E": 9.2,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 32,
+          "disciplina": "Processos de Manufatura Avançada",
+          "tema": "Manufatura avançada e sistemas ciberfísicos",
+          "situacao": "desconsiderada",
+          "gabarito": null,
+          "acertos": null,
+          "respostas": null
+        },
+        {
+          "numero": 33,
+          "disciplina": "Organização Industrial",
+          "tema": "Planejamento de arranjo físico (layout)",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 30.3,
+            "uf": 29.2,
+            "regiao": 29.3,
+            "catAdm": 34.2,
+            "orgAcad": 31.1,
+            "brasil": 29.8
+          },
+          "respostas": {
+            "A": 13.8,
+            "B": 30.3,
+            "C": 14.7,
+            "D": 36.7,
+            "E": 4.6,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 34,
+          "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
+          "tema": "Análise de custos fixos e variáveis para localização de instalações",
+          "situacao": "valida",
+          "gabarito": "B",
+          "acertos": {
+            "curso": 68.8,
+            "uf": 53.4,
+            "regiao": 53.1,
+            "catAdm": 65.4,
+            "orgAcad": 57.3,
+            "brasil": 52.6
+          },
+          "respostas": {
+            "A": 10.1,
+            "B": 68.8,
+            "C": 8.3,
+            "D": 10.1,
+            "E": 2.8,
+            "SI": 0
+          }
+        },
+        {
+          "numero": 35,
+          "disciplina": "Teoria das Organizações",
+          "tema": "Balanced Scorecard (BSC)",
+          "situacao": "valida",
+          "gabarito": "E",
+          "acertos": {
+            "curso": 64.2,
+            "uf": 46,
+            "regiao": 46.5,
+            "catAdm": 50.4,
+            "orgAcad": 47.3,
+            "brasil": 46
+          },
+          "respostas": {
+            "A": 2.8,
+            "B": 4.6,
+            "C": 19.3,
+            "D": 9.2,
+            "E": 64.2,
+            "SI": 0
+          }
+        }
+      ]
+    }
+  ]
+}

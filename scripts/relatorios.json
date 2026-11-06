@@ -8,6 +8,13 @@
   },
   {
     "curso": "ec",
+    "ano": 2019,
+    "pdf": "enade-2019-engenharia-de-computacao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia da Computacao/2019/enade_2019_engenharia_da_computacao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ec",
     "ano": 2017,
     "pdf": "enade-2017-engenharia-de-computacao-relatorio-de-curso.pdf",
     "prova": "../Projeto Enade/Questoes/Engenharia da Computacao/2017/enade_2017_engenharia_computacao.jsonl",
@@ -25,6 +32,13 @@
     "ano": 2023,
     "pdf": "enade-2023-engenharia-de-producao-relatorio-de-curso.pdf",
     "prova": "../Projeto Enade/Questoes/Engenharia de Produção/2023/enade_2023_engenharia_producao.jsonl",
+    "formato": "padrao"
+  },
+  {
+    "curso": "ep",
+    "ano": 2019,
+    "pdf": "enade-2019-engenharia-de-producao-relatorio-de-curso.pdf",
+    "prova": "../Projeto Enade/Questoes/Engenharia de Produção/2019/enade_2019_engenharia_producao.jsonl",
     "formato": "padrao"
   },
   {
