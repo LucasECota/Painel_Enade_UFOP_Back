@@ -26,10 +26,11 @@ O [Oxlint](https://oxc.rs) lê o código sem executá-lo e aponta erros comuns. 
 ## Rotas
 
 `/api/enade`, `/api/avaliaufop`, `/api/desempenho`, `/api/resultados` e `/api/relatorios`
-(`/:ano/download` baixa o PDF).
+(`/:ano/download` baixa o PDF do relatório da IES; `/curso` lista os relatórios de curso e
+`/curso/:curso/:ano/download` baixa o de um curso, por exemplo `/curso/ec/2023/download`).
 
 Em `/api/enade`, `GET /:curso/questoes?ano=2023` devolve a tabela de acertos por questão (com a disciplina e
-o tema de cada uma), e `GET /cursos` informa em `anosComQuestoes` quais edições têm essa tabela.
+o tema de cada uma), `GET /:curso/desempenho-areas` calcula, a partir dessas tabelas, o acerto médio da UFOP e do Brasil por área e por tema em cada edição, e `GET /cursos` informa em `anosComQuestoes` quais edições têm a tabela.
 
 ## Integração contínua (CI)
 

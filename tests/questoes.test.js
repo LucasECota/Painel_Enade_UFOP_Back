@@ -6,7 +6,7 @@ require('./helpers'); // chave de anonimização falsa
 
 const app = require('../app');
 const { interpretarLinha, extrairTabela, ligarTemas, dividirCsv } = require('../scripts/extrair-questoes');
-const { anosComQuestoes, buscarQuestoes } = require('../src/data/questoesRepository');
+const { anosComQuestoes, buscarQuestoes, desempenhoPorArea } = require('../src/data/questoesRepository');
 
 describe('extração da tabela do PDF (scripts/extrair-questoes.js)', () => {
     describe('interpretarLinha', () => {
@@ -152,14 +152,14 @@ describe('extração da tabela do PDF (scripts/extrair-questoes.js)', () => {
 
 describe('repositório e rota de questões', () => {
     test('lista os anos com tabela de cada curso (um por relatório de curso do INEP na pasta)', () => {
-        assert.deepEqual(anosComQuestoes('ec'), [2023, 2017, 2014]);
-        assert.deepEqual(anosComQuestoes('ep'), [2023, 2017, 2014]);
+        assert.deepEqual(anosComQuestoes('ec'), [2023, 2019, 2017, 2014]);
+        assert.deepEqual(anosComQuestoes('ep'), [2023, 2019, 2017, 2014]);
         assert.deepEqual(anosComQuestoes('si'), [2021, 2017, 2014]);
         assert.deepEqual(anosComQuestoes('xx'), []);
     });
 
     test('buscarQuestoes devolve null para o que não existe e nunca lê fora da pasta', () => {
-        assert.equal(buscarQuestoes('ec', 2019), null);
+        assert.equal(buscarQuestoes('ec', 2008), null);
         assert.equal(buscarQuestoes('ec', '../../package'), null);
         assert.equal(buscarQuestoes('../package', 2023), null);
         assert.ok(buscarQuestoes('ec', '2023'));
@@ -194,7 +194,7 @@ describe('repositório e rota de questões', () => {
         });
 
         for (const caminho of [
-            '/ec/questoes?ano=2019',
+            '/ec/questoes?ano=2008',
             '/si/questoes?ano=2019',
             '/xx/questoes?ano=2023',
             '/ec/questoes?ano=../../package',
@@ -210,8 +210,8 @@ describe('repositório e rota de questões', () => {
             const porChave = Object.fromEntries(cursos.map((c) => [c.chave, c.anosComQuestoes]));
 
             assert.deepEqual(porChave, {
-                ec: [2023, 2017, 2014],
-                ep: [2023, 2017, 2014],
+                ec: [2023, 2019, 2017, 2014],
+                ep: [2023, 2019, 2017, 2014],
                 si: [2021, 2017, 2014],
             });
         });
@@ -319,7 +319,7 @@ describe('relatórios de curso em data/relatorios-curso', () => {
         for (const f of fs.readdirSync(pasta).filter((n) => n.endsWith('.pdf'))) {
             assert.match(
                 f,
-                /^enade-\d{4}-(engenharia-de-computacao|engenharia-de-producao|sistemas-de-informacao)-relatorio-de-curso\.pdf$/,
+                /^enade-\d{4}-(engenharia-de-computacao|engenharia-de-producao|engenharia-eletrica|sistemas-de-informacao)-relatorio-de-curso\.pdf$/,
                 `nome fora do padrão: ${f}`
             );
         }
@@ -351,6 +351,17 @@ describe('assuntos por disciplina (data/*.csv)', () => {
             'Microprocessadores e Microcontroladores': 1,
             'Sistemas Operacionais': 1,
         });
+    });
+
+    test('a API informa quantas questões de cada componente são discursivas, e o resto são objetivas', () => {
+        for (const [chave, curso] of Object.entries(buscarTodosOsCursos())) {
+            for (const ano of curso.anosComAssuntos) {
+                const { fg, ce } = curso.porAno[ano];
+                assert.equal(fg.discursivas, ano === 2023 ? 1 : 2, `${chave} ${ano} FG`);
+                assert.equal(ce.discursivas, ano === 2023 ? 1 : 3, `${chave} ${ano} CE`);
+                assert.ok(fg.discursivas <= fg.total && ce.discursivas <= ce.total);
+            }
+        }
     });
 
     test('cada edição tem 3 discursivas de Componente Específico (2023 tem 1)', () => {
@@ -399,5 +410,59 @@ describe('data/formacao-geral.json', () => {
         assert.equal(bloco.disciplinas.reduce((soma, d) => soma + d.qtd, 0), 10);
         assert.equal(direitos.discursivas, 1);
         assert.equal(direitos.assuntos[0], 'Nome social e identidade de gênero de pessoas trans');
+    });
+});
+
+describe('desempenho por área e por tema', () => {
+    test('uma edição por tabela, da mais recente para a mais antiga', () => {
+        const d = desempenhoPorArea('ec');
+        assert.deepEqual(d.edicoes, [2023, 2019, 2017, 2014]);
+        assert.deepEqual(d.porEdicao.map((e) => e.ano), d.edicoes);
+        assert.equal(d.nome, 'Engenharia de Computação');
+    });
+
+    test('curso sem tabela devolve null', () => {
+        assert.equal(desempenhoPorArea('xx'), null);
+    });
+
+    test('o desempenho de uma área é a média do acerto das suas questões válidas (EC 2023, Circuitos Elétricos I)', () => {
+        const tabela = buscarQuestoes('ec', 2023);
+        const doCurso = tabela.componentes[1].questoes.filter((q) => q.disciplina === 'Circuitos Elétricos I' && q.situacao === 'valida');
+        const esperadoUfop = Math.round((doCurso.reduce((s, q) => s + q.acertos.curso, 0) / doCurso.length) * 10) / 10;
+        const esperadoBrasil = Math.round((doCurso.reduce((s, q) => s + q.acertos.brasil, 0) / doCurso.length) * 10) / 10;
+
+        const area = desempenhoPorArea('ec').porEdicao[0].areas.find((a) => a.disciplina === 'Circuitos Elétricos I');
+        assert.equal(area.questoes, doCurso.length);
+        assert.equal(area.ufop, esperadoUfop);
+        assert.equal(area.brasil, esperadoBrasil);
+    });
+
+    test('questões anuladas ou desconsideradas ficam de fora, e todo valor está entre 0 e 100', () => {
+        for (const curso of ['ec', 'ep', 'si']) {
+            for (const edicao of desempenhoPorArea(curso).porEdicao) {
+                const validas = buscarQuestoes(curso, edicao.ano)
+                    .componentes.flatMap((c) => c.questoes)
+                    .filter((q) => q.situacao === 'valida' && q.disciplina).length;
+                assert.equal(edicao.areas.reduce((s, a) => s + a.questoes, 0), validas, `${curso} ${edicao.ano}`);
+                for (const t of [...edicao.areas, ...edicao.temas]) {
+                    assert.ok(t.ufop >= 0 && t.ufop <= 100 && t.brasil >= 0 && t.brasil <= 100);
+                }
+            }
+        }
+    });
+
+    test('GET /api/enade/:curso/desempenho-areas', async () => {
+        const servidor = app.listen(0);
+        await new Promise((r) => servidor.once('listening', r));
+        const base = `http://127.0.0.1:${servidor.address().port}/api/enade`;
+        try {
+            const res = await fetch(`${base}/si/desempenho-areas`);
+            const d = await res.json();
+            assert.equal(res.status, 200);
+            assert.deepEqual(d.edicoes, [2021, 2017, 2014]);
+            assert.equal((await fetch(`${base}/xx/desempenho-areas`)).status, 404);
+        } finally {
+            servidor.close();
+        }
     });
 });

@@ -151,6 +151,13 @@ function montarDadosDoCurso(chaveDoCurso) {
     if (porAno[ano]) porAno[ano].fg.disciplinas = disciplinas;
   }
 
+  // Quantas questões de cada componente são discursivas (o resto são objetivas)
+  for (const edicao of Object.values(porAno)) {
+    for (const bloco of [edicao.fg, edicao.ce]) {
+      bloco.discursivas = bloco.disciplinas.reduce((soma, d) => soma + (d.discursivas || 0), 0);
+    }
+  }
+
   // As chaves de porAno são texto ("2023"), convertemos pra número e ordenamos do mais recente pro mais antigo
   const anos = Object.keys(porAno)
     .map(Number)

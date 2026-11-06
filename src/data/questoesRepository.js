@@ -35,4 +35,59 @@ function buscarQuestoes(chaveDoCurso, ano) {
     return JSON.parse(fs.readFileSync(path.join(pastaDasQuestoes, item.arquivo), 'utf-8'));
 }
 
-module.exports = { anosComQuestoes, buscarQuestoes };
+const arredondar = (n) => Math.round(n * 10) / 10;
+const media = (valores) => arredondar(valores.reduce((soma, v) => soma + v, 0) / valores.length);
+
+// Desempenho por área (disciplina) e por tema, edição por edição, calculado a partir das tabelas de
+// acertos por questão. Só entram as questões válidas (não anuladas nem desconsideradas) que têm
+// disciplina e percentual do curso e do Brasil. O desempenho de uma área é a média simples do
+// percentual de acerto das suas questões.
+function desempenhoPorArea(chaveDoCurso) {
+    const anos = anosComQuestoes(chaveDoCurso);
+    if (anos.length === 0) return null;
+
+    const porEdicao = anos.map((ano) => {
+        const tabela = buscarQuestoes(chaveDoCurso, ano);
+        const temas = [];
+
+        for (const componente of tabela.componentes) {
+            for (const q of componente.questoes) {
+                if (q.situacao !== 'valida' || !q.disciplina) continue;
+                if (q.acertos.curso === null || q.acertos.brasil === null) continue;
+                temas.push({
+                    componente: componente.tipo,
+                    numero: q.numero,
+                    disciplina: q.disciplina,
+                    tema: q.tema,
+                    ufop: q.acertos.curso,
+                    brasil: q.acertos.brasil,
+                });
+            }
+        }
+
+        const grupos = new Map();
+        for (const t of temas) {
+            const chave = `${t.componente}|${t.disciplina}`;
+            if (!grupos.has(chave)) grupos.set(chave, { componente: t.componente, disciplina: t.disciplina, itens: [] });
+            grupos.get(chave).itens.push(t);
+        }
+        const areas = [...grupos.values()].map(({ componente, disciplina, itens }) => ({
+            componente,
+            disciplina,
+            questoes: itens.length,
+            ufop: media(itens.map((t) => t.ufop)),
+            brasil: media(itens.map((t) => t.brasil)),
+        }));
+
+        return { ano, areas, temas: temas.filter((t) => t.tema) };
+    });
+
+    return {
+        curso: chaveDoCurso,
+        nome: buscarQuestoes(chaveDoCurso, anos[0]).nome,
+        edicoes: anos,
+        porEdicao,
+    };
+}
+
+module.exports = { anosComQuestoes, buscarQuestoes, desempenhoPorArea };

@@ -1,6 +1,6 @@
 const express = require('express');
 const { buscarTodosOsCursos, buscarDadosDoCurso } = require('../data/enadeRepository');
-const { anosComQuestoes, buscarQuestoes } = require('../data/questoesRepository');
+const { anosComQuestoes, buscarQuestoes, desempenhoPorArea } = require('../data/questoesRepository');
 
 // Cria um roteador — é nele que vamos pendurar as rotas /cursos e /:curso
 const router = express.Router();
@@ -42,6 +42,20 @@ router.get('/:curso/questoes', (req, res) => {
     }
 
     res.json(questoes);
+});
+
+// GET /:curso/desempenho-areas
+// Desempenho (% de acerto da UFOP e do Brasil) por área e por tema em cada edição que tem a tabela
+// de acertos por questão. Responde: como cada área foi ao longo das edições e quais áreas e temas
+// tiveram mais acertos e mais erros em cada uma.
+router.get('/:curso/desempenho-areas', (req, res) => {
+    const resultado = desempenhoPorArea(req.params.curso);
+
+    if (!resultado) {
+        return res.status(404).json({ erro: `Nenhuma tabela de questões para curso="${req.params.curso}".` });
+    }
+
+    res.json(resultado);
 });
 
 // GET /:curso            -> dados agregados (todas as edições)

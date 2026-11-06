@@ -104,6 +104,33 @@ describe('rotas da API', () => {
             assert.equal(inicio, '%PDF-');
         });
 
+        test('lista os relatórios de curso por curso, do ano mais recente ao mais antigo', async () => {
+            const lista = await (await buscar('/relatorios/curso')).json();
+            assert.ok(lista.length > 0);
+            for (const r of lista) {
+                assert.ok(['ec', 'ep', 'si'].includes(r.curso));
+                assert.match(r.arquivo, new RegExp(`^enade-${r.ano}-.*-relatorio-de-curso\\.pdf$`));
+            }
+            for (const curso of ['ec', 'ep', 'si']) {
+                const anos = lista.filter((r) => r.curso === curso).map((r) => r.ano);
+                assert.deepEqual(anos, [...anos].sort((a, b) => b - a));
+            }
+        });
+
+        test('baixa o PDF de um relatório de curso como anexo', async () => {
+            const res = await buscar('/relatorios/curso/ec/2023/download');
+            assert.equal(res.status, 200);
+            assert.equal(res.headers.get('content-type'), 'application/pdf');
+            assert.match(res.headers.get('content-disposition'), /^attachment; filename="?enade-2023-engenharia-de-computacao-relatorio-de-curso\.pdf"?$/);
+            assert.equal(Buffer.from(await res.arrayBuffer()).subarray(0, 5).toString(), '%PDF-');
+        });
+
+        for (const caminho of ['ec/1999', 'xx/2023', 'ee/2023', '..%2F..%2Fapp.js/2023', 'ec/2023.pdf', 'ec/..%2F2023']) {
+            test(`404 ao tentar baixar o relatório de curso "${caminho}"`, async () => {
+                assert.equal((await buscar(`/relatorios/curso/${caminho}/download`)).status, 404);
+            });
+        }
+
         for (const ano of ['1999', 'abc', '20', '201', '..%2F..%2Fapp.js', '2019.pdf']) {
             test(`404 ao tentar baixar o relatório "${ano}" (ano inexistente, parcial ou tentativa de sair da pasta)`, async () => {
                 assert.equal((await buscar(`/relatorios/${ano}/download`)).status, 404);
