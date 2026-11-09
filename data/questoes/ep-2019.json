@@ -749,6 +749,23 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Introdução a Tecnologia e Sistemas de Informação",
+          "tema": "Sistemas ERP (Enterprise Resource Planning)"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Logística Reversa",
+          "tema": "Responsabilidade compartilhada na logística reversa (PNRS)"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Custos Industriais",
+          "tema": "Ponto de equilíbrio (break-even point)"
+        }
       ]
     }
   ]

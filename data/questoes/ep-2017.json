@@ -749,6 +749,23 @@
           "acertos": null,
           "respostas": null
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
+          "tema": "Matéria-prima secundária (alumínio reciclado) — custos de transporte e armazenagem"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Ergonomia",
+          "tema": "Análise ergonômica do trabalho (AET) e queixas físicas do operador"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Organização Industrial",
+          "tema": "Tempo de ciclo e balanceamento da linha de montagem"
+        }
       ]
     }
   ]

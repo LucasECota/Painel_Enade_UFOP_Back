@@ -749,6 +749,23 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "Governança de TI e PETI — Terceirização de Marketing Digital"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Estruturas de Dados Bidimensionais — Matriz para Contagem de Falhas de Plantio"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Engenharia de Software I",
+          "tema": "Diagrama de Classe UML — Sistema de Tiro Esportivo"
+        }
       ]
     }
   ]

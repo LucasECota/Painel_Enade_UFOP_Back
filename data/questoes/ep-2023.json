@@ -818,6 +818,13 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D2",
+          "disciplina": "Programação Linear e Inteira",
+          "tema": "Modelagem e resolução gráfica de problema de programação linear (maximização de lucro com restrições de recursos)"
+        }
       ]
     }
   ]

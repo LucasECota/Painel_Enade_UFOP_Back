@@ -308,6 +308,12 @@ async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' })
     const formacaoGeral = montarQuestoes(tabelas.formacaoGeral, provaLida, temas, avisos, 'Formação Geral', formacaoGeralDoAno);
     const especifico = montarQuestoes(tabelas.especifico, provaLida, temas, avisos, 'Componente Específico');
 
+    // as questões discursivas não entram na tabela de acertos do INEP: ficam numa lista à parte
+    const discursivas = provaLida
+        .filter((p) => p.tipo === 'Componente Específico' && p.discursiva)
+        .sort((a, b) => a.numero.localeCompare(b.numero))
+        .map((p) => ({ numero: p.numero.toUpperCase().replace(/^D(ISCURSIVA)?\s*0*/, 'D'), disciplina: p.disciplina, tema: temas[p.numero] || null }));
+
     return {
         dados: {
             curso,
@@ -316,7 +322,7 @@ async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' })
             fonte: `INEP — Relatório de Curso do Enade ${ano} (${NOMES[curso]}, UFOP, João Monlevade)`,
             componentes: [
                 { tipo: 'formacaoGeral', titulo: 'Formação Geral', questoes: formacaoGeral },
-                { tipo: 'especifico', titulo: 'Componente Específico', questoes: especifico },
+                { tipo: 'especifico', titulo: 'Componente Específico', questoes: especifico, discursivas },
             ],
         },
         avisos,

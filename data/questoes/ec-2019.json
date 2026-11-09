@@ -693,6 +693,23 @@
           "acertos": null,
           "respostas": null
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "MergeSort — implementação recursiva em Java"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Programação de Computadores I",
+          "tema": "Produtório — funções iterativa e recursiva em linguagem C"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Sinais e Sistemas",
+          "tema": "Filtros digitais passa-baixa — normalização de frequência (Nyquist)"
+        }
       ]
     }
   ]

@@ -693,6 +693,23 @@
           "acertos": null,
           "respostas": null
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Algoritmos e Estruturas de Dados III",
+          "tema": "Grafo orientado — matriz de adjacência e grafo transposto"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Sistemas Distribuídos",
+          "tema": "Computação em nuvem e dispositivos clientes"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Princípios de Eletrônica Digital",
+          "tema": "Tabela verdade e minimização de circuito lógico"
+        }
       ]
     }
   ]

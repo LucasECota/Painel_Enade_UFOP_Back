@@ -735,6 +735,23 @@
           "acertos": null,
           "respostas": null
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
+          "tema": "Nível de serviço, custo e lucro em um sistema de distribuição"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Gestão Ambiental",
+          "tema": "Desenvolvimento sustentável e Triple Bottom Line"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Sistema de Desenvolvimento de Produtos",
+          "tema": "Estratégia de inovação: pioneirismo e imitação"
+        }
       ]
     }
   ]

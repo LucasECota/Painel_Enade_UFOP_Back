@@ -818,6 +818,13 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D2",
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Quicksort — análise de complexidade e implementação em C"
+        }
       ]
     }
   ]

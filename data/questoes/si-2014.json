@@ -707,6 +707,23 @@
           "acertos": null,
           "respostas": null
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Algoritmo de pesquisa binária"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Gestão da Tecnologia da Informação",
+          "tema": "ITIL e comunicação dos serviços de TI"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Engenharia de Software I",
+          "tema": "Modelagem UML de um sistema de comércio eletrônico"
+        }
       ]
     }
   ]

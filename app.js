@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const { criarCors, criarHelmet, limiteGeral, limiteDownloads, lerTrustProxy } = require('./src/middlewares/seguranca');
 const { naoEncontrada, tratarErros } = require('./src/middlewares/erros');
@@ -22,6 +23,8 @@ app.get('/', (req, res) => {
 app.use('/api', limiteGeral());
 app.use('/api/relatorios/:ano/download', limiteDownloads());
 
+// recortes das questões dos cadernos de prova (somente leitura, sem listar a pasta)
+app.use('/api/enade/imagens', express.static(path.join(__dirname, 'data', 'questoes-imagens'), { index: false, dotfiles: 'ignore', maxAge: '7d' }));
 app.use('/api/enade', enadeRoutes);
 app.use('/api/avaliaufop', avaliaufopRoutes);
 app.use('/api/desempenho', desempenhoRoutes);

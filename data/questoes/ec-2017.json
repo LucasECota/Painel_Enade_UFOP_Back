@@ -693,6 +693,23 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Algoritmos e Estruturas de Dados I",
+          "tema": "Autômatos celulares — regras do Jogo da Vida em C"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Microprocessadores e Microcontroladores",
+          "tema": "Microcontrolador para monitoramento ambiental (termistor e conversor A/D)"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Sistemas Operacionais",
+          "tema": "Gerência de memória — alocação first-fit"
+        }
       ]
     }
   ]

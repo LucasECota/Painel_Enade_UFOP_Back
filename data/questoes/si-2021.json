@@ -735,6 +735,23 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D3",
+          "disciplina": "Fundamentos de Sistemas de Informação",
+          "tema": "Hierarquia Dado-Informação-Conhecimento"
+        },
+        {
+          "numero": "D4",
+          "disciplina": "Fundamentos de Sistemas de Informação",
+          "tema": "Teoria Geral dos Sistemas — Subsistemas, Relações e Propósito"
+        },
+        {
+          "numero": "D5",
+          "disciplina": "Engenharia de Software I",
+          "tema": "Diagrama de Casos de Uso UML — Atores, Relacionamentos e Generalização"
+        }
       ]
     }
   ]

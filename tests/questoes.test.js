@@ -466,3 +466,75 @@ describe('desempenho por área e por tema', () => {
         }
     });
 });
+
+describe('questões ligadas aos assuntos (imagem e gabarito)', () => {
+    const { buscarCurso } = require('../src/data/enadeRepository');
+    const pastaDeImagens = path.join(__dirname, '..', 'data', 'questoes-imagens');
+
+    const todas = [];
+    for (const chave of ['ec', 'ep', 'si']) {
+        const curso = buscarCurso(chave);
+        for (const ano of anosComQuestoes(chave)) {
+            for (const bloco of [curso.porAno[ano].fg, curso.porAno[ano].ce]) {
+                for (const disciplina of bloco.disciplinas) todas.push({ chave, ano, disciplina, bloco });
+            }
+        }
+    }
+
+    test('toda disciplina com assuntos tem uma questão por assunto, na mesma ordem', () => {
+        for (const { chave, ano, disciplina } of todas) {
+            if (disciplina.assuntos.length === 0) continue;
+            assert.ok(disciplina.questoes, `${chave} ${ano} ${disciplina.nome}: sem questões`);
+            assert.deepEqual(
+                disciplina.questoes.map((q) => q.tema),
+                disciplina.assuntos
+            );
+        }
+    });
+
+    test('as discursivas vêm primeiro e só as objetivas têm gabarito', () => {
+        for (const { chave, ano, disciplina } of todas) {
+            const tipos = (disciplina.questoes || []).map((q) => q.tipo);
+            assert.equal(tipos.filter((t) => t === 'discursiva').length, disciplina.discursivas, `${chave} ${ano} ${disciplina.nome}`);
+            assert.deepEqual(tipos, [...tipos].sort((a, b) => (a === b ? 0 : a === 'discursiva' ? -1 : 1)));
+            for (const q of disciplina.questoes || []) {
+                if (q.tipo === 'discursiva') assert.equal(q.gabarito, null);
+                else if (q.situacao === 'valida') assert.match(q.gabarito, /^[A-E]$/);
+            }
+        }
+    });
+
+    test('toda questão aponta para uma imagem que existe', () => {
+        for (const { chave, ano, disciplina } of todas) {
+            for (const q of disciplina.questoes || []) {
+                assert.ok(q.imagem, `${chave} ${ano} ${q.id}: sem imagem`);
+                assert.ok(fs.existsSync(path.join(pastaDeImagens, q.imagem)), `${q.imagem} não existe`);
+            }
+        }
+    });
+
+    test('o gabarito de cada questão é o do relatório do curso', () => {
+        const ce = buscarQuestoes('ec', 2023).componentes[1].questoes.find((q) => q.gabarito);
+        const achada = todas
+            .filter((t) => t.chave === 'ec' && t.ano === 2023)
+            .flatMap((t) => t.disciplina.questoes || [])
+            .find((q) => q.id === String(ce.numero) && q.imagem.includes('ec-'));
+        assert.equal(achada.gabarito, ce.gabarito);
+    });
+
+    test('a API serve as imagens e não lista a pasta', async () => {
+        const servidor = app.listen(0);
+        await new Promise((r) => servidor.once('listening', r));
+        try {
+            const base = `http://127.0.0.1:${servidor.address().port}/api/enade/imagens`;
+            const q = todas.find((t) => t.chave === 'ec' && t.ano === 2023).disciplina.questoes[0];
+            const ok = await fetch(`${base}/${q.imagem}`);
+            assert.equal(ok.status, 200);
+            assert.match(ok.headers.get('content-type'), /image\/webp/);
+            assert.equal((await fetch(`${base}/2023/`)).status, 404);
+            assert.equal((await fetch(`${base}/2023/nao-existe.webp`)).status, 404);
+        } finally {
+            servidor.close();
+        }
+    });
+});

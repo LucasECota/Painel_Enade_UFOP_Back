@@ -119,11 +119,12 @@ function carregarFormacaoGeral() {
     // discursivas antes das objetivas, cada grupo na ordem das questões
     const ordenadas = [...questoes.filter((q) => q.tipo === 'discursiva'), ...questoes.filter((q) => q.tipo !== 'discursiva')];
     for (const q of ordenadas) {
-      if (!porDisciplina.has(q.disciplina)) porDisciplina.set(q.disciplina, { nome: q.disciplina, qtd: 0, discursivas: 0, assuntos: [] });
+      if (!porDisciplina.has(q.disciplina)) porDisciplina.set(q.disciplina, { nome: q.disciplina, qtd: 0, discursivas: 0, assuntos: [], numeros: [] });
       const d = porDisciplina.get(q.disciplina);
       d.qtd += 1;
       if (q.tipo === 'discursiva') d.discursivas += 1;
       d.assuntos.push(q.tema);
+      d.numeros.push(String(q.numero));
     }
     resultado[ano] = [...porDisciplina.values()].sort((a, b) => b.qtd - a.qtd || a.nome.localeCompare(b.nome, 'pt-BR'));
   }
@@ -131,6 +132,65 @@ function carregarFormacaoGeral() {
 }
 
 const formacaoGeralPorAno = carregarFormacaoGeral();
+
+const pastaDeImagens = path.join(__dirname, '..', '..', 'data', 'questoes-imagens');
+
+// Para cada assunto das disciplinas de uma edição, a questão correspondente: { id, tipo, tema, gabarito,
+// situacao, imagem }. A lista "questoes" de cada disciplina segue a ordem de "assuntos" (discursivas
+// primeiro). A imagem é o recorte do caderno de prova (data/questoes-imagens/<ano>/); só entra se existir.
+// Edições sem a tabela do INEP ou sem caderno ficam sem "questoes".
+function ligarQuestoesAosAssuntos(chaveDoCurso, ano, edicao) {
+  const caminho = path.join(__dirname, '..', '..', 'data', 'questoes', `${chaveDoCurso}-${ano}.json`);
+  if (!fs.existsSync(caminho)) return;
+
+  const tabela = JSON.parse(fs.readFileSync(caminho, 'utf-8'));
+  const [fg, ce] = [tabela.componentes[0], tabela.componentes[1]];
+  const gabaritos = (componente) => new Map(componente.questoes.map((q) => [String(q.numero), q]));
+  const doFg = gabaritos(fg);
+  const doCe = gabaritos(ce);
+
+  const imagem = (prefixo, id) => {
+    const nome = `${prefixo}-${id.toLowerCase()}.webp`;
+    return fs.existsSync(path.join(pastaDeImagens, String(ano), nome)) ? `${ano}/${nome}` : null;
+  };
+  const montar = (id, tipo, tema, prefixo, tabelaDoComponente) => {
+    const dados = tipo === 'objetiva' ? tabelaDoComponente.get(id) : null;
+    return {
+      id,
+      tipo,
+      tema,
+      gabarito: dados ? dados.gabarito : null,
+      situacao: dados ? dados.situacao : null,
+      imagem: imagem(prefixo, id),
+    };
+  };
+
+  // Formação Geral: os números vêm da própria lista de disciplinas
+  for (const disciplina of edicao.fg.disciplinas) {
+    if (!disciplina.numeros) continue;
+    disciplina.questoes = disciplina.assuntos.map((tema, i) => {
+      const id = disciplina.numeros[i];
+      return montar(id, id.startsWith('D') ? 'discursiva' : 'objetiva', tema, 'fg', doFg);
+    });
+  }
+
+  // Componente Específico: casa disciplina e tema com as questões da tabela (objetivas) e da lista de discursivas
+  const candidatas = [
+    ...(ce.discursivas || []).map((q) => ({ id: q.numero, tipo: 'discursiva', disciplina: q.disciplina, tema: q.tema })),
+    ...ce.questoes.map((q) => ({ id: String(q.numero), tipo: 'objetiva', disciplina: q.disciplina, tema: q.tema })),
+  ];
+  for (const disciplina of edicao.ce.disciplinas) {
+    const lista = candidatas.filter((q) => q.disciplina === disciplina.nome);
+    if (lista.length === 0) continue;
+    const questoes = disciplina.assuntos.map((tema) => {
+      const i = lista.findIndex((q) => q.tema === tema);
+      if (i === -1) return null;
+      const [q] = lista.splice(i, 1);
+      return montar(q.id, q.tipo, tema, chaveDoCurso, doCe);
+    });
+    if (questoes.every(Boolean)) disciplina.questoes = questoes;
+  }
+}
 
 // Recebe a chave do curso ("ec", "ep" ou "si") e devolve o objeto
 // completo e organizado, pronto pra ser usado pelas rotas:
@@ -150,6 +210,8 @@ function montarDadosDoCurso(chaveDoCurso) {
   for (const [ano, disciplinas] of Object.entries(formacaoGeralPorAno)) {
     if (porAno[ano]) porAno[ano].fg.disciplinas = disciplinas;
   }
+
+  for (const [ano, edicao] of Object.entries(porAno)) ligarQuestoesAosAssuntos(chaveDoCurso, ano, edicao);
 
   // Quantas questões de cada componente são discursivas (o resto são objetivas)
   for (const edicao of Object.values(porAno)) {

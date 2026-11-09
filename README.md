@@ -93,6 +93,21 @@ node scripts/extrair-questoes.js --curso ec --ano 2023 \
 O script avisa se o gabarito do relatório diferir do da prova ou se a quantidade de assuntos de uma disciplina
 não bater com a de questões.
 
+### Imagens das questões
+
+Em `GET /:curso?ano=2023`, cada disciplina traz `questoes` (na mesma ordem de `assuntos`): `{ id, tipo, tema, gabarito, situacao, imagem }`.
+As imagens (recortes dos cadernos de prova, WebP) ficam em `data/questoes-imagens/<ano>/` e são servidas em `/api/enade/imagens/<ano>/<arquivo>`.
+Nas discursivas `gabarito` é `null`; nas anuladas ou desconsideradas também (veja `situacao`).
+
+Para refazer os recortes (ferramenta de desenvolvimento; os PDFs dos cadernos ficam fora do repositório, listados em `scripts/cadernos.json`):
+
+```bash
+pip install pymupdf pillow
+python3 scripts/recortar-questoes.py            # todos; ou --curso ec --ano 2023
+```
+
+O script avisa as questões não encontradas ou possivelmente cortadas; confira as imagens depois.
+
 ## Testes
 
 Ficam em `tests/` e **nunca leem nem alteram `data/avaliaufop`**: criam uma pasta temporária e usam
