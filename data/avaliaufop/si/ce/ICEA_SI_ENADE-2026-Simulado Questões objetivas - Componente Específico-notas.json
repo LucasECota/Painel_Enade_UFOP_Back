@@ -1,0 +1,90 @@
+[
+  [
+    {
+      "aluno": "529c037b4da5c340",
+      "estado": "Finalizada",
+      "iniciadoem": "15 outubro 2026  14:40 PM",
+      "completo": "15 outubro 2026  14:53 PM",
+      "tempoutilizado": "12 minutos 53 segundos",
+      "avaliar1000": "6,67",
+      "q1167": "1,67",
+      "q2167": "1,67",
+      "q3167": "1,67",
+      "q4167": "0,00",
+      "q5167": "1,67",
+      "q6167": "0,00"
+    },
+    {
+      "aluno": "529c037b4da5c340",
+      "estado": "Finalizada",
+      "iniciadoem": "15 outubro 2026  14:57 PM",
+      "completo": "15 outubro 2026  15:18 PM",
+      "tempoutilizado": "20 minutos 30 segundos",
+      "avaliar1000": "5,00",
+      "q1167": "0,00",
+      "q2167": "1,67",
+      "q3167": "1,67",
+      "q4167": "0,00",
+      "q5167": "0,00",
+      "q6167": "1,67"
+    },
+    {
+      "aluno": "529c037b4da5c340",
+      "estado": "Finalizada",
+      "iniciadoem": "15 outubro 2026  17:25 PM",
+      "completo": "15 outubro 2026  17:46 PM",
+      "tempoutilizado": "21 minutos 27 segundos",
+      "avaliar1000": "5,00",
+      "q1167": "1,67",
+      "q2167": "1,67",
+      "q3167": "0,00",
+      "q4167": "0,00",
+      "q5167": "0,00",
+      "q6167": "1,67"
+    },
+    {
+      "aluno": "7e20abe18b483c8d",
+      "estado": "Finalizada",
+      "iniciadoem": "4 novembro 2026  19:55 PM",
+      "completo": "8 novembro 2026  22:21 PM",
+      "tempoutilizado": "4 dias 2 horas",
+      "avaliar1000": "8,33",
+      "q1167": "0,00",
+      "q2167": "1,67",
+      "q3167": "1,67",
+      "q4167": "1,67",
+      "q5167": "1,67",
+      "q6167": "1,67"
+    },
+    {
+      "aluno": "fb2646255e955e26",
+      "estado": "Finalizada",
+      "iniciadoem": "6 novembro 2026  19:29 PM",
+      "completo": "6 novembro 2026  19:57 PM",
+      "tempoutilizado": "28 minutos",
+      "avaliar1000": "6,67",
+      "q1167": "0,00",
+      "q2167": "0,00",
+      "q3167": "1,67",
+      "q4167": "1,67",
+      "q5167": "1,67",
+      "q6167": "1,67"
+    },
+    {
+      "sobrenome": "Média geral",
+      "nome": "",
+      "endereodee-mail": "",
+      "estado": "",
+      "iniciadoem": "",
+      "completo": "",
+      "tempoutilizado": "",
+      "avaliar1000": "6,33",
+      "q1167": "0,67",
+      "q2167": "1,33",
+      "q3167": "1,33",
+      "q4167": "0,67",
+      "q5167": "1,00",
+      "q6167": "1,33"
+    }
+  ]
+]
