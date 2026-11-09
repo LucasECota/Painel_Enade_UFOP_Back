@@ -1,0 +1,13 @@
+[
+  { "curso": "ec", "ano": 2014, "pdf": "Engenharia da Computacao/2014/14_engenharia_computacao.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ec", "ano": 2017, "pdf": "Engenharia da Computacao/2017/13_ENG_COM_BACHAREL_BAIXA.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ec", "ano": 2019, "pdf": "Engenharia da Computacao/2019/ENGENHARIA_COMPUTACAO (1).pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ec", "ano": 2023, "pdf": "Engenharia da Computacao/2023/2023_PV_engenharia_da_computacao.pdf", "ultimaObjetiva": 38, "objetivasFg": 9 },
+  { "curso": "ep", "ano": 2014, "pdf": "Engenharia de Produção/2014/16_engenharia_producao.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ep", "ano": 2017, "pdf": "Engenharia de Produção/2017/15_ENG_PRO_BACHAREL_BAIXA.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ep", "ano": 2019, "pdf": "Engenharia de Produção/2019/ENGENHARIA_PRODUCAO.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "ep", "ano": 2023, "pdf": "Engenharia de Produção/2023/2023_PV_engenharia_de_producao.pdf", "ultimaObjetiva": 38, "objetivasFg": 9 },
+  { "curso": "si", "ano": 2014, "pdf": "Sistema de Informacao/2014/39_sistemas_informacao.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "si", "ano": 2017, "pdf": "Sistema de Informacao/2017/40_SIS_INFORMACAO_BAIXA.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 },
+  { "curso": "si", "ano": 2021, "pdf": "Sistema de Informacao/2021/2021_PV_bacharelado_sistema_informacao.pdf", "ultimaObjetiva": 35, "objetivasFg": 8 }
+]
