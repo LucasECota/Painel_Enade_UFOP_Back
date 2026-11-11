@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Sífilis congênita e vulnerabilidade das mulheres",
+          "notas": {
+            "curso": {
+              "media": 62.1,
+              "desvio": 24.8
+            },
+            "uf": {
+              "media": 59.8,
+              "desvio": 23.7
+            },
+            "regiao": {
+              "media": 58,
+              "desvio": 24.7
+            },
+            "catAdm": {
+              "media": 60.8,
+              "desvio": 25.3
+            },
+            "orgAcad": {
+              "media": 58.6,
+              "desvio": 25.2
+            },
+            "brasil": {
+              "media": 58.1,
+              "desvio": 24.7
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Nome social e identidade de gênero de pessoas trans",
+          "notas": {
+            "curso": {
+              "media": 63.9,
+              "desvio": 31.1
+            },
+            "uf": {
+              "media": 57.1,
+              "desvio": 28.7
+            },
+            "regiao": {
+              "media": 55.1,
+              "desvio": 29
+            },
+            "catAdm": {
+              "media": 59.2,
+              "desvio": 29.1
+            },
+            "orgAcad": {
+              "media": 56,
+              "desvio": 29
+            },
+            "brasil": {
+              "media": 54.9,
+              "desvio": 29
+            }
+          }
+        }
       ]
     },
     {
@@ -250,6 +314,7 @@
           "tema": "Sistema Toyota de produção e just in time",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -259,6 +324,7 @@
           "tema": "Lei de resfriamento de Newton",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -360,6 +426,7 @@
           "tema": "Multiplicadores de Lagrange (lata cilíndrica)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -507,6 +574,7 @@
           "tema": "Níveis estratégico, tático e operacional da gestão da qualidade",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -754,17 +822,95 @@
         {
           "numero": "D3",
           "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
-          "tema": "Matéria-prima secundária (alumínio reciclado) — custos de transporte e armazenagem"
+          "tema": "Matéria-prima secundária (alumínio reciclado) — custos de transporte e armazenagem",
+          "notas": {
+            "curso": {
+              "media": 9.8,
+              "desvio": 10.7
+            },
+            "uf": {
+              "media": 9.1,
+              "desvio": 12.1
+            },
+            "regiao": {
+              "media": 8.9,
+              "desvio": 12.2
+            },
+            "catAdm": {
+              "media": 11.7,
+              "desvio": 13.8
+            },
+            "orgAcad": {
+              "media": 9.7,
+              "desvio": 12.6
+            },
+            "brasil": {
+              "media": 8.7,
+              "desvio": 11.8
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Ergonomia",
-          "tema": "Análise ergonômica do trabalho (AET) e queixas físicas do operador"
+          "tema": "Análise ergonômica do trabalho (AET) e queixas físicas do operador",
+          "notas": {
+            "curso": {
+              "media": 29.5,
+              "desvio": 15.9
+            },
+            "uf": {
+              "media": 26.8,
+              "desvio": 15.3
+            },
+            "regiao": {
+              "media": 25.1,
+              "desvio": 15.3
+            },
+            "catAdm": {
+              "media": 28.1,
+              "desvio": 16.3
+            },
+            "orgAcad": {
+              "media": 26,
+              "desvio": 15.7
+            },
+            "brasil": {
+              "media": 25.2,
+              "desvio": 15.4
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Organização Industrial",
-          "tema": "Tempo de ciclo e balanceamento da linha de montagem"
+          "tema": "Tempo de ciclo e balanceamento da linha de montagem",
+          "notas": {
+            "curso": {
+              "media": 6,
+              "desvio": 18.2
+            },
+            "uf": {
+              "media": 5.2,
+              "desvio": 16
+            },
+            "regiao": {
+              "media": 4.5,
+              "desvio": 14.8
+            },
+            "catAdm": {
+              "media": 8,
+              "desvio": 19.7
+            },
+            "orgAcad": {
+              "media": 5.8,
+              "desvio": 16.8
+            },
+            "brasil": {
+              "media": 4.8,
+              "desvio": 15.2
+            }
+          }
         }
       ]
     }

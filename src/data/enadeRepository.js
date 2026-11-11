@@ -155,11 +155,13 @@ function ligarQuestoesAosAssuntos(chaveDoCurso, ano, edicao) {
   };
   const montar = (id, tipo, tema, prefixo, tabelaDoComponente) => {
     const dados = tipo === 'objetiva' ? tabelaDoComponente.get(id) : null;
+    // desconsiderada: o relatório não traz o gabarito, mas a prova tem; anulada fica sem
+    const gabarito = dados ? (dados.gabarito ?? (dados.situacao === 'desconsiderada' ? dados.gabaritoDaProva ?? null : null)) : null;
     return {
       id,
       tipo,
       tema,
-      gabarito: dados ? dados.gabarito : null,
+      gabarito,
       situacao: dados ? dados.situacao : null,
       imagem: imagem(prefixo, id),
     };

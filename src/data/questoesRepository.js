@@ -2,6 +2,15 @@ const fs = require('fs');
 const path = require('path');
 
 const pastaDasQuestoes = path.join(__dirname, '..', '..', 'data', 'questoes');
+const pastaDeImagens = path.join(__dirname, '..', '..', 'data', 'questoes-imagens');
+
+// Caminho (relativo a /api/enade/imagens) do recorte da questão no caderno de prova, ou null se não existir.
+// Formação Geral vem como "fg-<número>"; Componente Específico como "<curso>-<número>".
+function imagemDaQuestao(chaveDoCurso, ano, tipoDoComponente, numero) {
+    const prefixo = tipoDoComponente === 'formacaoGeral' ? 'fg' : chaveDoCurso;
+    const nome = `${prefixo}-${String(numero).toLowerCase()}.webp`; // discursivas: fg-d1, ec-d3
+    return fs.existsSync(path.join(pastaDeImagens, String(ano), nome)) ? `${ano}/${nome}` : null;
+}
 
 // Lista os arquivos de data/questoes no padrão <curso>-<ano>.json (ex.: ec-2023.json).
 // O nome do arquivo escolhido vem sempre desta lista, nunca direto do que o visitante digitou.
@@ -32,7 +41,14 @@ function buscarQuestoes(chaveDoCurso, ano) {
     const item = listarArquivos().find((i) => i.curso === chaveDoCurso && i.ano === Number(ano));
     if (!item) return null;
 
-    return JSON.parse(fs.readFileSync(path.join(pastaDasQuestoes, item.arquivo), 'utf-8'));
+    const tabela = JSON.parse(fs.readFileSync(path.join(pastaDasQuestoes, item.arquivo), 'utf-8'));
+    // cada questão aponta para o recorte dela no caderno de prova (ou null, se não houver)
+    for (const componente of tabela.componentes) {
+        for (const q of [...componente.questoes, ...(componente.discursivas || [])]) {
+            q.imagem = imagemDaQuestao(chaveDoCurso, item.ano, componente.tipo, q.numero);
+        }
+    }
+    return tabela;
 }
 
 const arredondar = (n) => Math.round(n * 10) / 10;
@@ -61,6 +77,8 @@ function desempenhoPorArea(chaveDoCurso) {
                     tema: q.tema,
                     ufop: q.acertos.curso,
                     brasil: q.acertos.brasil,
+                    gabarito: q.gabarito,
+                    imagem: imagemDaQuestao(chaveDoCurso, ano, componente.tipo, q.numero),
                 });
             }
         }
@@ -77,6 +95,8 @@ function desempenhoPorArea(chaveDoCurso) {
             questoes: itens.length,
             ufop: media(itens.map((t) => t.ufop)),
             brasil: media(itens.map((t) => t.brasil)),
+            // as questões da disciplina, para o site mostrar a imagem e o gabarito de cada uma
+            lista: itens.map(({ numero, tema, gabarito, imagem }) => ({ numero, tema, gabarito, imagem })),
         }));
 
         return { ano, areas, temas: temas.filter((t) => t.tema) };

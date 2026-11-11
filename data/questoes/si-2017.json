@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Sífilis congênita e vulnerabilidade das mulheres",
+          "notas": {
+            "curso": {
+              "media": 61.9,
+              "desvio": 22.2
+            },
+            "uf": {
+              "media": 55.2,
+              "desvio": 25.3
+            },
+            "regiao": {
+              "media": 53.1,
+              "desvio": 25.9
+            },
+            "catAdm": {
+              "media": 54,
+              "desvio": 27.2
+            },
+            "orgAcad": {
+              "media": 53,
+              "desvio": 26.4
+            },
+            "brasil": {
+              "media": 52.6,
+              "desvio": 26.4
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Nome social e identidade de gênero de pessoas trans",
+          "notas": {
+            "curso": {
+              "media": 58.1,
+              "desvio": 26.2
+            },
+            "uf": {
+              "media": 54,
+              "desvio": 29
+            },
+            "regiao": {
+              "media": 50.3,
+              "desvio": 29.7
+            },
+            "catAdm": {
+              "media": 51.1,
+              "desvio": 31.3
+            },
+            "orgAcad": {
+              "media": 49.9,
+              "desvio": 30.5
+            },
+            "brasil": {
+              "media": 49,
+              "desvio": 30.4
+            }
+          }
+        }
       ]
     },
     {
@@ -204,6 +268,7 @@
           "tema": "Requisitos Funcionais, Não Funcionais e Regras de Negócio",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -213,6 +278,7 @@
           "tema": "PMBOK — Gerenciamento de Riscos: Probabilidade e Impacto",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -530,6 +596,7 @@
           "tema": "Gestão de Processos de Negócio (BPM) — Escopo e Identificação",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -608,6 +675,7 @@
           "tema": "BPMS — Automação de Fluxo de Processos de Negócio",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -754,17 +822,95 @@
         {
           "numero": "D3",
           "disciplina": "Gestão da Tecnologia da Informação",
-          "tema": "Governança de TI e PETI — Terceirização de Marketing Digital"
+          "tema": "Governança de TI e PETI — Terceirização de Marketing Digital",
+          "notas": {
+            "curso": {
+              "media": 33,
+              "desvio": 21.8
+            },
+            "uf": {
+              "media": 20.9,
+              "desvio": 23.4
+            },
+            "regiao": {
+              "media": 18.8,
+              "desvio": 22.8
+            },
+            "catAdm": {
+              "media": 18,
+              "desvio": 22.5
+            },
+            "orgAcad": {
+              "media": 18.2,
+              "desvio": 22.7
+            },
+            "brasil": {
+              "media": 17.7,
+              "desvio": 22.5
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Algoritmos e Estruturas de Dados I",
-          "tema": "Estruturas de Dados Bidimensionais — Matriz para Contagem de Falhas de Plantio"
+          "tema": "Estruturas de Dados Bidimensionais — Matriz para Contagem de Falhas de Plantio",
+          "notas": {
+            "curso": {
+              "media": 58.5,
+              "desvio": 39.2
+            },
+            "uf": {
+              "media": 38.6,
+              "desvio": 38.3
+            },
+            "regiao": {
+              "media": 30.3,
+              "desvio": 36.6
+            },
+            "catAdm": {
+              "media": 38.5,
+              "desvio": 39.6
+            },
+            "orgAcad": {
+              "media": 32.4,
+              "desvio": 37.8
+            },
+            "brasil": {
+              "media": 28.3,
+              "desvio": 36.3
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Engenharia de Software I",
-          "tema": "Diagrama de Classe UML — Sistema de Tiro Esportivo"
+          "tema": "Diagrama de Classe UML — Sistema de Tiro Esportivo",
+          "notas": {
+            "curso": {
+              "media": 28.7,
+              "desvio": 22.4
+            },
+            "uf": {
+              "media": 17.7,
+              "desvio": 23.1
+            },
+            "regiao": {
+              "media": 16.2,
+              "desvio": 22.4
+            },
+            "catAdm": {
+              "media": 17.3,
+              "desvio": 23.5
+            },
+            "orgAcad": {
+              "media": 16.1,
+              "desvio": 22.4
+            },
+            "brasil": {
+              "media": 15,
+              "desvio": 21.7
+            }
+          }
         }
       ]
     }

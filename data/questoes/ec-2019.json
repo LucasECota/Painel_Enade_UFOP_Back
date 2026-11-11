@@ -178,6 +178,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Desastres naturais e prevenção",
+          "notas": {
+            "curso": {
+              "media": 20.8,
+              "desvio": 17.9
+            },
+            "uf": {
+              "media": 27.1,
+              "desvio": 25.2
+            },
+            "regiao": {
+              "media": 26.2,
+              "desvio": 24.8
+            },
+            "catAdm": {
+              "media": 26.1,
+              "desvio": 25.7
+            },
+            "orgAcad": {
+              "media": 25.6,
+              "desvio": 25.2
+            },
+            "brasil": {
+              "media": 25.6,
+              "desvio": 25
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Ciência e Tecnologia",
+          "tema": "Produção científica e tecnológica do Brasil",
+          "notas": {
+            "curso": {
+              "media": 42.4,
+              "desvio": 25.6
+            },
+            "uf": {
+              "media": 38.2,
+              "desvio": 26.2
+            },
+            "regiao": {
+              "media": 39.3,
+              "desvio": 26
+            },
+            "catAdm": {
+              "media": 38.2,
+              "desvio": 25.8
+            },
+            "orgAcad": {
+              "media": 37,
+              "desvio": 25.5
+            },
+            "brasil": {
+              "media": 36.6,
+              "desvio": 25.4
+            }
+          }
+        }
       ]
     },
     {
@@ -213,6 +277,7 @@
           "tema": "Reconhecimento de padrões — conjunto de dados e classificação",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -268,6 +333,7 @@
           "tema": "Função de transferência de malha fechada e constante de tempo",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -346,6 +412,7 @@
           "tema": "Amplificador operacional — circuito com sensor NTC",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -447,6 +514,7 @@
           "tema": "Rede bayesiana — modelagem de dependências causais",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -594,6 +662,7 @@
           "tema": "IoT — heterogeneidade e consistência em ambiente concorrente",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -603,6 +672,7 @@
           "tema": "Condição de corrida e sincronização com threads",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -635,6 +705,7 @@
           "tema": "Desvio padrão populacional — algoritmo e análise de correção",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -690,6 +761,7 @@
           "tema": "Usabilidade — atributo de inteligibilidade",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         }
@@ -698,17 +770,95 @@
         {
           "numero": "D3",
           "disciplina": "Algoritmos e Estruturas de Dados I",
-          "tema": "MergeSort — implementação recursiva em Java"
+          "tema": "MergeSort — implementação recursiva em Java",
+          "notas": {
+            "curso": {
+              "media": 31.6,
+              "desvio": 27.5
+            },
+            "uf": {
+              "media": 28,
+              "desvio": 29.3
+            },
+            "regiao": {
+              "media": 23.5,
+              "desvio": 28.8
+            },
+            "catAdm": {
+              "media": 30.7,
+              "desvio": 30.4
+            },
+            "orgAcad": {
+              "media": 26.7,
+              "desvio": 29.4
+            },
+            "brasil": {
+              "media": 23.2,
+              "desvio": 28.7
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Programação de Computadores I",
-          "tema": "Produtório — funções iterativa e recursiva em linguagem C"
+          "tema": "Produtório — funções iterativa e recursiva em linguagem C",
+          "notas": {
+            "curso": {
+              "media": 31.2,
+              "desvio": 26.7
+            },
+            "uf": {
+              "media": 22.5,
+              "desvio": 26.5
+            },
+            "regiao": {
+              "media": 18.5,
+              "desvio": 27.7
+            },
+            "catAdm": {
+              "media": 26.2,
+              "desvio": 29.9
+            },
+            "orgAcad": {
+              "media": 22.2,
+              "desvio": 28.9
+            },
+            "brasil": {
+              "media": 18.8,
+              "desvio": 27.7
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Sinais e Sistemas",
-          "tema": "Filtros digitais passa-baixa — normalização de frequência (Nyquist)"
+          "tema": "Filtros digitais passa-baixa — normalização de frequência (Nyquist)",
+          "notas": {
+            "curso": {
+              "media": 18.9,
+              "desvio": 23.7
+            },
+            "uf": {
+              "media": 19.9,
+              "desvio": 28.8
+            },
+            "regiao": {
+              "media": 15.6,
+              "desvio": 26.7
+            },
+            "catAdm": {
+              "media": 25.1,
+              "desvio": 32.2
+            },
+            "orgAcad": {
+              "media": 22.2,
+              "desvio": 30.8
+            },
+            "brasil": {
+              "media": 18,
+              "desvio": 28.5
+            }
+          }
         }
       ]
     }

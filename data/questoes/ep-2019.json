@@ -178,6 +178,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Desastres naturais e prevenção",
+          "notas": {
+            "curso": {
+              "media": 47.1,
+              "desvio": 21.2
+            },
+            "uf": {
+              "media": 29.1,
+              "desvio": 23.7
+            },
+            "regiao": {
+              "media": 26.2,
+              "desvio": 23.2
+            },
+            "catAdm": {
+              "media": 29.6,
+              "desvio": 25.1
+            },
+            "orgAcad": {
+              "media": 26.1,
+              "desvio": 23.2
+            },
+            "brasil": {
+              "media": 24.8,
+              "desvio": 22.3
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Ciência e Tecnologia",
+          "tema": "Produção científica e tecnológica do Brasil",
+          "notas": {
+            "curso": {
+              "media": 31.8,
+              "desvio": 21.7
+            },
+            "uf": {
+              "media": 22.9,
+              "desvio": 20.6
+            },
+            "regiao": {
+              "media": 21.2,
+              "desvio": 19.3
+            },
+            "catAdm": {
+              "media": 29,
+              "desvio": 22.3
+            },
+            "orgAcad": {
+              "media": 24.5,
+              "desvio": 20.9
+            },
+            "brasil": {
+              "media": 22.1,
+              "desvio": 20.1
+            }
+          }
+        }
       ]
     },
     {
@@ -213,6 +277,7 @@
           "tema": "Custo de estocagem (otimização de funções)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -268,6 +333,7 @@
           "tema": "Ferramentas de desenvolvimento de produtos (QFD, FMEA, Pugh, Design Thinking)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -323,6 +389,7 @@
           "tema": "Sistema de gestão de segurança e saúde ocupacional (ISO 45001)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -677,6 +744,7 @@
           "tema": "Manufatura avançada e sistemas ciberfísicos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -754,17 +822,95 @@
         {
           "numero": "D3",
           "disciplina": "Introdução a Tecnologia e Sistemas de Informação",
-          "tema": "Sistemas ERP (Enterprise Resource Planning)"
+          "tema": "Sistemas ERP (Enterprise Resource Planning)",
+          "notas": {
+            "curso": {
+              "media": 69.4,
+              "desvio": 27.4
+            },
+            "uf": {
+              "media": 39.9,
+              "desvio": 29.1
+            },
+            "regiao": {
+              "media": 43.6,
+              "desvio": 31.5
+            },
+            "catAdm": {
+              "media": 47.1,
+              "desvio": 31.2
+            },
+            "orgAcad": {
+              "media": 44.3,
+              "desvio": 30.9
+            },
+            "brasil": {
+              "media": 42.5,
+              "desvio": 30.7
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Logística Reversa",
-          "tema": "Responsabilidade compartilhada na logística reversa (PNRS)"
+          "tema": "Responsabilidade compartilhada na logística reversa (PNRS)",
+          "notas": {
+            "curso": {
+              "media": 83.8,
+              "desvio": 26.6
+            },
+            "uf": {
+              "media": 59,
+              "desvio": 32.2
+            },
+            "regiao": {
+              "media": 55.4,
+              "desvio": 32.1
+            },
+            "catAdm": {
+              "media": 65.3,
+              "desvio": 31.9
+            },
+            "orgAcad": {
+              "media": 57.9,
+              "desvio": 32.4
+            },
+            "brasil": {
+              "media": 53.9,
+              "desvio": 32
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Custos Industriais",
-          "tema": "Ponto de equilíbrio (break-even point)"
+          "tema": "Ponto de equilíbrio (break-even point)",
+          "notas": {
+            "curso": {
+              "media": 48.7,
+              "desvio": 36.7
+            },
+            "uf": {
+              "media": 33.4,
+              "desvio": 37.2
+            },
+            "regiao": {
+              "media": 34.5,
+              "desvio": 38
+            },
+            "catAdm": {
+              "media": 52.7,
+              "desvio": 39.7
+            },
+            "orgAcad": {
+              "media": 40.1,
+              "desvio": 39.4
+            },
+            "brasil": {
+              "media": 32.3,
+              "desvio": 37.4
+            }
+          }
         }
       ]
     }

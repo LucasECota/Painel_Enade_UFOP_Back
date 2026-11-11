@@ -451,6 +451,90 @@ describe('desempenho por área e por tema', () => {
         }
     });
 
+    test('cada tema e cada disciplina trazem gabarito e imagem (que existe) das suas questões', () => {
+        const pastaDeImagens = path.join(__dirname, '..', 'data', 'questoes-imagens');
+        for (const curso of ['ec', 'ep', 'si']) {
+            for (const edicao of desempenhoPorArea(curso).porEdicao) {
+                for (const t of edicao.temas) {
+                    assert.match(t.gabarito, /^[A-E]$/, `${curso} ${edicao.ano} questão ${t.numero}`);
+                    assert.ok(t.imagem && fs.existsSync(path.join(pastaDeImagens, t.imagem)), `${curso} ${edicao.ano} questão ${t.numero}: imagem`);
+                }
+                for (const a of edicao.areas) {
+                    assert.equal(a.lista.length, a.questoes, `${curso} ${edicao.ano} ${a.disciplina}`);
+                }
+            }
+        }
+    });
+
+    test('a tabela de questões traz a imagem de cada questão (que existe), anuladas e desconsideradas também', () => {
+        const pastaDeImagens = path.join(__dirname, '..', 'data', 'questoes-imagens');
+        for (const curso of ['ec', 'ep', 'si']) {
+            for (const ano of anosComQuestoes(curso)) {
+                for (const componente of buscarQuestoes(curso, ano).componentes) {
+                    for (const q of [...componente.questoes, ...(componente.discursivas || [])]) {
+                        assert.ok(q.imagem && fs.existsSync(path.join(pastaDeImagens, q.imagem)), `${curso} ${ano} questão ${q.numero}`);
+                    }
+                }
+            }
+        }
+    });
+
+    test('as discursivas trazem a média e o desvio padrão das notas do curso, da UF, da região, da categoria, da organização e do Brasil', () => {
+        const grupos = ['curso', 'uf', 'regiao', 'catAdm', 'orgAcad', 'brasil'];
+        for (const curso of ['ec', 'ep', 'si']) {
+            for (const ano of anosComQuestoes(curso)) {
+                const [fg, ce] = buscarQuestoes(curso, ano).componentes;
+                // 2023 tem uma discursiva por componente; as edições anteriores, duas de Formação Geral
+                const esperadoFg = ano === 2023 ? ['D1'] : ['D1', 'D2'];
+                assert.deepEqual(fg.discursivas.map((q) => q.numero), esperadoFg, `${curso} ${ano} FG`);
+                assert.ok(ce.discursivas.length >= 1, `${curso} ${ano} CE`);
+                for (const q of [...fg.discursivas, ...ce.discursivas]) {
+                    assert.ok(q.notas, `${curso} ${ano} ${q.numero}: sem notas`);
+                    for (const g of grupos) {
+                        const { media, desvio } = q.notas[g];
+                        assert.ok(media >= 0 && media <= 100 && desvio >= 0 && desvio <= 100, `${curso} ${ano} ${q.numero} ${g}`);
+                    }
+                }
+            }
+        }
+        // valor conferido no relatório: EC 2023, discursiva de Formação Geral, curso 39,3 (desvio 25,1) e Brasil 44,1
+        const d1 = buscarQuestoes('ec', 2023).componentes[0].discursivas[0];
+        assert.deepEqual(d1.notas.curso, { media: 39.3, desvio: 25.1 });
+        assert.equal(d1.notas.brasil.media, 44.1);
+    });
+
+    test('questão desconsiderada traz o gabarito da prova; anulada continua sem gabarito', () => {
+        const { buscarCurso } = require('../src/data/enadeRepository');
+        let desconsideradas = 0;
+        for (const chave of ['ec', 'ep', 'si']) {
+            for (const ano of anosComQuestoes(chave)) {
+                const tabela = buscarQuestoes(chave, ano);
+                for (const componente of tabela.componentes) {
+                    for (const q of componente.questoes) {
+                        if (q.situacao === 'desconsiderada') {
+                            desconsideradas++;
+                            assert.match(q.gabaritoDaProva, /^[A-E]$/, `${chave} ${ano} questão ${q.numero}`);
+                            assert.equal(q.gabarito, null); // a tabela do INEP continua mostrando "Desconsiderada"
+                        } else if (q.situacao === 'anulada') {
+                            assert.equal(q.gabaritoDaProva, undefined);
+                        }
+                    }
+                }
+                // e a lista de questões de cada assunto traz o gabarito delas
+                const edicao = buscarCurso(chave).porAno[ano];
+                for (const bloco of [edicao.fg, edicao.ce]) {
+                    for (const d of bloco.disciplinas) {
+                        for (const q of d.questoes || []) {
+                            if (q.situacao === 'desconsiderada') assert.match(q.gabarito, /^[A-E]$/, `${chave} ${ano} ${q.id}`);
+                            if (q.situacao === 'anulada') assert.equal(q.gabarito, null);
+                        }
+                    }
+                }
+            }
+        }
+        assert.ok(desconsideradas > 50);
+    });
+
     test('GET /api/enade/:curso/desempenho-areas', async () => {
         const servidor = app.listen(0);
         await new Promise((r) => servidor.once('listening', r));

@@ -215,6 +215,39 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Sociologia",
+          "tema": "Desigualdades sociais (Síntese de Indicadores Sociais do IBGE)",
+          "notas": {
+            "curso": {
+              "media": 48.3,
+              "desvio": 24.4
+            },
+            "uf": {
+              "media": 47.1,
+              "desvio": 24.1
+            },
+            "regiao": {
+              "media": 44.7,
+              "desvio": 24.5
+            },
+            "catAdm": {
+              "media": 47.7,
+              "desvio": 24.7
+            },
+            "orgAcad": {
+              "media": 45,
+              "desvio": 24.8
+            },
+            "brasil": {
+              "media": 44.1,
+              "desvio": 24.6
+            }
+          }
+        }
       ]
     },
     {
@@ -549,6 +582,7 @@
           "tema": "MRP - Planejamento de Necessidades de Materiais e registro de estoque",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -650,6 +684,7 @@
           "tema": "Sistema Toyota de Produção e Troca Rápida de Ferramentas (SMED/TRF)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -705,6 +740,7 @@
           "tema": "Balanceamento de linha de produção (takt time e eficiência)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -714,6 +750,7 @@
           "tema": "Equação de Bernoulli e cavitação em tubulações (mecânica dos fluidos)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -723,6 +760,7 @@
           "tema": "Indicadores de manutenção (OEE, MTBF, MTTR e confiabilidade)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -823,7 +861,33 @@
         {
           "numero": "D2",
           "disciplina": "Programação Linear e Inteira",
-          "tema": "Modelagem e resolução gráfica de problema de programação linear (maximização de lucro com restrições de recursos)"
+          "tema": "Modelagem e resolução gráfica de problema de programação linear (maximização de lucro com restrições de recursos)",
+          "notas": {
+            "curso": {
+              "media": 13.3,
+              "desvio": 23.2
+            },
+            "uf": {
+              "media": 8,
+              "desvio": 16.2
+            },
+            "regiao": {
+              "media": 5.9,
+              "desvio": 14.8
+            },
+            "catAdm": {
+              "media": 9.5,
+              "desvio": 18.3
+            },
+            "orgAcad": {
+              "media": 6.6,
+              "desvio": 15.6
+            },
+            "brasil": {
+              "media": 5.3,
+              "desvio": 14
+            }
+          }
         }
       ]
     }

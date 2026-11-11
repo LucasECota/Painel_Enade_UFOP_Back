@@ -1,2 +1,10 @@
 node_modules
 .env
+
+# Arquivos que ficam só no meu computador (não sobem para o GitHub)
+data/*.pptx
+data/relatorios-curso/enade-2008-sistemas-de-informacao-relatorio-de-curso.pdf
+data/relatorios-curso/enade-2011-engenharia-de-producao-relatorio-de-curso.pdf
+data/relatorios-curso/enade-2011-sistemas-de-informacao-relatorio-de-curso.pdf
+data/relatorios-curso/enade-2019-engenharia-eletrica-relatorio-de-curso.pdf
+~$*

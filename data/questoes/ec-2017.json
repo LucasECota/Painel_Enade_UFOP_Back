@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Saúde e Sociedade",
+          "tema": "Sífilis congênita e vulnerabilidade das mulheres",
+          "notas": {
+            "curso": {
+              "media": 74.1,
+              "desvio": 16.5
+            },
+            "uf": {
+              "media": 57.7,
+              "desvio": 23.9
+            },
+            "regiao": {
+              "media": 56,
+              "desvio": 26.1
+            },
+            "catAdm": {
+              "media": 55.3,
+              "desvio": 28.6
+            },
+            "orgAcad": {
+              "media": 55.5,
+              "desvio": 27.6
+            },
+            "brasil": {
+              "media": 55.3,
+              "desvio": 26.6
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Nome social e identidade de gênero de pessoas trans",
+          "notas": {
+            "curso": {
+              "media": 69.1,
+              "desvio": 27.7
+            },
+            "uf": {
+              "media": 57.3,
+              "desvio": 28.7
+            },
+            "regiao": {
+              "media": 54.4,
+              "desvio": 29.9
+            },
+            "catAdm": {
+              "media": 54,
+              "desvio": 32.2
+            },
+            "orgAcad": {
+              "media": 54.1,
+              "desvio": 31.4
+            },
+            "brasil": {
+              "media": 53.9,
+              "desvio": 30.7
+            }
+          }
+        }
       ]
     },
     {
@@ -204,6 +268,7 @@
           "tema": "Diagrama tensão × deformação de polímeros",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -236,6 +301,7 @@
           "tema": "Sistema Toyota de produção (toyotismo)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -360,6 +426,7 @@
           "tema": "Multiplicadores de Lagrange (otimização de uma lata cilíndrica)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -484,6 +551,7 @@
           "tema": "Filtro digital — estabilidade e polos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -493,6 +561,7 @@
           "tema": "Heurísticas admissíveis",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -502,6 +571,7 @@
           "tema": "Firewall, IDS e antivírus",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -626,6 +696,7 @@
           "tema": "Métodos ágeis",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -658,6 +729,7 @@
           "tema": "Segurança em bancos de dados",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -667,6 +739,7 @@
           "tema": "Acessibilidade de smartphones para idosos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -698,17 +771,95 @@
         {
           "numero": "D3",
           "disciplina": "Algoritmos e Estruturas de Dados I",
-          "tema": "Autômatos celulares — regras do Jogo da Vida em C"
+          "tema": "Autômatos celulares — regras do Jogo da Vida em C",
+          "notas": {
+            "curso": {
+              "media": 20,
+              "desvio": 26.7
+            },
+            "uf": {
+              "media": 16,
+              "desvio": 30.8
+            },
+            "regiao": {
+              "media": 13.7,
+              "desvio": 28.9
+            },
+            "catAdm": {
+              "media": 21.2,
+              "desvio": 34.4
+            },
+            "orgAcad": {
+              "media": 17.4,
+              "desvio": 31.9
+            },
+            "brasil": {
+              "media": 14.4,
+              "desvio": 29.6
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Microprocessadores e Microcontroladores",
-          "tema": "Microcontrolador para monitoramento ambiental (termistor e conversor A/D)"
+          "tema": "Microcontrolador para monitoramento ambiental (termistor e conversor A/D)",
+          "notas": {
+            "curso": {
+              "media": 21.7,
+              "desvio": 18.7
+            },
+            "uf": {
+              "media": 10.4,
+              "desvio": 17.3
+            },
+            "regiao": {
+              "media": 9.4,
+              "desvio": 17.5
+            },
+            "catAdm": {
+              "media": 14.6,
+              "desvio": 22.3
+            },
+            "orgAcad": {
+              "media": 12.4,
+              "desvio": 20.6
+            },
+            "brasil": {
+              "media": 10.6,
+              "desvio": 19
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Sistemas Operacionais",
-          "tema": "Gerência de memória — alocação first-fit"
+          "tema": "Gerência de memória — alocação first-fit",
+          "notas": {
+            "curso": {
+              "media": 48,
+              "desvio": 36.1
+            },
+            "uf": {
+              "media": 32.5,
+              "desvio": 34.7
+            },
+            "regiao": {
+              "media": 31.8,
+              "desvio": 36
+            },
+            "catAdm": {
+              "media": 41,
+              "desvio": 38.1
+            },
+            "orgAcad": {
+              "media": 35.9,
+              "desvio": 37.2
+            },
+            "brasil": {
+              "media": 32.9,
+              "desvio": 36.3
+            }
+          }
         }
       ]
     }

@@ -178,6 +178,47 @@ function extrairTabela(linhas, numeroDaTabela, numeroDaSeguinte) {
     return [];
 }
 
+// ---------- questões discursivas ----------
+
+const GRUPOS_DA_NOTA = ['curso', 'uf', 'regiao', 'catAdm', 'orgAcad', 'brasil'];
+
+// Os relatórios trazem, depois da tabela das objetivas de cada componente, a média e o desvio padrão
+// das notas (0 a 100) nas questões discursivas: uma linha por questão, com 12 números (média e desvio
+// do curso, da UF, da região, da categoria administrativa, da organização acadêmica e do Brasil).
+// O título muda de um ano para outro (e em alguns PDFs os acentos vêm soltos), então a tabela é
+// reconhecida por ter "discursivas" e "desvio" no título e por "Formação" (ou não) para o componente.
+// Devolve { formacaoGeral: { numero: notas }, especifico: { numero: notas } }, com numero "D1", "D3"...
+function extrairDiscursivas(linhas) {
+    const NUM = '(?:-|\\d+,\\d+)';
+    const linhaDeNotas = new RegExp(`^(\\d+)\\s+((?:${NUM}\\s+){11}${NUM})$`);
+    const resultado = { formacaoGeral: {}, especifico: {} };
+
+    for (let i = 0; i < linhas.length; i++) {
+        const titulo = `${linhas[i - 1] || ''} ${linhas[i]}`;
+        if (!/discursiv/i.test(linhas[i]) || !/desvio/i.test(titulo)) continue;
+        const janela = linhas.slice(i, i + 3).join(' ');
+        const componente = /Forma/i.test(janela) ? 'formacaoGeral' : /Espec|Conhec/i.test(janela) ? 'especifico' : null;
+        if (!componente) continue;
+
+        let achou = 0;
+        for (let j = i + 1; j < Math.min(i + 16, linhas.length); j++) {
+            const m = linhaDeNotas.exec(linhas[j].trim());
+            if (!m) {
+                if (achou > 0) break; // as linhas de questão são seguidas; a primeira que não é, encerra a tabela
+                continue;
+            }
+            const numeros = m[2].split(/\s+/).map(paraNumero);
+            const notas = {};
+            GRUPOS_DA_NOTA.forEach((grupo, k) => {
+                notas[grupo] = { media: numeros[2 * k], desvio: numeros[2 * k + 1] };
+            });
+            resultado[componente][`D${Number(m[1])}`] = notas;
+            achou++;
+        }
+    }
+    return resultado;
+}
+
 // ---------- disciplina e tema ----------
 
 // Tira o código da disciplina ("Física III (CEA063)", "CSI115 - Sistemas Distribuídos") e, quando a
@@ -273,12 +314,15 @@ function montarQuestoes(tabela, prova, temas, avisos, tipo, formacaoGeral = {}) 
             avisos.push(`gabarito diferente na questão ${questao.numero}: relatório ${questao.gabarito}, prova ${p.gabarito}`);
         }
         const fg = tipo === 'Formação Geral' ? formacaoGeral[String(questao.numero)] : null;
+        // questão desconsiderada: o relatório do INEP não traz o gabarito ("**"), mas ele existe na prova
+        const gabaritoDaProva = questao.situacao === 'desconsiderada' && p && p.gabarito ? { gabaritoDaProva: p.gabarito } : {};
         return {
             numero: questao.numero,
             disciplina: fg ? fg.disciplina : p ? p.disciplina : null,
             tema: fg ? fg.tema : p ? temas[p.numero] || null : null,
             situacao: questao.situacao,
             gabarito: questao.gabarito,
+            ...gabaritoDaProva,
             acertos: questao.acertos,
             respostas: questao.respostas,
         };
@@ -289,6 +333,11 @@ function lerFormacaoGeral(ano) {
     const caminho = path.join(__dirname, '..', 'data', 'formacao-geral.json');
     const objetivas = (JSON.parse(fs.readFileSync(caminho, 'utf-8'))[ano] || []).filter((q) => q.tipo === 'objetiva');
     return Object.fromEntries(objetivas.map((q) => [String(q.numero), q]));
+}
+
+function lerDiscursivasDaFormacaoGeral(ano) {
+    const caminho = path.join(__dirname, '..', 'data', 'formacao-geral.json');
+    return (JSON.parse(fs.readFileSync(caminho, 'utf-8'))[ano] || []).filter((q) => q.tipo === 'discursiva');
 }
 
 async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' }) {
@@ -308,11 +357,25 @@ async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' })
     const formacaoGeral = montarQuestoes(tabelas.formacaoGeral, provaLida, temas, avisos, 'Formação Geral', formacaoGeralDoAno);
     const especifico = montarQuestoes(tabelas.especifico, provaLida, temas, avisos, 'Componente Específico');
 
-    // as questões discursivas não entram na tabela de acertos do INEP: ficam numa lista à parte
-    const discursivas = provaLida
-        .filter((p) => p.tipo === 'Componente Específico' && p.discursiva)
-        .sort((a, b) => a.numero.localeCompare(b.numero))
-        .map((p) => ({ numero: p.numero.toUpperCase().replace(/^D(ISCURSIVA)?\s*0*/, 'D'), disciplina: p.disciplina, tema: temas[p.numero] || null }));
+    // as questões discursivas não entram na tabela de acertos do INEP: ficam numa lista à parte, com a
+    // média e o desvio padrão das notas (0 a 100) do curso e dos outros grupos
+    const notas = extrairDiscursivas(linhas.map((l) => l.trim()).filter(Boolean));
+    const comNotas = (lista, doComponente) =>
+        lista.map((q) => {
+            if (!doComponente[q.numero]) avisos.push(`sem notas da discursiva ${q.numero} no relatório`);
+            return { ...q, notas: doComponente[q.numero] || null };
+        });
+    const discursivasFg = comNotas(
+        lerDiscursivasDaFormacaoGeral(ano).map((q) => ({ numero: String(q.numero), disciplina: q.disciplina, tema: q.tema })),
+        notas.formacaoGeral
+    );
+    const discursivas = comNotas(
+        provaLida
+            .filter((p) => p.tipo === 'Componente Específico' && p.discursiva)
+            .sort((a, b) => a.numero.localeCompare(b.numero))
+            .map((p) => ({ numero: p.numero.toUpperCase().replace(/^D(ISCURSIVA)?\s*0*/, 'D'), disciplina: p.disciplina, tema: temas[p.numero] || null })),
+        notas.especifico
+    );
 
     return {
         dados: {
@@ -321,7 +384,7 @@ async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' })
             ano: Number(ano),
             fonte: `INEP — Relatório de Curso do Enade ${ano} (${NOMES[curso]}, UFOP, João Monlevade)`,
             componentes: [
-                { tipo: 'formacaoGeral', titulo: 'Formação Geral', questoes: formacaoGeral },
+                { tipo: 'formacaoGeral', titulo: 'Formação Geral', questoes: formacaoGeral, discursivas: discursivasFg },
                 { tipo: 'especifico', titulo: 'Componente Específico', questoes: especifico, discursivas },
             ],
         },
@@ -381,4 +444,4 @@ if (require.main === module) {
     });
 }
 
-module.exports = { interpretarLinha, extrairTabela, extrairTabelasPorBloco, ligarTemas, dividirCsv, normalizarDisciplina };
+module.exports = { extrairDiscursivas, interpretarLinha, extrairTabela, extrairTabelasPorBloco, ligarTemas, dividirCsv, normalizarDisciplina };

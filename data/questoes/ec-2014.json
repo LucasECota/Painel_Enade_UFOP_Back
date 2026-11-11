@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Mobilidade urbana e desenvolvimento sustentável",
+          "notas": {
+            "curso": {
+              "media": 66.2,
+              "desvio": 22.2
+            },
+            "uf": {
+              "media": 64.2,
+              "desvio": 27
+            },
+            "regiao": {
+              "media": 57.8,
+              "desvio": 29.8
+            },
+            "catAdm": {
+              "media": 60.8,
+              "desvio": 30.6
+            },
+            "orgAcad": {
+              "media": 59.2,
+              "desvio": 29.6
+            },
+            "brasil": {
+              "media": 58.5,
+              "desvio": 29.5
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Violência urbana e responsabilidade penal",
+          "notas": {
+            "curso": {
+              "media": 63.5,
+              "desvio": 25.9
+            },
+            "uf": {
+              "media": 53.7,
+              "desvio": 30.8
+            },
+            "regiao": {
+              "media": 51.3,
+              "desvio": 30.2
+            },
+            "catAdm": {
+              "media": 52.6,
+              "desvio": 32.5
+            },
+            "orgAcad": {
+              "media": 51.8,
+              "desvio": 31.1
+            },
+            "brasil": {
+              "media": 51.3,
+              "desvio": 30.8
+            }
+          }
+        }
       ]
     },
     {
@@ -549,6 +613,7 @@
           "tema": "TCP — números de sequência e confirmações",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -558,6 +623,7 @@
           "tema": "Lugar das raízes (root locus)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -599,6 +665,7 @@
           "tema": "Sistema de aquisição de vibrações (sensor, amplificador, Sample & Hold e conversor A/D)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -640,6 +707,7 @@
           "tema": "CSMA/CD — probabilidade de transmissão sem colisão",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -649,6 +717,7 @@
           "tema": "Profundidade de árvore B",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -690,6 +759,7 @@
           "tema": "Execução de código Java com arrays e strings",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         }
@@ -698,17 +768,95 @@
         {
           "numero": "D3",
           "disciplina": "Algoritmos e Estruturas de Dados III",
-          "tema": "Grafo orientado — matriz de adjacência e grafo transposto"
+          "tema": "Grafo orientado — matriz de adjacência e grafo transposto",
+          "notas": {
+            "curso": {
+              "media": 20.9,
+              "desvio": 24.1
+            },
+            "uf": {
+              "media": 11.7,
+              "desvio": 22.4
+            },
+            "regiao": {
+              "media": 7.7,
+              "desvio": 20.2
+            },
+            "catAdm": {
+              "media": 14.5,
+              "desvio": 24.8
+            },
+            "orgAcad": {
+              "media": 9.1,
+              "desvio": 20.7
+            },
+            "brasil": {
+              "media": 7.3,
+              "desvio": 18.9
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Sistemas Distribuídos",
-          "tema": "Computação em nuvem e dispositivos clientes"
+          "tema": "Computação em nuvem e dispositivos clientes",
+          "notas": {
+            "curso": {
+              "media": 54.1,
+              "desvio": 24.9
+            },
+            "uf": {
+              "media": 41,
+              "desvio": 27.1
+            },
+            "regiao": {
+              "media": 32.5,
+              "desvio": 28
+            },
+            "catAdm": {
+              "media": 38.1,
+              "desvio": 29
+            },
+            "orgAcad": {
+              "media": 33.9,
+              "desvio": 28.9
+            },
+            "brasil": {
+              "media": 34.2,
+              "desvio": 28.1
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Princípios de Eletrônica Digital",
-          "tema": "Tabela verdade e minimização de circuito lógico"
+          "tema": "Tabela verdade e minimização de circuito lógico",
+          "notas": {
+            "curso": {
+              "media": 48.6,
+              "desvio": 42
+            },
+            "uf": {
+              "media": 44.6,
+              "desvio": 38.3
+            },
+            "regiao": {
+              "media": 27.9,
+              "desvio": 34.9
+            },
+            "catAdm": {
+              "media": 43.4,
+              "desvio": 37.8
+            },
+            "orgAcad": {
+              "media": 35.6,
+              "desvio": 37
+            },
+            "brasil": {
+              "media": 31.9,
+              "desvio": 35.8
+            }
+          }
         }
       ]
     }

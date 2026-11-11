@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Mobilidade urbana e desenvolvimento sustentável",
+          "notas": {
+            "curso": {
+              "media": 61.2,
+              "desvio": 30
+            },
+            "uf": {
+              "media": 61,
+              "desvio": 26.2
+            },
+            "regiao": {
+              "media": 60.1,
+              "desvio": 26.1
+            },
+            "catAdm": {
+              "media": 64.5,
+              "desvio": 26.6
+            },
+            "orgAcad": {
+              "media": 61.3,
+              "desvio": 26.6
+            },
+            "brasil": {
+              "media": 60,
+              "desvio": 26.2
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Violência urbana e responsabilidade penal",
+          "notas": {
+            "curso": {
+              "media": 56,
+              "desvio": 30.6
+            },
+            "uf": {
+              "media": 56.8,
+              "desvio": 26.8
+            },
+            "regiao": {
+              "media": 55.9,
+              "desvio": 26.8
+            },
+            "catAdm": {
+              "media": 58.8,
+              "desvio": 28.9
+            },
+            "orgAcad": {
+              "media": 56.4,
+              "desvio": 27.9
+            },
+            "brasil": {
+              "media": 55.6,
+              "desvio": 27.1
+            }
+          }
+        }
       ]
     },
     {
@@ -227,6 +291,7 @@
           "tema": "Cargas resistivas, capacitivas e indutivas em um circuito",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -259,6 +324,7 @@
           "tema": "Conforto térmico e fluxo de calor em paredes",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -576,6 +642,7 @@
           "tema": "Lote econômico de compra",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -723,6 +790,7 @@
           "tema": "Altura da superfície de trabalho em pé",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -732,6 +800,7 @@
           "tema": "Avaliação do Ciclo de Vida (ACV)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         }
@@ -740,17 +809,95 @@
         {
           "numero": "D3",
           "disciplina": "Logística e Gestão da Cadeia de Suprimentos",
-          "tema": "Nível de serviço, custo e lucro em um sistema de distribuição"
+          "tema": "Nível de serviço, custo e lucro em um sistema de distribuição",
+          "notas": {
+            "curso": {
+              "media": 6.9,
+              "desvio": 15.4
+            },
+            "uf": {
+              "media": 8.8,
+              "desvio": 17.3
+            },
+            "regiao": {
+              "media": 9.8,
+              "desvio": 18.2
+            },
+            "catAdm": {
+              "media": 16.3,
+              "desvio": 21.7
+            },
+            "orgAcad": {
+              "media": 12.4,
+              "desvio": 20
+            },
+            "brasil": {
+              "media": 10.2,
+              "desvio": 18.5
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Gestão Ambiental",
-          "tema": "Desenvolvimento sustentável e Triple Bottom Line"
+          "tema": "Desenvolvimento sustentável e Triple Bottom Line",
+          "notas": {
+            "curso": {
+              "media": 20.2,
+              "desvio": 16.5
+            },
+            "uf": {
+              "media": 21.7,
+              "desvio": 17.9
+            },
+            "regiao": {
+              "media": 20.9,
+              "desvio": 18
+            },
+            "catAdm": {
+              "media": 22.6,
+              "desvio": 18.5
+            },
+            "orgAcad": {
+              "media": 21.2,
+              "desvio": 17.8
+            },
+            "brasil": {
+              "media": 20.6,
+              "desvio": 17.6
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Sistema de Desenvolvimento de Produtos",
-          "tema": "Estratégia de inovação: pioneirismo e imitação"
+          "tema": "Estratégia de inovação: pioneirismo e imitação",
+          "notas": {
+            "curso": {
+              "media": 20.1,
+              "desvio": 22.6
+            },
+            "uf": {
+              "media": 21.9,
+              "desvio": 22.6
+            },
+            "regiao": {
+              "media": 21.8,
+              "desvio": 22.3
+            },
+            "catAdm": {
+              "media": 23.9,
+              "desvio": 23.4
+            },
+            "orgAcad": {
+              "media": 21.6,
+              "desvio": 22.4
+            },
+            "brasil": {
+              "media": 21.4,
+              "desvio": 22.3
+            }
+          }
         }
       ]
     }

@@ -192,6 +192,70 @@
             "SI": 2.2
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Artes e Cultura",
+          "tema": "Arte, cultura e censura (liberdade artística)",
+          "notas": {
+            "curso": {
+              "media": 12.7,
+              "desvio": 14.4
+            },
+            "uf": {
+              "media": 16.3,
+              "desvio": 14.4
+            },
+            "regiao": {
+              "media": 15.2,
+              "desvio": 14.1
+            },
+            "catAdm": {
+              "media": 15.9,
+              "desvio": 14.7
+            },
+            "orgAcad": {
+              "media": 14.8,
+              "desvio": 14.1
+            },
+            "brasil": {
+              "media": 14.8,
+              "desvio": 14.1
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Cidades inteligentes e desenvolvimento sustentável",
+          "notas": {
+            "curso": {
+              "media": 43.3,
+              "desvio": 21.7
+            },
+            "uf": {
+              "media": 33.8,
+              "desvio": 24.6
+            },
+            "regiao": {
+              "media": 30.3,
+              "desvio": 23.8
+            },
+            "catAdm": {
+              "media": 32.1,
+              "desvio": 24.2
+            },
+            "orgAcad": {
+              "media": 29.1,
+              "desvio": 23.5
+            },
+            "brasil": {
+              "media": 29.1,
+              "desvio": 23.1
+            }
+          }
+        }
       ]
     },
     {
@@ -204,6 +268,7 @@
           "tema": "Diagrama de Classes UML — Herança, Associação e Multiplicidade",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -374,6 +439,7 @@
           "tema": "Protocolo IPv4 — TTL, Fragmentação e Máscara de Subrede",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -383,6 +449,7 @@
           "tema": "CMMI por Estágios — Níveis de Maturidade",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -438,6 +505,7 @@
           "tema": "SQL — Consultas com JOIN, Subconsultas e Filtros",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -562,6 +630,7 @@
           "tema": "Métricas de Desempenho — Throughput e Utilização de Disco",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -740,17 +809,95 @@
         {
           "numero": "D3",
           "disciplina": "Fundamentos de Sistemas de Informação",
-          "tema": "Hierarquia Dado-Informação-Conhecimento"
+          "tema": "Hierarquia Dado-Informação-Conhecimento",
+          "notas": {
+            "curso": {
+              "media": 37.8,
+              "desvio": 19.9
+            },
+            "uf": {
+              "media": 34,
+              "desvio": 23.2
+            },
+            "regiao": {
+              "media": 31.1,
+              "desvio": 23.2
+            },
+            "catAdm": {
+              "media": 34,
+              "desvio": 23.2
+            },
+            "orgAcad": {
+              "media": 32.2,
+              "desvio": 23.5
+            },
+            "brasil": {
+              "media": 31,
+              "desvio": 23.3
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Fundamentos de Sistemas de Informação",
-          "tema": "Teoria Geral dos Sistemas — Subsistemas, Relações e Propósito"
+          "tema": "Teoria Geral dos Sistemas — Subsistemas, Relações e Propósito",
+          "notas": {
+            "curso": {
+              "media": 26,
+              "desvio": 32.7
+            },
+            "uf": {
+              "media": 12.5,
+              "desvio": 22.4
+            },
+            "regiao": {
+              "media": 10.8,
+              "desvio": 20.5
+            },
+            "catAdm": {
+              "media": 13.9,
+              "desvio": 22.9
+            },
+            "orgAcad": {
+              "media": 11.9,
+              "desvio": 21.4
+            },
+            "brasil": {
+              "media": 10.9,
+              "desvio": 20.4
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Engenharia de Software I",
-          "tema": "Diagrama de Casos de Uso UML — Atores, Relacionamentos e Generalização"
+          "tema": "Diagrama de Casos de Uso UML — Atores, Relacionamentos e Generalização",
+          "notas": {
+            "curso": {
+              "media": 4.7,
+              "desvio": 6.8
+            },
+            "uf": {
+              "media": 4.5,
+              "desvio": 8.9
+            },
+            "regiao": {
+              "media": 4.6,
+              "desvio": 9.4
+            },
+            "catAdm": {
+              "media": 5.3,
+              "desvio": 9.8
+            },
+            "orgAcad": {
+              "media": 4.5,
+              "desvio": 9.3
+            },
+            "brasil": {
+              "media": 4.3,
+              "desvio": 9.1
+            }
+          }
         }
       ]
     }

@@ -192,6 +192,70 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Meio Ambiente e Sustentabilidade",
+          "tema": "Mobilidade urbana e desenvolvimento sustentável",
+          "notas": {
+            "curso": {
+              "media": 61.1,
+              "desvio": 28.8
+            },
+            "uf": {
+              "media": 55.4,
+              "desvio": 28.5
+            },
+            "regiao": {
+              "media": 54.7,
+              "desvio": 28.4
+            },
+            "catAdm": {
+              "media": 57.1,
+              "desvio": 29.4
+            },
+            "orgAcad": {
+              "media": 55.2,
+              "desvio": 29
+            },
+            "brasil": {
+              "media": 53.5,
+              "desvio": 28.9
+            }
+          }
+        },
+        {
+          "numero": "D2",
+          "disciplina": "Direitos Humanos e Cidadania",
+          "tema": "Violência urbana e responsabilidade penal",
+          "notas": {
+            "curso": {
+              "media": 59,
+              "desvio": 29.6
+            },
+            "uf": {
+              "media": 50.5,
+              "desvio": 28.9
+            },
+            "regiao": {
+              "media": 49.1,
+              "desvio": 28.6
+            },
+            "catAdm": {
+              "media": 51.1,
+              "desvio": 30.7
+            },
+            "orgAcad": {
+              "media": 49.1,
+              "desvio": 29.7
+            },
+            "brasil": {
+              "media": 48.1,
+              "desvio": 29.4
+            }
+          }
+        }
       ]
     },
     {
@@ -365,6 +429,7 @@
           "tema": "Virtualização de servidores e gerenciamento eletrônico de documentos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -374,6 +439,7 @@
           "tema": "Estados de processos e transições do escalonador",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -406,6 +472,7 @@
           "tema": "Execução simultânea de programas cpu-bound e io-bound",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -415,6 +482,7 @@
           "tema": "Roteamento entre sistemas autônomos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "A",
           "acertos": null,
           "respostas": null
         },
@@ -470,6 +538,7 @@
           "tema": "Arquiteturas distribuídas para diferentes padrões de acesso a documentos",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -640,6 +709,7 @@
           "tema": "Consulta SQL com FULL OUTER JOIN",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "E",
           "acertos": null,
           "respostas": null
         },
@@ -695,6 +765,7 @@
           "tema": "Gestão do conhecimento na administração pública",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -704,6 +775,7 @@
           "tema": "Uso da UML na prática",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         }
@@ -712,17 +784,95 @@
         {
           "numero": "D3",
           "disciplina": "Algoritmos e Estruturas de Dados I",
-          "tema": "Algoritmo de pesquisa binária"
+          "tema": "Algoritmo de pesquisa binária",
+          "notas": {
+            "curso": {
+              "media": 9,
+              "desvio": 18.6
+            },
+            "uf": {
+              "media": 2.7,
+              "desvio": 11.9
+            },
+            "regiao": {
+              "media": 2.1,
+              "desvio": 11
+            },
+            "catAdm": {
+              "media": 4.7,
+              "desvio": 15.7
+            },
+            "orgAcad": {
+              "media": 3.1,
+              "desvio": 13.2
+            },
+            "brasil": {
+              "media": 1.8,
+              "desvio": 10.1
+            }
+          }
         },
         {
           "numero": "D4",
           "disciplina": "Gestão da Tecnologia da Informação",
-          "tema": "ITIL e comunicação dos serviços de TI"
+          "tema": "ITIL e comunicação dos serviços de TI",
+          "notas": {
+            "curso": {
+              "media": 17.4,
+              "desvio": 22.5
+            },
+            "uf": {
+              "media": 13.1,
+              "desvio": 19.3
+            },
+            "regiao": {
+              "media": 14.4,
+              "desvio": 19.4
+            },
+            "catAdm": {
+              "media": 11.4,
+              "desvio": 18.5
+            },
+            "orgAcad": {
+              "media": 14.3,
+              "desvio": 19.6
+            },
+            "brasil": {
+              "media": 12.9,
+              "desvio": 18.7
+            }
+          }
         },
         {
           "numero": "D5",
           "disciplina": "Engenharia de Software I",
-          "tema": "Modelagem UML de um sistema de comércio eletrônico"
+          "tema": "Modelagem UML de um sistema de comércio eletrônico",
+          "notas": {
+            "curso": {
+              "media": 9.1,
+              "desvio": 12.3
+            },
+            "uf": {
+              "media": 13.2,
+              "desvio": 17.9
+            },
+            "regiao": {
+              "media": 12,
+              "desvio": 17.2
+            },
+            "catAdm": {
+              "media": 14.6,
+              "desvio": 18.9
+            },
+            "orgAcad": {
+              "media": 13.6,
+              "desvio": 18.4
+            },
+            "brasil": {
+              "media": 11.4,
+              "desvio": 17.2
+            }
+          }
         }
       ]
     }

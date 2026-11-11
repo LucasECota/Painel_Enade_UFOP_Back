@@ -215,6 +215,39 @@
             "SI": 0
           }
         }
+      ],
+      "discursivas": [
+        {
+          "numero": "D1",
+          "disciplina": "Sociologia",
+          "tema": "Desigualdades sociais (Síntese de Indicadores Sociais do IBGE)",
+          "notas": {
+            "curso": {
+              "media": 39.3,
+              "desvio": 25.1
+            },
+            "uf": {
+              "media": 46.2,
+              "desvio": 24.2
+            },
+            "regiao": {
+              "media": 43.5,
+              "desvio": 24.9
+            },
+            "catAdm": {
+              "media": 44.8,
+              "desvio": 25.2
+            },
+            "orgAcad": {
+              "media": 43.9,
+              "desvio": 25.3
+            },
+            "brasil": {
+              "media": 44.1,
+              "desvio": 24.9
+            }
+          }
+        }
       ]
     },
     {
@@ -388,6 +421,7 @@
           "tema": "Subsequência Comum Mais Longa (LCS) — programação dinâmica",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -397,6 +431,7 @@
           "tema": "Vetores dinâmicos e análise amortizada",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -406,6 +441,7 @@
           "tema": "Gramáticas livres de contexto e análise sintática/semântica",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "B",
           "acertos": null,
           "respostas": null
         },
@@ -530,6 +566,7 @@
           "tema": "Descrição de hardware em HDL (Verilog e VHDL) — contadores",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "D",
           "acertos": null,
           "respostas": null
         },
@@ -723,6 +760,7 @@
           "tema": "Algoritmos de enfileiramento em roteadores (FIFO, WFQ, RED)",
           "situacao": "desconsiderada",
           "gabarito": null,
+          "gabaritoDaProva": "C",
           "acertos": null,
           "respostas": null
         },
@@ -823,7 +861,33 @@
         {
           "numero": "D2",
           "disciplina": "Algoritmos e Estruturas de Dados I",
-          "tema": "Quicksort — análise de complexidade e implementação em C"
+          "tema": "Quicksort — análise de complexidade e implementação em C",
+          "notas": {
+            "curso": {
+              "media": 22.1,
+              "desvio": 19.6
+            },
+            "uf": {
+              "media": 22.5,
+              "desvio": 19.2
+            },
+            "regiao": {
+              "media": 14.6,
+              "desvio": 18.6
+            },
+            "catAdm": {
+              "media": 19.2,
+              "desvio": 19.9
+            },
+            "orgAcad": {
+              "media": 16.7,
+              "desvio": 18.9
+            },
+            "brasil": {
+              "media": 16.9,
+              "desvio": 18.8
+            }
+          }
         }
       ]
     }
