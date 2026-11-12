@@ -44,7 +44,7 @@ if (require.main === module) {
         process.exit(1);
     }
 
-    // HOST=127.0.0.1 faz a API aceitar só conexões locais (do Nginx, na mesma máquina).
+    // HOST define em qual endereço a API escuta (no Docker, 0.0.0.0 dentro do container; a porta não é publicada).
     // Sem HOST, escuta em todas as interfaces, como antes.
     const host = process.env.HOST;
     const aoSubir = () => console.log(`Example app listening on ${host || 'todas as interfaces'}:${port}`);

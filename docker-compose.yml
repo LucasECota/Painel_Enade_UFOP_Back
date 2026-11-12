@@ -1,0 +1,36 @@
+# Sobe o site e a API juntos, cada um no seu container:
+#   docker compose up -d --build
+# O site (Nginx) fica na porta 8080 do computador (ou na de PORTA_DO_SITE) e repassa /api/ para a API.
+# A API não é publicada: só o container do site consegue falar com ela.
+#
+# Antes: copie .env.example para .env e preencha a ANONIMIZACAO_SEGREDO (a mesma de sempre).
+# O código do site (Painel_Enade_UFOP_Front) precisa estar numa pasta ao lado desta; por padrão
+# "../front" (como no guia de publicação). Em outra pasta, defina FRONT_DIR no .env, por exemplo:
+#   FRONT_DIR=../Painel_Enade_UFOP_Front
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      HOST: 0.0.0.0        # dentro do container; de fora ninguém chega, pois a porta não é publicada
+      TRUST_PROXY: "1"     # há 1 proxy na frente da API: o Nginx do container do site
+    restart: unless-stopped
+    read_only: true        # a API só lê arquivos, não precisa escrever em lugar nenhum
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+
+  site:
+    build:
+      context: ${FRONT_DIR:-../front}
+      args:
+        VITE_API_URL: /api  # site e API no mesmo endereço
+    ports:
+      - "${PORTA_DO_SITE:-8080}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

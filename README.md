@@ -5,8 +5,8 @@ resultados do INEP e download dos relatórios em PDF.
 
 ## Publicação
 
-O guia completo para publicar o site e a API em um servidor (com texto de pedido para a TI, Nginx,
-systemd e script de atualização) está em [DEPLOY.md](DEPLOY.md).
+A publicação é feita **somente com Docker** (site e API em containers, com `docker compose up -d --build`).
+O guia completo, com o texto de pedido para a TI, está em [DEPLOY.md](DEPLOY.md).
 
 ## Comandos
 

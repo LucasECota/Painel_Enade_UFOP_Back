@@ -1,0 +1,19 @@
+# o que não precisa entrar na imagem da API
+node_modules
+.git
+.github
+.env
+.env.*
+!.env.example
+tests
+scripts
+docs
+deploy
+DEPLOY.md
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
+*.log
+# arquivos pessoais que ficam só no computador
+data/*.pptx
