@@ -304,13 +304,25 @@ function ligarTemas(prova, assuntos, avisos) {
 
 // ---------- montagem ----------
 
-function montarQuestoes(tabela, prova, temas, avisos, tipo, formacaoGeral = {}) {
+// Gabaritos em que o arquivo da prova (pasta do Projeto Enade) está errado. Vale sempre o do relatório do
+// INEP (o acerto do curso é a resposta do gabarito), então essas divergências já foram conferidas e não
+// geram aviso. SI 2014 Q5: o gabarito oficial (39_gab_sistemas_informacao.pdf) é D, como no relatório.
+// EP 2023 Q36: não há gabarito oficial na pasta; vale o do relatório (C).
+const DIVERGENCIAS_CONHECIDAS = ['ep-2023:Componente Específico:36', 'si-2014:Formação Geral:5'];
+
+function montarQuestoes(tabela, prova, temas, avisos, tipo, formacaoGeral = {}, origem = '') {
     const daProva = Object.fromEntries(prova.filter((p) => p.tipo === tipo).map((p) => [String(Number(p.numero)), p]));
     return tabela.map((questao) => {
         const p = daProva[String(questao.numero)];
         if (!p && prova.length > 0 && tipo === 'Componente Específico') {
             avisos.push(`questão ${questao.numero} (${tipo}) não encontrada na prova`);
-        } else if (p && questao.gabarito && p.gabarito && questao.gabarito !== p.gabarito) {
+        } else if (
+            p &&
+            questao.gabarito &&
+            p.gabarito &&
+            questao.gabarito !== p.gabarito &&
+            !DIVERGENCIAS_CONHECIDAS.includes(`${origem}:${tipo}:${questao.numero}`)
+        ) {
             avisos.push(`gabarito diferente na questão ${questao.numero}: relatório ${questao.gabarito}, prova ${p.gabarito}`);
         }
         const fg = tipo === 'Formação Geral' ? formacaoGeral[String(questao.numero)] : null;
@@ -354,8 +366,8 @@ async function extrair({ curso, ano, pdf, prova, assuntos, formato = 'padrao' })
     if (Object.keys(formacaoGeralDoAno).length === 0) avisos.push(`sem disciplinas de Formação Geral para ${ano}`);
     if (!prova) avisos.push('sem prova do Componente Específico: as questões ficam sem disciplina e tema');
 
-    const formacaoGeral = montarQuestoes(tabelas.formacaoGeral, provaLida, temas, avisos, 'Formação Geral', formacaoGeralDoAno);
-    const especifico = montarQuestoes(tabelas.especifico, provaLida, temas, avisos, 'Componente Específico');
+    const formacaoGeral = montarQuestoes(tabelas.formacaoGeral, provaLida, temas, avisos, 'Formação Geral', formacaoGeralDoAno, `${curso}-${ano}`);
+    const especifico = montarQuestoes(tabelas.especifico, provaLida, temas, avisos, 'Componente Específico', {}, `${curso}-${ano}`);
 
     // as questões discursivas não entram na tabela de acertos do INEP: ficam numa lista à parte, com a
     // média e o desvio padrão das notas (0 a 100) do curso e dos outros grupos
