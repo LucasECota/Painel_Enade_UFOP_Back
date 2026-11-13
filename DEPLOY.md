@@ -23,8 +23,6 @@ Navegador ──HTTPS (TI)──▶ container "site" (Nginx, porta 8080)
 
 ## 1. O que pedir à TI
 
-Texto sugerido:
-
 > Preciso de uma máquina virtual Linux (Ubuntu Server 22.04 ou 24.04 LTS) para publicar o Painel
 > Enade do ICEA, um site em React com uma API em Node.js, ambos em containers Docker. Requisitos:
 > 1 vCPU, 2 GB de RAM e 10 GB de disco; Docker Engine com o plugin Compose (ou Podman); saída HTTPS
