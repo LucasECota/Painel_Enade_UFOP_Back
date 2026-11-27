@@ -38,15 +38,15 @@
     },
     {
       "aluno": "2188af34810ec5ef",
-      "estado": "Em progresso",
+      "estado": "Finalizada",
       "iniciadoem": "23 outubro 2026  11:29 AM",
-      "completo": "-",
-      "tempoutilizado": "-",
-      "avaliar1000": "-",
-      "q1250": "-",
-      "q2250": "-",
-      "q3250": "-",
-      "q4250": "-"
+      "completo": "15 novembro 2026  17:16 PM",
+      "tempoutilizado": "23 dias 5 horas",
+      "avaliar1000": "10,00",
+      "q1250": "2,50",
+      "q2250": "2,50",
+      "q3250": "2,50",
+      "q4250": "2,50"
     },
     {
       "sobrenome": "Média geral",
@@ -56,11 +56,11 @@
       "iniciadoem": "",
       "completo": "",
       "tempoutilizado": "",
-      "avaliar1000": "5,83",
+      "avaliar1000": "6,88",
       "q1250": "2,50",
-      "q2250": "1,67",
-      "q3250": "0,00",
-      "q4250": "1,67"
+      "q2250": "1,88",
+      "q3250": "0,63",
+      "q4250": "1,88"
     }
   ]
 ]

@@ -71,6 +71,76 @@
       "q2500": "4,17"
     },
     {
+      "aluno": "66625207ab906893",
+      "estado": "Finalizada",
+      "iniciadoem": "9 novembro 2026  11:02 AM",
+      "completo": "9 novembro 2026  11:04 AM",
+      "tempoutilizado": "1 minuto 31 segundos",
+      "avaliar1000": "7,50",
+      "q1500": "5,00",
+      "q2500": "2,50"
+    },
+    {
+      "aluno": "f767d137f902596b",
+      "estado": "Finalizada",
+      "iniciadoem": "9 novembro 2026  12:42 PM",
+      "completo": "9 novembro 2026  12:43 PM",
+      "tempoutilizado": "1 minuto 26 segundos",
+      "avaliar1000": "10,00",
+      "q1500": "5,00",
+      "q2500": "5,00"
+    },
+    {
+      "aluno": "57106951f8c6a34b",
+      "estado": "Finalizada",
+      "iniciadoem": "15 novembro 2026  17:39 PM",
+      "completo": "15 novembro 2026  17:42 PM",
+      "tempoutilizado": "2 minutos 40 segundos",
+      "avaliar1000": "9,17",
+      "q1500": "5,00",
+      "q2500": "4,17"
+    },
+    {
+      "aluno": "57106951f8c6a34b",
+      "estado": "Finalizada",
+      "iniciadoem": "15 novembro 2026  17:42 PM",
+      "completo": "15 novembro 2026  17:44 PM",
+      "tempoutilizado": "1 minuto 32 segundos",
+      "avaliar1000": "10,00",
+      "q1500": "5,00",
+      "q2500": "5,00"
+    },
+    {
+      "aluno": "aeb998e77569c4a6",
+      "estado": "Finalizada",
+      "iniciadoem": "16 novembro 2026  17:44 PM",
+      "completo": "16 novembro 2026  17:45 PM",
+      "tempoutilizado": "1 minuto 10 segundos",
+      "avaliar1000": "9,17",
+      "q1500": "5,00",
+      "q2500": "4,17"
+    },
+    {
+      "aluno": "f71624adfe1477e0",
+      "estado": "Finalizada",
+      "iniciadoem": "23 novembro 2026  20:28 PM",
+      "completo": "23 novembro 2026  20:30 PM",
+      "tempoutilizado": "1 minuto 39 segundos",
+      "avaliar1000": "3,33",
+      "q1500": "0,00",
+      "q2500": "3,33"
+    },
+    {
+      "aluno": "f71624adfe1477e0",
+      "estado": "Finalizada",
+      "iniciadoem": "23 novembro 2026  20:30 PM",
+      "completo": "23 novembro 2026  20:31 PM",
+      "tempoutilizado": "26 segundos",
+      "avaliar1000": "8,33",
+      "q1500": "5,00",
+      "q2500": "3,33"
+    },
+    {
       "sobrenome": "Média geral",
       "nome": "",
       "endereodee-mail": "",
@@ -78,9 +148,9 @@
       "iniciadoem": "",
       "completo": "",
       "tempoutilizado": "",
-      "avaliar1000": "8,10",
-      "q1500": "3,57",
-      "q2500": "4,52"
+      "avaliar1000": "8,15",
+      "q1500": "3,93",
+      "q2500": "4,23"
     }
   ]
 ]

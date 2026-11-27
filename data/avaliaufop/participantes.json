@@ -1,14 +1,14 @@
 {
   "ec": {
-    "inscritos": 5,
-    "concluintes": 0
+    "inscritos": 13,
+    "concluintes": 2
   },
   "ep": {
-    "inscritos": 6,
-    "concluintes": 0
+    "inscritos": 9,
+    "concluintes": 1
   },
   "si": {
-    "inscritos": 15,
-    "concluintes": 3
+    "inscritos": 18,
+    "concluintes": 5
   }
 }
