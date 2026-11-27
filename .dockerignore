@@ -10,6 +10,7 @@ scripts
 docs
 deploy
 DEPLOY.md
+DADOS.md
 README.md
 docker-compose.yml
 Dockerfile

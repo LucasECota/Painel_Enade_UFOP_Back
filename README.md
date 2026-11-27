@@ -56,6 +56,9 @@ O CI só passa a rodar depois que o projeto for enviado a um repositório no Git
 
 ## Dados
 
+**Para atualizar ou refazer os dados** (quais PDFs usar, como viram JSON e CSV, como conferir e como trabalhar
+com o Claude), siga o [DADOS.md](DADOS.md).
+
 - `data/avaliaufop/` — exports de notas do Moodle (veja o README dessa pasta).
 - `data/resultados-enade.json` — conceito, comparação com o Brasil e perfil dos concluintes.
 - `data/relatorios-inep/` — PDFs do INEP, no padrão `enade-AAAA-ufop-joao-monlevade.pdf`.

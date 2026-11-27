@@ -10,6 +10,7 @@ importa: o backend lê todos os `.json` da pasta da atividade.
         teste-conhecimento/   (Enade: Teste o seu conhecimento)
         fg/                   (Simulado: Formação Geral – objetivas)
         ce/                   (Simulado: Componente Específico – objetivas)
+        simulado/             (Simulado Enade completo, mostrado à parte)
 
 ## Atualizando os dados (anonimização)
 
@@ -23,6 +24,26 @@ para descobrir o e-mail a partir do código. Linhas já anonimizadas não são a
 
 **Guarde a chave do `.env` em local seguro.** Se ela for perdida ou trocada, os códigos novos não
 vão mais bater com os antigos (o mesmo aluno viraria duas pessoas). O `.env` não vai para o git.
+
+## Simulado Enade
+
+A pasta `simulado/` é mostrada **à parte** no site: quantos alunos fizeram o simulado (tentativa
+"Finalizada", um por aluno), a média das notas (a melhor de cada um) e o número de questões. Ela **não**
+entra na média geral, nos inscritos, nos concluintes nem nos aprovados.
+
+Para a tabela que compara o simulado com o Enade questão por questão, informe em `simulados.json` (nesta
+pasta) de qual edição vieram as questões e os números delas **na ordem do simulado no Moodle** (a primeira
+da lista é a coluna `q1` do export):
+
+    { "ep": { "edicao": 2023, "questoes": [1, 3, 5, ...] } }
+
+Uma questão de uma edição que o curso **não fez** (por exemplo, a Formação Geral de 2023 no simulado de
+Sistemas, que não fez o Enade 2023) é escrita como `{ "numero": 1, "edicao": 2023, "referencia": "ec" }`:
+o tema, o gabarito, a imagem e os acertos da UFOP e do Brasil vêm da tabela do curso de referência. Na tela elas aparecem
+como as demais (a resposta da API guarda no campo `referencia` de qual curso vieram os números).
+
+Sem essa entrada (ou se a quantidade não bater com as colunas do export), o site mostra só o número de alunos
+e a média.
 
 ## Inscritos e concluintes (manual)
 
